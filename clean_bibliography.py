@@ -1,20 +1,14 @@
 """
-Script extracting the bibliography's entries with a specific tag in Zotero.
+Class and methods to extract the entries with a specific tag from an original bib file and to save the cleaned entries in another bib file.
 
 Author: Antoine Allard (antoineallard.info)
 """
 import json
 import pandas
 import bibtexparser
-# import sys
-# import os
+
 
 class bibliography:
-
-    # fields_to_keep = {
-    #     'article': ['author', 'doi', 'journal', 'pages', 'title', 'url', 'volume', 'year', 'eprinttype', 'eprint', 'archiveprefix'],
-    #     'book': ['author', 'doi', 'edition', 'editor', 'isbn', 'publisher', 'series', 'title', 'url', 'year', 'eprinttype', 'eprint', 'archiveprefix']
-    #   }
 
 
     def __init__(self, source_bib_filename, abbrev_journal_names='abbreviations.csv', fields_to_keep='fields_to_keep.json'):
@@ -43,22 +37,6 @@ class bibliography:
                         print('{}: field {} is not empty'.format(entry['ID'], field))
                         entry.pop(field, None)
 
-            # for field in self.fields_to_keep[entry_type]:
-            #     if field not in entry:
-            #         if field == 'url':
-            #             if 'doi' not in entry:
-            #                 print('Entry {} is missing field {}.'.format(entry['ID'], field))
-            #         elif field == 'doi':
-            #             if 'url' not in entry:
-            #                 print('Entry {} is missing field {}.'.format(entry['ID'], field))
-            #         else:
-            #             print('Entry {} is missing field {}.'.format(entry['ID'], field))
-
-        # if 'keywords' in entry:
-        #     entry['keywords'] = entry['keywords'].replace('{\_}', '_')
-        #     entry['keywords'] = entry['keywords'].replace('\\_', '_')
-        #     entry['keywords'] = entry['keywords'].replace(', ', ',')
-
         if 'title' in entry:
             entry['title'] = entry['title'].replace('{\{}', '{')
             entry['title'] = entry['title'].replace('{\}}', '}')
@@ -72,9 +50,6 @@ class bibliography:
                     if 'eprint' in entry:
                         entry.pop('journal', None)
                         entry.pop('pages', None)
-
-        # if len(entry['ID'].split('_')) == 3:
-        #     entry['ID'] = ''.join([entry['ID'].split('_')[i] for i in [0, 2, 1]])
 
 
     def abbreviate_publication_name(self, entry):
@@ -127,37 +102,3 @@ class bibliography:
         target_bib_database = bibtexparser.bibdatabase.BibDatabase()
         target_bib_database.entries = entries_to_keep
         bibtexparser.dump(target_bib_database, open(target_bib_filename, 'w'))
-
-
-
-def main():
-
-    # if os.path.basename(os.getcwd()) != "clean_bibliography":
-    #     os.chdir("clean_bibliography")
-
-
-    # # tags_to_keep = ['biblio_phy7053']
-    # # target_bib_filename = '/Users/antoine/Dropbox/backup/Documents/Enseignement/TheorieSystemesReseauxComplexes/2021/biblio/references.bib'
-    # # keep_keywords = True
-
-    # # tags_to_keep = ['bibl_directedS1', 'network_geometry', 'textbook']
-    # # target_bib_filename = '/Users/antoine/Dropbox/dossiers_partages/directedS1/paper/references.bib'
-    # # keep_keywords = False
-
-    # tags_to_keep = ['network_geometry']
-    # target_bib_filename = '../network_geometry/references.bib'
-    # keep_keywords = True
-
-
-    # bib = bibliography(source_bib_filename='../zotero/DynamicaLab.bib')
-    # bib.extract_entries_with_given_keyword(tags_to_keep, target_bib_filename, keep_keywords)
-
-    target_bib_filename = 'references.bib'
-    keep_keywords = True
-    source_bib_filename = 'references.bib'
-    bib = bibliography(source_bib_filename)
-    bib.clean_entries(target_bib_filename, keep_keywords)
-
-
-if __name__ == "__main__":
-    main()
