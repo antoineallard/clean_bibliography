@@ -1,0 +1,250 @@
+Abbreviated Name                                   Complete Name
+#
+# Using the ISO-4 standard of journal abbreviations
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# American Association for the Advancement of Science (AAAS)
+#
+Science                                            Science
+Sci. Adv.                                          Science Advances
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# American Institute of Physics (AIP)
+#
+Chaos                                              Chaos
+Phys. Today                                        Physics Today
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# American Physical Society (APS)
+#
+Phys. Rev. A                                       Physical Review A
+Phys. Rev. E                                       Physical Review E
+Phys. Rev. X                                       Physical Review X
+Phys. Rev. Lett.                                   Physical Review Letters
+Phys. Rev. Research                                Physical Review Research
+Rev. Mod. Phys.                                    Reviews of Modern Physics
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Cambridge University Press
+#
+J. Appl. Probab.                                   Journal of Applied Probability
+Epidemiol. Infect.                                 Epidemiology and Infection
+Comb. Probab. Comput.                              Combinatorics, Probability and Computing
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Elsevier
+#
+Appl. Math. Comput.                                Applied Mathematics and Computation
+Chaos Solitons Fractals                            Chaos, Solitons & Fractals
+Comput. Phys. Commun.                              Computer Physics Communications
+Curr. Opin. Neurobiol.                             Current Opinion in Neurobiology
+Epidemics                                          Epidemics
+Int. J. Infect. Dis.                               International Journal of Infectious Diseases
+J. Classif.                                        Journal of Classification
+J. Comb. Theory A                                  Journal of Combinatorial Theory A
+J. Comput. Appl. Math.                             Journal of Computational and Applied Mathematics
+J. Infect.                                         Journal of Infection
+J. Neurosci. Methods                               Journal of Neuroscience Methods
+J. Theor. Biol.                                    Journal of Theoretical Biology
+Lancet                                             The Lancet
+Lancet Child Adolesc. Health                       The Lancet Child & Adolescent Health
+Lancet Glob. Health                                The Lancet Global Health
+Lancet Public Health                               The Lancet Public Health
+Lancet Infect. Dis.                                The Lancet Infectious Diseases
+Math. Biosci.                                      Mathematical Biosciences
+Neural Netw.                                       Neural Networks
+Pattern Recognit. Lett.                            Pattern Recognition Letters
+Physica A                                          Physica A
+Phys. Rep.                                         Physics Reports
+Soc. Networks                                      Social Networks
+Tuber. Lung Dis.                                   Tubercle and Lung Disease
+Trends Ecol. Evol.                                 Trends in Ecology & Evolution
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# European Physical Journal (EPJ)
+#
+Eur. Phys. J. B                                    The European Physical Journal B
+EPJ Data Sci.                                      EPJ Data Science
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Frontiers in
+Front. Artif. Intell.                              Frontiers in Artificial Intelligence
+Front. Phys.                                       Frontiers in Physics
+Front. Public Health                               Frontiers in Public Health
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Hindawi
+#
+Complexity                                         Complexity
+Interdiscip. Perspect. Infect. Dis.                Interdisciplinary Perspectives on Infectious Diseases
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Institute of Physics
+#
+Eur. J. Phys.                                      European Journal of Physics
+EPL                                                EPL (Europhysics Letters)
+J. Phys. A                                         Journal of Physics A
+J. Phys. Complex.                                  Journal of Physics: Complexity
+J. Stat. Mech.                                     Journal of Statistical Mechanics
+New J. Phys.                                       New Journal of Physics
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Multidisciplinary Digital Publishing Institute (MDPI)
+#
+Appl. Sci.                                         Applied Sciences
+Biology                                            Biology
+Int. J. Environ. Res. Public Health                International Journal of Environmental Research and Public Health
+Mathematics                                        Mathematics
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# National Academy of Sciences
+#
+Proc. Natl. Acad. Sci. U.S.A.                      Proceedings of the National Academy of Sciences of the United States of America
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Nature Publishing Group
+#
+Commun. Phys.                                      Communications Physics
+Nature                                             Nature
+Nat. Commun.                                       Nature Communications
+Nat. Comput. Sci.                                  Nature Computational Science
+Nat. Hum. Behav.                                   Nature Human Behaviour
+Nat. Mach. Intell.                                 Nature Machine Intelligence
+Nat. Med.                                          Nature Medicine
+Nat. Microbiol.                                    Nature Microbiology
+Nat. Neurosci.                                     Nature Neuroscience
+Nat. Phys.                                         Nature Physics
+Nat. Rev. Microbiol.                               Nature Reviews Microbiology
+Nat. Rev. Phys.                                    Nature Reviews Physics
+Sci. Rep.                                          Scientific Reports
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Oxford University Press
+#
+Am. J. Epidemiol.                                  American Journal of Epidemiology
+Clin. Infect. Dis.                                 Clinical Infectious Diseases
+J. Complex Netw.                                   Journal of Complex Networks
+J. Comput.-Mediat. Commun.                         Journal of Computer-Mediated Communication
+J. Infect. Dis.                                    The Journal of Infectious Diseases
+Virus Evol.                                        Virus Evolution
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Public Library of Science (PLOS)
+#
+PLOS Biol.                                         PLOS Biology
+PLOS Comput. Biol.                                 PLOS Computational Biology
+PLOS Curr.                                         PLOS Currents
+PLOS Med.                                          PLOS Medicine
+PLOS Pathog.                                       PLOS Pathogens
+PLOS ONE                                           PLOS ONE
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Royal Society
+#
+J. R. Soc. Interface                               Journal of the Royal Society Interface
+Philos. Trans. Royal Soc. A                        Philosophical Transactions of the Royal Society A
+Philos. Trans. Royal Soc. B                        Philosophical Transactions of the Royal Society B
+Proc. R. Soc. A                                    Proceedings of the Royal Society A
+Proc. R. Soc. B                                    Proceedings of the Royal Society B
+R. Soc. Open Sci.                                  Royal Society Open Science
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Royal Society of Chemistry
+#
+Mol. Biosyst.                                      Molecular BioSystems
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Society for Industrial and Applied Mathematics (SIAM)
+#
+J. Soc. Ind. Appl. Math.                           Journal of the Society for Industrial and Applied Mathematics
+SIAM Rev.                                          SIAM Review
+SIAM J. Appl. Math.                                SIAM Journal on Applied Mathematics
+SIAM J. Discrete Math.                             SIAM Journal on Discrete Mathematics
+SIAM J. Financial Math.                            SIAM Journal on Financial Mathematics
+SIAM J. Math. Anal.                                SIAM Journal on Mathematical Analysis
+SIAM J. Math. Data Sci.                            SIAM Journal on Mathematics of Data Science
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Springer
+#
+Appl. Netw. Sci.                                   Applied Network Science
+Bull. Math. Biol.                                  Bulletin of Mathematical Biology
+J. Math. Ind.                                      Journal of Mathematics in Industry
+J. Public Health Pol.                              Journal of Public Health Policy
+J. Stat. Phys.                                     Journal of Statistical Physics
+Math. Control. Signals Syst.                       Mathematics of Control, Signals, and Systems
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Others - Medical/Neurosciences/Epidemiology journals
+#
+Am. J. Public Health                               American Journal of Public Health
+Am. J. Sociol.                                     American Journal of Sociology
+Am. Stat.                                          The American Statistician
+BMC Infect. Dis.                                   BMC Infectious Diseases
+BMC Med.                                           BMC Medicine
+Can. J. Philos.                                    Canadian Journal of Philosophy
+Emerging Infect. Dis.                              Emerging Infectious Diseases
+Eurosurveillance                                   Eurosurveillance
+Genome Biol.                                       Genome Biology
+Glob. Health                                       Globalization and Health
+Infect. Dis. Model.                                Infectious Disease Modelling
+J. Clin. Microbiol.                                Journal of Clinical Microbiology
+J. Math. Biol.                                     Journal of Mathematical Biology
+J. Neurosci.                                       Journal of Neuroscience
+J. Soc. Issues                                     Journal of Social Issues
+Neurophotonics                                     Neurophotonics
+N. Engl. J. Med.                                   New England Journal of Medicine
+Radiology: Cardiothoracic Imaging                  Radiology: Cardiothoracic Imaging
+BMJ                                                The BMJ
+JAMA                                               The Journal of the American Medical Association
+Epidemiol. Infect.                                 Epidemiology and Infection
+Sci. China Life Sci.                               Science China Life Sciences
+Sociol. Methodol.                                  Sociological Methodology
+Swiss Med. Wkly.                                   Swiss Medical Weekly
+Virulence                                          Virulence
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Others
+#
+arXiv                                              arXiv
+bioRxiv                                            bioRxiv
+medRxiv                                            medRxiv
+ACM Comput. Surv.                                  ACM Computing Surveys
+Am. Sci.                                           American Scientist
+Ann. Math. Stat.                                   The Annals of Mathematical Statistics
+Bull. Am. Math. Soc.                               Bulletin of the American Mathematical Society
+Bull. Sci. Technol. Soc.                           Bulletin of Science, Technology & Society
+Calif. L. Rev.                                     California Law Review
+Cell                                               Cell
+CMJ                                                The College Mathematics Journal
+Conn. L. Rev.                                      Connecticut Law Review
+Contemp. Phys.                                     Contemporary Physics
+Ethics Inf. Technol.                               Ethics and Information Technology
+J. Am. Stat. Assoc.                                Journal of the American Statistical Association
+JASSS                                              Journal of Artificial Societies and Social Simulation
+J. Commun.                                         Journal of Communication
+J. Commun. Inq.                                    Journal of Communication Inquiry
+J. Mach. Learn. Res.                               Journal of Machine Learning Research
+J. Math. Sociol.                                   The Journal of Mathematical Sociology
+J. R. Stat. Soc. A                                 Journal of the Royal Statistical Society: Series A
+J. R. Stat. Soc. B                                 Journal of the Royal Statistical Society: Series B
+Math. Horizons                                     Math Horizons
+Math. Financ.                                      Mathematical Finance
+Neural Comput.                                     Neural Computation
+Oikos                                              Oikos
+Phys. World                                        Physics World
+Proc. Am. Philos. Soc.                             Proceedings of the American Philosophical Society
+Publ. Math.                                        Publicationes Mathematicae
+Significance                                       Significance
+Soc. Text                                          Social Text
+Sociometry                                         Sociometry
+Stan. L. Rev.                                      Stanford Law Review
+Stat. Sci.                                         Statistical Science
+Trop. Med. Int. Health                             Tropical Medicine & International Health
+Wellcome Open Res.                                 Wellcome Open Research
+WIREs Comput. Stat.                                Wiley Interdisciplinary Reviews: Computational Statistics
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Not sure...
+#
+SSRN Electronic Journal                           SSRN Electronic Journal

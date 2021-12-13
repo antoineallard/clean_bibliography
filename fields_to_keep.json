@@ -1,0 +1,30 @@
+{
+    "article": [
+        "author",
+        "doi",
+        "journal",
+        "pages",
+        "title",
+        "url",
+        "volume",
+        "year",
+        "eprinttype",
+        "eprint",
+        "archiveprefix"
+    ],
+    "book": [
+        "author",
+        "doi",
+        "edition",
+        "editor",
+        "isbn",
+        "publisher",
+        "series",
+        "title",
+        "url",
+        "year",
+        "eprinttype",
+        "eprint",
+        "archiveprefix"
+    ]
+}
