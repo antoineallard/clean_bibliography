@@ -11,7 +11,7 @@ import bibtexparser
 class bibliography:
 
 
-    def __init__(self, source_bib_filename, abbrev_journal_names='abbreviations.csv', fields_to_keep='fields_to_keep.json'):
+    def __init__(self, source_bib_filename, abbrev_journal_names='abbreviations.txt', fields_to_keep='fields_to_keep.json'):
 
         self.source_bib_filename = source_bib_filename
         self.abbrev_journal_names = pandas.read_csv(abbrev_journal_names, comment='#', sep='[ \s]{2,}', engine='python').set_index('Complete Name')['Abbreviated Name'].to_dict()
