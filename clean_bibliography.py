@@ -102,3 +102,87 @@ class bibliography:
         target_bib_database = bibtexparser.bibdatabase.BibDatabase()
         target_bib_database.entries = entries_to_keep
         bibtexparser.dump(target_bib_database, open(target_bib_filename, 'w'))
+
+
+    def build_pdf_filenames(self, target_filename):
+
+        with open(target_filename, 'w') as file:
+
+            for entry in self.source_bib_database.entries:
+
+                self.clean_entry(entry, keep_keywords=False)
+                self.abbreviate_publication_name(entry)
+
+
+                journal = ''
+                if 'journal' in entry:
+                    journal = entry['journal']
+                    journal = journal.replace('.','')
+                    journal = journal.replace(' ', '')
+
+                year = ''
+                if 'year' in entry:
+                    year = entry['year']
+
+                volume = ''
+                if 'volume' in entry:
+                    volume = entry['volume']
+
+                page = ''
+                if 'pages' in entry:
+                    page = entry['pages']
+                    page = page.split('-')[0]
+
+                author = ''
+                if 'author' in entry:
+                    author = entry['author']
+                    author = author.split(',')[0]
+                    author = author.replace('{','')
+                    author = author.replace('}','')
+                    author = author.replace('-','')
+                    author = author.replace("\\'",'')
+
+                title = ''
+                if 'title' in entry:
+                    title = entry['title']
+                    title = title.replace('{','')
+                    title = title.replace('}','')
+                    title = title.replace(' ','_')
+                    title = title.replace('-','')
+                    title = title.replace(':','')
+                    title = title.capitalize()
+
+                edition = ''
+                if 'edition' in entry:
+                    edition = entry['edition']
+                    edition = edition.replace('Third', '3rd')
+
+                if entry['ENTRYTYPE'] == 'article':
+                    info = []
+                    info.append(journal)
+                    info.append(year)
+                    info.append(volume)
+                    info.append(page)
+                    if author != '':
+                        info.append(author)
+                    info.append(title)
+                    file.write('.'.join(info) + '.pdf\n')
+
+                if entry['ENTRYTYPE'] == 'book':
+                    info = []
+                    info.append(author)
+                    info.append(year)
+                    info.append(title)
+                    if edition != '':
+                        info.append(edition)
+                    file.write('_'.join(info) + '.pdf\n')
+
+
+
+
+
+
+
+
+
+
