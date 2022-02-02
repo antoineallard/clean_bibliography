@@ -4,6 +4,10 @@ These are two scripts I use to generate clean bib files.
 
 - [extract_entries_with_tags.py](extract_entries_with_tags.py): Extracts the entries with a specific tag from an original bib file and saves the cleaned entries in another bib file. When applicable, journal names are abbreviated (see [abbreviations.txt](abbreviations.txt)).
 
+- [build_pdf_filenames.py](build_pdf_filenames.py): Writes the filename for the pdf file for every article or book in a bib file into another text file. The convention is
+  - Article: {abbreviated journal name}.{year}.{volume}.{first page}.{first author last name}.{title}.pdf
+  - Book: {first author last name}.{year}.{title}.{edition, if specified}.pdf
+
 
 #### Customization
 

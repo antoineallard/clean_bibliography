@@ -175,7 +175,7 @@ class bibliography:
                     info.append(title)
                     if edition != '':
                         info.append(edition)
-                    file.write('_'.join(info) + '.pdf\n')
+                    file.write('.'.join(info) + '.pdf\n')
 
 
 
