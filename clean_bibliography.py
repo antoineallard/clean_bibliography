@@ -113,7 +113,6 @@ class bibliography:
                 self.clean_entry(entry, keep_keywords=False)
                 self.abbreviate_publication_name(entry)
 
-
                 journal = ''
                 if 'journal' in entry:
                     journal = entry['journal']
@@ -140,6 +139,7 @@ class bibliography:
                     author = author.replace('{','')
                     author = author.replace('}','')
                     author = author.replace('-','')
+                    author = author.replace(' ','')
                     author = author.replace("\\'",'')
 
                 title = ''
@@ -155,6 +155,8 @@ class bibliography:
                 edition = ''
                 if 'edition' in entry:
                     edition = entry['edition']
+                    edition = edition.replace('First', '1st')
+                    edition = edition.replace('Second', '2nd')
                     edition = edition.replace('Third', '3rd')
 
                 if entry['ENTRYTYPE'] == 'article':
@@ -166,7 +168,7 @@ class bibliography:
                     if author != '':
                         info.append(author)
                     info.append(title)
-                    file.write('.'.join(info) + '.pdf\n')
+                    file.write('.'.join(info) + '.pdf')
 
                 if entry['ENTRYTYPE'] == 'book':
                     info = []
@@ -175,7 +177,7 @@ class bibliography:
                     info.append(title)
                     if edition != '':
                         info.append(edition)
-                    file.write('.'.join(info) + '.pdf\n')
+                    file.write('.'.join(info) + '.pdf')
 
 
 

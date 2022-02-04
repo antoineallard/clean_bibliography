@@ -22,6 +22,7 @@ Phys. Rev. E                                       Physical Review E
 Phys. Rev. X                                       Physical Review X
 Phys. Rev. Lett.                                   Physical Review Letters
 Phys. Rev. Research                                Physical Review Research
+Physics                                            Physics
 Rev. Mod. Phys.                                    Reviews of Modern Physics
 #
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
@@ -235,6 +236,7 @@ Neural Comput.                                     Neural Computation
 Oikos                                              Oikos
 Phys. World                                        Physics World
 Proc. Am. Philos. Soc.                             Proceedings of the American Philosophical Society
+Proc. Amer. Math. Soc.                             Proceedings of the American Mathematical Society
 Publ. Math.                                        Publicationes Mathematicae
 Significance                                       Significance
 Soc. Text                                          Social Text
