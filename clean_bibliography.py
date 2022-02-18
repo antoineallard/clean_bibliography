@@ -116,8 +116,11 @@ class bibliography:
                 journal = ''
                 if 'journal' in entry:
                     journal = entry['journal']
-                    journal = journal.replace('.','')
+                    journal = journal.replace('.', '')
                     journal = journal.replace(' ', '')
+                elif 'eprinttype' in entry:
+                    if entry['eprinttype'] == 'arxiv':
+                        journal = 'arXiv'
 
                 year = ''
                 if 'year' in entry:
@@ -126,11 +129,19 @@ class bibliography:
                 volume = ''
                 if 'volume' in entry:
                     volume = entry['volume']
+                elif 'eprinttype' in entry:
+                    if entry['eprinttype'] == 'arxiv':
+                        if 'eprint' in entry:
+                            volume = entry['eprint'].split('.')[0]
 
                 page = ''
                 if 'pages' in entry:
                     page = entry['pages']
                     page = page.split('-')[0]
+                elif 'eprinttype' in entry:
+                    if entry['eprinttype'] == 'arxiv':
+                        if 'eprint' in entry:
+                            page = entry['eprint'].split('.')[1]
 
                 author = ''
                 if 'author' in entry:

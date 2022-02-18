@@ -26,5 +26,16 @@
         "eprinttype",
         "eprint",
         "archiveprefix"
+    ],
+    "incollection": [
+        "title",
+        "booktitle",
+        "author",
+        "editor",
+        "year",
+        "pages",
+        "publisher",
+        "doi",
+        "url"
     ]
 }

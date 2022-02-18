@@ -12,6 +12,7 @@ Sci. Adv.                                          Science Advances
 # American Institute of Physics (AIP)
 #
 Chaos                                              Chaos
+J. Math. Phys.                                     Journal of Mathematical Physics
 Phys. Today                                        Physics Today
 #
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
@@ -54,10 +55,12 @@ Lancet Public Health                               The Lancet Public Health
 Lancet Infect. Dis.                                The Lancet Infectious Diseases
 Math. Biosci.                                      Mathematical Biosciences
 Neural Netw.                                       Neural Networks
+NeuroImage                                         NeuroImage
 Pattern Recognit. Lett.                            Pattern Recognition Letters
 Physica A                                          Physica A
 Phys. Rep.                                         Physics Reports
 Soc. Networks                                      Social Networks
+SoftwareX                                          SoftwareX
 Tuber. Lung Dis.                                   Tubercle and Lung Disease
 Trends Ecol. Evol.                                 Trends in Ecology & Evolution
 #
@@ -94,6 +97,7 @@ New J. Phys.                                       New Journal of Physics
 #
 Appl. Sci.                                         Applied Sciences
 Biology                                            Biology
+Brain Sci.                                         Brain Sciences
 Int. J. Environ. Res. Public Health                International Journal of Environmental Research and Public Health
 Mathematics                                        Mathematics
 #
@@ -112,6 +116,7 @@ Nat. Comput. Sci.                                  Nature Computational Science
 Nat. Hum. Behav.                                   Nature Human Behaviour
 Nat. Mach. Intell.                                 Nature Machine Intelligence
 Nat. Med.                                          Nature Medicine
+Nat. Methods                                       Nature Methods
 Nat. Microbiol.                                    Nature Microbiology
 Nat. Neurosci.                                     Nature Neuroscience
 Nat. Phys.                                         Nature Physics
@@ -123,6 +128,7 @@ Sci. Rep.                                          Scientific Reports
 # Oxford University Press
 #
 Am. J. Epidemiol.                                  American Journal of Epidemiology
+Biometrika                                         Biometrika
 Clin. Infect. Dis.                                 Clinical Infectious Diseases
 J. Complex Netw.                                   Journal of Complex Networks
 J. Comput.-Mediat. Commun.                         Journal of Computer-Mediated Communication
