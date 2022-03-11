@@ -37,5 +37,24 @@
         "publisher",
         "doi",
         "url"
+    ],
+    "phdthesis": [
+        "author",
+        "keywords",
+        "school",
+        "title",
+        "type",
+        "url",
+        "year"
+    ],
+    "inproceedings": [
+        "author",
+        "booktitle",
+        "doi",
+        "pages",
+        "title",
+        "volume",
+        "year",
+        "url"
     ]
 }

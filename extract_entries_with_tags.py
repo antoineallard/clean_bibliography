@@ -10,7 +10,7 @@ from clean_bibliography import bibliography
 source_bib_filename='../zotero/DynamicaLab.bib'
 bib = bibliography(source_bib_filename)
 
-tags_to_keep = ['network_geometry']
+tags_to_keep = ['bibl_drDohn']
 target_bib_filename = 'references.bib'
 keep_keywords = True
 bib.extract_entries_with_given_keyword(tags_to_keep, target_bib_filename, keep_keywords)

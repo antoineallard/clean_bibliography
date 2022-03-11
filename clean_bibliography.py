@@ -146,12 +146,15 @@ class bibliography:
                 author = ''
                 if 'author' in entry:
                     author = entry['author']
-                    author = author.split(',')[0]
-                    author = author.replace('{','')
-                    author = author.replace('}','')
-                    author = author.replace('-','')
-                    author = author.replace(' ','')
-                    author = author.replace("\\'",'')
+                elif 'editor' in entry:
+                    author = entry['editor']
+                author = author.split(',')[0]
+                author = author.replace('{\c C}','C')
+                author = author.replace('{','')
+                author = author.replace('}','')
+                author = author.replace('-','')
+                author = author.replace(' ','')
+                author = author.replace("\\'",'')
 
                 title = ''
                 if 'title' in entry:
@@ -161,6 +164,13 @@ class bibliography:
                     title = title.replace(' ','_')
                     title = title.replace('-','')
                     title = title.replace(':','')
+                    title = title.replace(',','')
+                    title = title.replace('(','')
+                    title = title.replace(')','')
+                    title = title.replace("'","")
+                    title = title.replace('/','_')
+                    title = title.replace('?','')
+                    title = title.replace('!','')
                     title = title.capitalize()
 
                 edition = ''
@@ -169,6 +179,8 @@ class bibliography:
                     edition = edition.replace('First', '1st')
                     edition = edition.replace('Second', '2nd')
                     edition = edition.replace('Third', '3rd')
+                    edition = edition.replace(' ', '')
+                    edition = edition.replace('edition', '')
 
                 if entry['ENTRYTYPE'] == 'article':
                     info = []
