@@ -4,11 +4,11 @@ Script extracts the entries with a specific tag from an original bib file and sa
 Author: Antoine Allard (antoineallard.info)
 """
 
-from clean_bibliography import bibliography
+from clean_bibliography import Bibliography
 
 
 source_bib_filename='../zotero/DynamicaLab.bib'
-bib = bibliography(source_bib_filename)
+bib = Bibliography(source_bib_filename)
 
 tags_to_keep = ['bibl_drDohn']
 target_bib_filename = 'references.bib'

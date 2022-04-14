@@ -1,6 +1,8 @@
 .DS_Store
 references.bib
 
+old_material/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
