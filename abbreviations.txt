@@ -14,11 +14,14 @@ Ann. Appl. Probab.                   The Annals of Applied Probability
 Ann. Comb.                           Annals of Combinatorics
 Ann. Math. Stat.                     The Annals of Mathematical Statistics
 Ann. Stat.                           The Annals of Statistics
+Annu. Rev. Neurosci.                 Annual Review of Neuroscience
 Annu. Rev. Psychol.                  Annual Review of Psychology
 Appl. Math. Comput.                  Applied Mathematics and Computation
 Appl. Netw. Sci.                     Applied Network Science
 Appl. Sci.                           Applied Sciences
 arXiv                                arXiv
+Behav. res. meth. instrum. comput.   Behavior Research Methods, Instruments, & Computers
+Bioinformatics                       Bioinformatics
 Biol. Cybern.                        Biological Cybernetics
 Biology                              Biology
 Biometrika                           Biometrika
@@ -74,6 +77,7 @@ Interdiscip. Perspect. Infect. Dis.  Interdisciplinary Perspectives on Infectiou
 iScience                             iScience
 J. Am. Stat. Assoc.                  Journal of the American Statistical Association
 J. Appl. Probab.                     Journal of Applied Probability
+J. Bus. Res.                         Journal of Business Research
 J. Classif.                          Journal of Classification
 J. Clin. Microbiol.                  Journal of Clinical Microbiology
 J. Comb. Theory A                    Journal of Combinatorial Theory A
@@ -81,6 +85,7 @@ J. Commun.                           Journal of Communication
 J. Commun. Inq.                      Journal of Communication Inquiry
 J. Complex Netw.                     Journal of Complex Networks
 J. Comput. Appl. Math.               Journal of Computational and Applied Mathematics
+J. Comput. Graph. Stat.              Journal of Computational and Graphical Statistics
 J. Comput.-Mediat. Commun.           Journal of Computer-Mediated Communication
 J. Infect.                           Journal of Infection
 J. Infect. Dis.                      The Journal of Infectious Diseases
@@ -161,6 +166,7 @@ PLOS Curr.                           PLOS Currents
 PLOS Med.                            PLOS Medicine
 PLOS ONE                             PLOS ONE
 PLOS Pathog.                         PLOS Pathogens
+Publ. Math. Inst. Hung. Acad. Sci.   Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 Proc. Am. Philos. Soc.               Proceedings of the American Philosophical Society
 Proc. Amer. Math. Soc.               Proceedings of the American Mathematical Society
 Proc. Natl. Acad. Sci. U.S.A.        Proceedings of the National Academy of Sciences of the United States of America

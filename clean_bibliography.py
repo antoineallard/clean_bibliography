@@ -171,6 +171,8 @@ class bibliography:
                     title = title.replace('/','_')
                     title = title.replace('?','')
                     title = title.replace('!','')
+                    title = title.replace('.','')
+                    title = title.replace('\\textsubscript','')
                     title = title.capitalize()
 
                 edition = ''
