@@ -108,6 +108,10 @@ class Bibliography:
 
         with open(target_filename, 'w') as file:
 
+            eol = ''
+            if len(self.source_bib_database.entries) > 1:
+                eol = '\n'
+
             for entry in self.source_bib_database.entries:
 
                 self.clean_entry(entry, keep_keywords=False)
@@ -193,7 +197,7 @@ class Bibliography:
                     if author != '':
                         info.append(author)
                     info.append(title)
-                    file.write('.'.join(info) + '.pdf')
+                    file.write('.'.join(info) + '.pdf' + eol)
 
                 if entry['ENTRYTYPE'] == 'book':
                     info = []
@@ -202,4 +206,4 @@ class Bibliography:
                     info.append(title)
                     if edition != '':
                         info.append(edition)
-                    file.write('.'.join(info) + '.pdf')
+                    file.write('.'.join(info) + '.pdf' + eol)

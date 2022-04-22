@@ -51,10 +51,11 @@ Conn. L. Rev.                        Connecticut Law Review
 Contemp. Phys.                       Contemporary Physics
 Curr. Opin. Neurobiol.               Current Opinion in Neurobiology
 Ecography                            Ecography
+Ecol. Complex.                       Ecological Complexity
 Ecology                              Ecology
+Ecol. Lett.                          Ecology Letters
 Emerging Infect. Dis.                Emerging Infectious Diseases
 Epidemics                            Epidemics
-Epidemiol. Infect.                   Epidemiology and Infection
 Epidemiol. Infect.                   Epidemiology and Infection
 EPJ Data Sci.                        EPJ Data Science
 EPL                                  EPL (Europhysics Letters)
@@ -99,6 +100,7 @@ J. Neurosci.                         Journal of Neuroscience
 J. Neurosci. Methods                 Journal of Neuroscience Methods
 J. Phys. A                           Journal of Physics A
 J. Phys. Complex.                    Journal of Physics: Complexity
+J. Phys. Soc. Japan                  Journal of the Physical Society of Japan
 J. Public Health Pol.                Journal of Public Health Policy
 J. R. Soc. Interface                 Journal of the Royal Society Interface
 J. R. Stat. Soc. A                   Journal of the Royal Statistical Society: Series A
