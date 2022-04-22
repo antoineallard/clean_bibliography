@@ -122,6 +122,7 @@ class Bibliography:
                     journal = entry['journal']
                     journal = journal.replace('.', '')
                     journal = journal.replace(' ', '')
+                    journal = journal.replace('/', '')
                 elif 'eprinttype' in entry:
                     if entry['eprinttype'] == 'arxiv':
                         journal = 'arXiv'
@@ -142,6 +143,8 @@ class Bibliography:
                 if 'pages' in entry:
                     page = entry['pages']
                     page = page.split('-')[0]
+                    page = page.replace('.','dot')
+                    page = page.replace(':','dot')
                 elif 'eprinttype' in entry:
                     if entry['eprinttype'] == 'arxiv':
                         if 'eprint' in entry:
@@ -153,6 +156,7 @@ class Bibliography:
                 elif 'editor' in entry:
                     author = entry['editor']
                 author = author.split(',')[0]
+                author = author.replace('{\\\"a}','a')
                 author = author.replace('{\c C}','C')
                 author = author.replace('{','')
                 author = author.replace('}','')
