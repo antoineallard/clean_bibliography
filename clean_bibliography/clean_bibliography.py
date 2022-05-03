@@ -46,15 +46,15 @@ class Bibliography:
         if 'doi' in entry:
             entry.pop('url', None)
 
+        if warn_if_missing_fields:
+            self.check_for_missing_fields(entry)
+
         if entry_type == 'article':
             if 'journal' in entry:
                 if entry['journal'] == 'arXiv':
                     if 'eprint' in entry:
                         entry.pop('journal', None)
                         entry.pop('pages', None)
-
-        if warn_if_missing_fields:
-            self.check_for_missing_fields(entry)
 
 
     def abbreviate_publication_name(self, entry):
@@ -70,7 +70,7 @@ class Bibliography:
                     entry['journal'] = self.abbrev_journal_names[journal_name]
                 else:
                     if journal_name not in self.abbrev_journal_names.values():
-                        print('No abbreviation provided for journal: {}. Please add it to config/abbreviations.txt'.format(journal_name))
+                        print('No abbreviation provided for journal: {}. Please check the name of the journal or add the abbreviation to config/abbreviations.txt'.format(journal_name))
 
 
     def extract_entries_with_given_keyword(self, tags_to_keep, target_bib_filename, keep_keywords=False, warn_if_nonempty=True, warn_if_missing_fields=True):
@@ -128,6 +128,8 @@ class Bibliography:
                         if 'url' not in fields_in_entry:
                             print('{}: both doi and url fields are empty (at least one should be given)'.format(entry['ID']))
                     else:
+                        if (entry_type == 'preprint') and (field in ['volume', 'pages']):
+                            continue
                         print('{}: field {} is empty'.format(entry['ID'], field))
 
 

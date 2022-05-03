@@ -102,6 +102,7 @@ J. Multivar. Anal.                   Journal of Multivariate Analysis
 J. Neurosci.                         Journal of Neuroscience
 J. Neurosci. Methods                 Journal of Neuroscience Methods
 J. Phys. A                           Journal of Physics A
+J. Phys. A                           Journal of Physics A: Mathematical and Theoretical
 J. Phys. Complex.                    Journal of Physics: Complexity
 J. Phys. Soc. Japan                  Journal of the Physical Society of Japan
 J. Public Health Pol.                Journal of Public Health Policy
@@ -163,6 +164,7 @@ Phys. Rev. X                         Physical Review X
 Phys. Today                          Physics Today
 Phys. World                          Physics World
 Physica A                            Physica A
+Physica A                            Physica A: Statistical Mechanics and its Applications
 Physica D                            Physica D
 Physics                              Physics
 PLOS Biol.                           PLOS Biology
@@ -205,7 +207,7 @@ Stan. L. Rev.                        Stanford Law Review
 Stat. Sci.                           Statistical Science
 Swiss Med. Wkly.                     Swiss Medical Weekly
 Systems                              Systems
-The American Naturalist              Am. Nat.
+Am. Nat.                             The American Naturalist
 Trends Ecol. Evol.                   Trends in Ecology & Evolution
 Trop. Med. Int. Health               Tropical Medicine & International Health
 Tuber. Lung Dis.                     Tubercle and Lung Disease
