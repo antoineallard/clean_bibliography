@@ -52,8 +52,8 @@ Contemp. Phys.                       Contemporary Physics
 Curr. Opin. Neurobiol.               Current Opinion in Neurobiology
 Ecography                            Ecography
 Ecol. Complex.                       Ecological Complexity
-Ecology                              Ecology
 Ecol. Lett.                          Ecology Letters
+Ecology                              Ecology
 Emerging Infect. Dis.                Emerging Infectious Diseases
 Epidemics                            Epidemics
 Epidemiol. Infect.                   Epidemiology and Infection
@@ -68,9 +68,9 @@ Front. Phys.                         Frontiers in Physics
 Front. Public Health                 Frontiers in Public Health
 Genome Biol.                         Genome Biology
 Glob. Health                         Globalization and Health
-IEEE/ACM Trans. Netw.                IEEE/ACM Transactions on Networking
 IEEE Trans. Comput.                  IEEE Transactions on Computers
 IEEE Trans. Inf. Theory              IEEE Transactions on Information Theory
+IEEE/ACM Trans. Netw.                IEEE/ACM Transactions on Networking
 Infect. Dis. Model.                  Infectious Disease Modelling
 Int. J. Environ. Res. Public Health  International Journal of Environmental Research and Public Health
 Int. J. Infect. Dis.                 International Journal of Infectious Diseases
@@ -171,13 +171,13 @@ PLOS Curr.                           PLOS Currents
 PLOS Med.                            PLOS Medicine
 PLOS ONE                             PLOS ONE
 PLOS Pathog.                         PLOS Pathogens
-Publ. Math. Inst. Hung. Acad. Sci.   Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 Proc. Am. Philos. Soc.               Proceedings of the American Philosophical Society
 Proc. Amer. Math. Soc.               Proceedings of the American Mathematical Society
 Proc. Natl. Acad. Sci. U.S.A.        Proceedings of the National Academy of Sciences of the United States of America
 Proc. R. Soc. A                      Proceedings of the Royal Society A
 Proc. R. Soc. B                      Proceedings of the Royal Society B
 Publ. Math.                          Publicationes Mathematicae
+Publ. Math. Inst. Hung. Acad. Sci.   Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 R. Soc. Open Sci.                    Royal Society Open Science
 Radiology: Cardiothoracic Imaging    Radiology: Cardiothoracic Imaging
 Random Struct. Algorithms            Random Structures & Algorithms
