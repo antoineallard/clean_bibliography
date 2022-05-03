@@ -1,15 +1,11 @@
 """
-Script cleaning the entries of a bib file.
+Script cleans the entries of a bib file.
 
 Author: Antoine Allard (antoineallard.info)
 """
 
 from clean_bibliography import Bibliography
 
+bib = Bibliography(source_bib_filename='references.bib')
 
-source_bib_filename = 'references.bib'
-bib = Bibliography(source_bib_filename)
-
-target_bib_filename = 'references.bib'
-keep_keywords = True
-bib.clean_entries(target_bib_filename, keep_keywords)
+bib.clean_bibfile(target_bib_filename='references.bib', keep_keywords= False)

@@ -19,7 +19,7 @@ class Bibliography:
         self.fields_to_keep = json.load(open(fields_to_keep, 'r'))
 
 
-    def clean_entry(self, entry, keep_keywords):
+    def clean_entry(self, entry, keep_keywords, warn_if_nonempty):
 
         entry_type = entry['ENTRYTYPE']
         if entry_type not in self.fields_to_keep:
@@ -34,7 +34,8 @@ class Bibliography:
             for field in fields_in_entry:
                 if field not in ['ENTRYTYPE', 'ID', 'keywords']:
                     if field not in self.fields_to_keep[entry_type]:
-                        print('{}: field {} is not empty'.format(entry['ID'], field))
+                        if warn_if_nonempty:
+                            print('{}: field {} is not empty'.format(entry['ID'], field))
                         entry.pop(field, None)
 
         if 'title' in entry:
@@ -68,7 +69,7 @@ class Bibliography:
                         print('No abbreviation provided for journal: {}'.format(journal_name))
 
 
-    def extract_entries_with_given_keyword(self, tags_to_keep, target_bib_filename, keep_keywords=False):
+    def extract_entries_with_given_keyword(self, tags_to_keep, target_bib_filename, keep_keywords=False, warn_if_nonempty=True):
 
         entries_to_keep = []
         for entry in self.source_bib_database.entries:
@@ -81,7 +82,7 @@ class Bibliography:
                 list_of_tags = list_of_tags.split(',')
 
                 if any(tag in tags_to_keep for tag in list_of_tags):
-                    self.clean_entry(entry, keep_keywords)
+                    self.clean_entry(entry, keep_keywords, warn_if_nonempty)
                     self.abbreviate_publication_name(entry)
                     entries_to_keep.append(entry)
 
@@ -90,12 +91,12 @@ class Bibliography:
         bibtexparser.dump(target_bib_database, open(target_bib_filename, 'w'))
 
 
-    def clean_entries(self, target_bib_filename, keep_keywords=False):
+    def clean_bibfile(self, target_bib_filename, keep_keywords=False, warn_if_nonempty=False):
 
         entries_to_keep = []
         for entry in self.source_bib_database.entries:
 
-            self.clean_entry(entry, keep_keywords)
+            self.clean_entry(entry, keep_keywords, warn_if_nonempty)
             self.abbreviate_publication_name(entry)
             entries_to_keep.append(entry)
 
@@ -114,7 +115,7 @@ class Bibliography:
 
             for entry in self.source_bib_database.entries:
 
-                self.clean_entry(entry, keep_keywords=False)
+                self.clean_entry(entry, keep_keywords=False, warn_if_nonempty=False)
                 self.abbreviate_publication_name(entry)
 
                 journal = ''
