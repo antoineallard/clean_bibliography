@@ -5,27 +5,15 @@
         "journal",
         "pages",
         "title",
-        "url",
         "volume",
-        "year",
-        "eprinttype",
-        "eprint",
-        "archiveprefix"
+        "year"
     ],
     "book": [
         "author",
         "doi",
-        "edition",
-        "editor",
-        "isbn",
         "publisher",
-        "series",
         "title",
-        "url",
-        "year",
-        "eprinttype",
-        "eprint",
-        "archiveprefix"
+        "year"
     ],
     "incollection": [
         "title",
@@ -35,8 +23,7 @@
         "year",
         "pages",
         "publisher",
-        "doi",
-        "url"
+        "doi"
     ],
     "phdthesis": [
         "author",
@@ -53,7 +40,6 @@
         "pages",
         "title",
         "volume",
-        "year",
-        "url"
+        "year"
     ]
 }

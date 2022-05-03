@@ -11,15 +11,16 @@ import bibtexparser
 class Bibliography:
 
 
-    def __init__(self, source_bib_filename, abbrev_journal_names='config/abbreviations.txt', fields_to_keep='config/fields_to_keep.json'):
+    def __init__(self, source_bib_filename, abbrev_journal_names='config/abbreviations.txt', fields_to_keep='config/fields_to_keep.json', minimal_fields='config/minimal_fields.json'):
 
         self.source_bib_filename = source_bib_filename
         self.abbrev_journal_names = pandas.read_csv(abbrev_journal_names, comment='#', sep='[ \s]{2,}', engine='python').set_index('Complete Name')['Abbreviated Name'].to_dict()
         self.source_bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(open(source_bib_filename))
         self.fields_to_keep = json.load(open(fields_to_keep, 'r'))
+        self.minimal_fields = json.load(open(minimal_fields, 'r'))
 
 
-    def clean_entry(self, entry, keep_keywords, warn_if_nonempty):
+    def clean_entry(self, entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields):
 
         entry_type = entry['ENTRYTYPE']
         if entry_type not in self.fields_to_keep:
@@ -52,6 +53,9 @@ class Bibliography:
                         entry.pop('journal', None)
                         entry.pop('pages', None)
 
+        if warn_if_missing_fields:
+            self.check_for_missing_fields(entry)
+
 
     def abbreviate_publication_name(self, entry):
 
@@ -66,10 +70,10 @@ class Bibliography:
                     entry['journal'] = self.abbrev_journal_names[journal_name]
                 else:
                     if journal_name not in self.abbrev_journal_names.values():
-                        print('No abbreviation provided for journal: {}'.format(journal_name))
+                        print('No abbreviation provided for journal: {}. Please add it to config/abbreviations.txt'.format(journal_name))
 
 
-    def extract_entries_with_given_keyword(self, tags_to_keep, target_bib_filename, keep_keywords=False, warn_if_nonempty=True):
+    def extract_entries_with_given_keyword(self, tags_to_keep, target_bib_filename, keep_keywords=False, warn_if_nonempty=True, warn_if_missing_fields=True):
 
         entries_to_keep = []
         for entry in self.source_bib_database.entries:
@@ -82,7 +86,7 @@ class Bibliography:
                 list_of_tags = list_of_tags.split(',')
 
                 if any(tag in tags_to_keep for tag in list_of_tags):
-                    self.clean_entry(entry, keep_keywords, warn_if_nonempty)
+                    self.clean_entry(entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields)
                     self.abbreviate_publication_name(entry)
                     entries_to_keep.append(entry)
 
@@ -91,18 +95,40 @@ class Bibliography:
         bibtexparser.dump(target_bib_database, open(target_bib_filename, 'w'))
 
 
-    def clean_bibfile(self, target_bib_filename, keep_keywords=False, warn_if_nonempty=False):
+    def clean_bibfile(self, target_bib_filename, keep_keywords=False, warn_if_nonempty=False, warn_if_missing_fields=True):
 
         entries_to_keep = []
         for entry in self.source_bib_database.entries:
 
-            self.clean_entry(entry, keep_keywords, warn_if_nonempty)
+            self.clean_entry(entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields)
             self.abbreviate_publication_name(entry)
             entries_to_keep.append(entry)
 
         target_bib_database = bibtexparser.bibdatabase.BibDatabase()
         target_bib_database.entries = entries_to_keep
         bibtexparser.dump(target_bib_database, open(target_bib_filename, 'w'))
+
+
+    def check_for_missing_fields(self, entry):
+
+        entry_type = entry['ENTRYTYPE']
+
+        if entry_type == 'article':
+            if 'journal' in entry:
+                if entry['journal'] == 'arXiv':
+                    entry_type = 'preprint'
+
+        if entry_type not in self.fields_to_keep:
+            print('Minimal fields not specified for entry type: {}'.format(entry_type))
+        else:
+            fields_in_entry = list(entry.keys())
+            for field in self.minimal_fields[entry_type]:
+                if field not in fields_in_entry:
+                    if field == 'doi':
+                        if 'url' not in fields_in_entry:
+                            print('{}: both doi and url fields are empty (at least one should be given)'.format(entry['ID']))
+                    else:
+                        print('{}: field {} is empty'.format(entry['ID'], field))
 
 
     def build_pdf_filenames(self, target_filename):
@@ -115,7 +141,7 @@ class Bibliography:
 
             for entry in self.source_bib_database.entries:
 
-                self.clean_entry(entry, keep_keywords=False, warn_if_nonempty=False)
+                self.clean_entry(entry, keep_keywords=False, warn_if_nonempty=False, warn_if_missing_fields=False)
                 self.abbreviate_publication_name(entry)
 
                 journal = ''
