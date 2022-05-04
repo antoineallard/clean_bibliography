@@ -20,6 +20,46 @@ class Bibliography:
         self.minimal_fields = json.load(open(minimal_fields, 'r'))
 
 
+    def abbreviate_publication_name(self, entry):
+
+        entry_type = entry['ENTRYTYPE']
+        if entry_type in ['article']:
+            if 'journal' not in entry:
+                if 'eprint' not in entry:
+                    print('Entry {} does not have a journal.'.format(entry['ID']))
+            else:
+                journal_name = entry['journal'].replace('\&', '&')
+                if journal_name in self.abbrev_journal_names:
+                    entry['journal'] = self.abbrev_journal_names[journal_name]
+                else:
+                    if journal_name not in self.abbrev_journal_names.values():
+                        print('No abbreviation provided for journal: {}. Please check the name of the journal or add the abbreviation to config/abbreviations.txt'.format(journal_name))
+
+
+    def check_for_missing_fields(self, entry):
+
+        entry_type = entry['ENTRYTYPE']
+
+        if entry_type == 'article':
+            if 'journal' in entry:
+                if entry['journal'] == 'arXiv':
+                    entry_type = 'preprint'
+
+        if entry_type not in self.fields_to_keep:
+            print('Minimal fields not specified for entry type: {}'.format(entry_type))
+        else:
+            fields_in_entry = list(entry.keys())
+            for field in self.minimal_fields[entry_type]:
+                if field not in fields_in_entry:
+                    if field == 'doi':
+                        if 'url' not in fields_in_entry:
+                            print('{}: both doi and url fields are empty (at least one should be given)'.format(entry['ID']))
+                    else:
+                        if (entry_type == 'preprint') and (field in ['volume', 'pages']):
+                            continue
+                        print('{}: field {} is empty'.format(entry['ID'], field))
+
+
     def clean_entry(self, entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields):
 
         entry_type = entry['ENTRYTYPE']
@@ -57,22 +97,6 @@ class Bibliography:
                         entry.pop('pages', None)
 
 
-    def abbreviate_publication_name(self, entry):
-
-        entry_type = entry['ENTRYTYPE']
-        if entry_type in ['article']:
-            if 'journal' not in entry:
-                if 'eprint' not in entry:
-                    print('Entry {} does not have a journal.'.format(entry['ID']))
-            else:
-                journal_name = entry['journal'].replace('\&', '&')
-                if journal_name in self.abbrev_journal_names:
-                    entry['journal'] = self.abbrev_journal_names[journal_name]
-                else:
-                    if journal_name not in self.abbrev_journal_names.values():
-                        print('No abbreviation provided for journal: {}. Please check the name of the journal or add the abbreviation to config/abbreviations.txt'.format(journal_name))
-
-
     def extract_entries_with_given_keyword(self, tags_to_keep, target_bib_filename, keep_keywords=False, warn_if_nonempty=True, warn_if_missing_fields=True):
 
         entries_to_keep = []
@@ -107,30 +131,6 @@ class Bibliography:
         target_bib_database = bibtexparser.bibdatabase.BibDatabase()
         target_bib_database.entries = entries_to_keep
         bibtexparser.dump(target_bib_database, open(target_bib_filename, 'w'))
-
-
-    def check_for_missing_fields(self, entry):
-
-        entry_type = entry['ENTRYTYPE']
-
-        if entry_type == 'article':
-            if 'journal' in entry:
-                if entry['journal'] == 'arXiv':
-                    entry_type = 'preprint'
-
-        if entry_type not in self.fields_to_keep:
-            print('Minimal fields not specified for entry type: {}'.format(entry_type))
-        else:
-            fields_in_entry = list(entry.keys())
-            for field in self.minimal_fields[entry_type]:
-                if field not in fields_in_entry:
-                    if field == 'doi':
-                        if 'url' not in fields_in_entry:
-                            print('{}: both doi and url fields are empty (at least one should be given)'.format(entry['ID']))
-                    else:
-                        if (entry_type == 'preprint') and (field in ['volume', 'pages']):
-                            continue
-                        print('{}: field {} is empty'.format(entry['ID'], field))
 
 
     def build_pdf_filenames(self, target_filename):
