@@ -124,6 +124,7 @@ Lancet Child Adolesc. Health         The Lancet Child & Adolescent Health
 Lancet Glob. Health                  The Lancet Global Health
 Lancet Infect. Dis.                  The Lancet Infectious Diseases
 Lancet Public Health                 The Lancet Public Health
+Linear Algebra Appl                  Linear Algebra and its Applications
 Math. Biosci.                        Mathematical Biosciences
 Math. Control. Signals Syst.         Mathematics of Control, Signals, and Systems
 Math. Financ.                        Mathematical Finance

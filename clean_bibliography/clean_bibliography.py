@@ -81,7 +81,7 @@ class Bibliography:
 
                 volume = ''
                 if 'volume' in entry:
-                    volume = entry['volume']
+                    volume = entry['volume'].split('-')[0]
                 elif 'eprinttype' in entry:
                     if entry['eprinttype'] == 'arxiv':
                         if 'eprint' in entry:
