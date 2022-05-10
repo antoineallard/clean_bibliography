@@ -37,9 +37,7 @@ class Bibliography:
                     self._abbreviate_publication_name(entry)
                     entries_to_keep.append(entry)
 
-        target_bib_database = bibtexparser.bibdatabase.BibDatabase()
-        target_bib_database.entries = entries_to_keep
-        bibtexparser.dump(target_bib_database, open(target_bib_filename, 'w'))
+        self._write_bib_to_file(entries_to_keep, target_bib_filename)
 
 
     def clean_bibfile(self, target_bib_filename, keep_keywords=False, warn_if_nonempty=False, warn_if_missing_fields=True):
@@ -51,9 +49,7 @@ class Bibliography:
             self._abbreviate_publication_name(entry)
             entries_to_keep.append(entry)
 
-        target_bib_database = bibtexparser.bibdatabase.BibDatabase()
-        target_bib_database.entries = entries_to_keep
-        bibtexparser.dump(target_bib_database, open(target_bib_filename, 'w'))
+        self._write_bib_to_file(entries_to_keep, target_bib_filename)
 
 
     def build_pdf_filenames(self, target_filename):
@@ -241,3 +237,11 @@ class Bibliography:
                     if 'eprint' in entry:
                         entry.pop('journal', None)
                         entry.pop('pages', None)
+
+
+    def _write_bib_to_file(entries_to_keep, target_bib_filename):
+
+        target_bib_database = bibtexparser.bibdatabase.BibDatabase()
+        target_bib_database.entries = entries_to_keep
+        with open(target_bib_filename, 'w') as f:
+            bibtexparser.dump(target_bib_database, f)
