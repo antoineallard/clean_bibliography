@@ -239,7 +239,7 @@ class Bibliography:
                         entry.pop('pages', None)
 
 
-    def _write_bib_to_file(entries_to_keep, target_bib_filename):
+    def _write_bib_to_file(self, entries_to_keep, target_bib_filename):
 
         target_bib_database = bibtexparser.bibdatabase.BibDatabase()
         target_bib_database.entries = entries_to_keep
