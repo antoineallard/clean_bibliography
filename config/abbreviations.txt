@@ -21,6 +21,7 @@ Appl. Netw. Sci.                     Applied Network Science
 Appl. Sci.                           Applied Sciences
 arXiv                                arXiv
 Behav. res. meth. instrum. comput.   Behavior Research Methods, Instruments, & Computers
+Bayesian Anal.                       Bayesian Analysis
 Bioinformatics                       Bioinformatics
 Biol. Cybern.                        Biological Cybernetics
 Biology                              Biology
@@ -37,6 +38,7 @@ C. R. Phys.                          Comptes Rendus Physique
 Calif. L. Rev.                       California Law Review
 Can. J. Philos.                      Canadian Journal of Philosophy
 Cell                                 Cell
+Chaos                                Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos                                Chaos
 Chaos Solitons Fractals              Chaos, Solitons & Fractals
 Clin. Infect. Dis.                   Clinical Infectious Diseases
