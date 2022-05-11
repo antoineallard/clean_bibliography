@@ -8,20 +8,23 @@ Am. J. Epidemiol.                    American Journal of Epidemiology
 Am. J. Phys.                         American Journal of Physics
 Am. J. Public Health                 American Journal of Public Health
 Am. J. Sociol.                       American Journal of Sociology
+Am. Nat.                             The American Naturalist
 Am. Sci.                             American Scientist
 Am. Stat.                            The American Statistician
 Ann. Appl. Probab.                   The Annals of Applied Probability
 Ann. Comb.                           Annals of Combinatorics
 Ann. Math. Stat.                     The Annals of Mathematical Statistics
+Ann. N. Y. Acad. Sci.                Annals of the New York Academy of Sciences
 Ann. Stat.                           The Annals of Statistics
 Annu. Rev. Neurosci.                 Annual Review of Neuroscience
 Annu. Rev. Psychol.                  Annual Review of Psychology
+Annu. Rev. Stat. Appl.               Annual Review of Statistics and Its Application
 Appl. Math. Comput.                  Applied Mathematics and Computation
 Appl. Netw. Sci.                     Applied Network Science
 Appl. Sci.                           Applied Sciences
 arXiv                                arXiv
-Behav. res. meth. instrum. comput.   Behavior Research Methods, Instruments, & Computers
 Bayesian Anal.                       Bayesian Analysis
+Behav. res. meth. instrum. comput.   Behavior Research Methods, Instruments, & Computers
 Bioinformatics                       Bioinformatics
 Biol. Cybern.                        Biological Cybernetics
 Biology                              Biology
@@ -30,6 +33,7 @@ bioRxiv                              bioRxiv
 BMC Infect. Dis.                     BMC Infectious Diseases
 BMC Med.                             BMC Medicine
 BMJ                                  The BMJ
+Br. J. Philos. Sci.                  The British Journal for the Philosophy of Science
 Brain Sci.                           Brain Sciences
 Bull. Am. Math. Soc.                 Bulletin of the American Mathematical Society
 Bull. Math. Biol.                    Bulletin of Mathematical Biology
@@ -111,8 +115,10 @@ J. Public Health Pol.                Journal of Public Health Policy
 J. R. Soc. Interface                 Journal of the Royal Society Interface
 J. R. Stat. Soc. A                   Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. B                   Journal of the Royal Statistical Society: Series B
+J. R. Stat. Soc. B                   Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. Soc. Ind. Appl. Math.             Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                       Journal of Social Issues
+J. Soc. Struct.                      Journal of Social Structure
 J. Stat. Mech.                       Journal of Statistical Mechanics
 J. Stat. Phys.                       Journal of Statistical Physics
 J. Theor. Biol.                      Journal of Theoretical Biology
@@ -158,6 +164,7 @@ Oikos                                Oikos
 Pattern Recognit. Lett.              Pattern Recognition Letters
 Philos. Trans. Royal Soc. A          Philosophical Transactions of the Royal Society A
 Philos. Trans. Royal Soc. B          Philosophical Transactions of the Royal Society B
+Phys. Med. Biol.                     Physics in Medicine and Biology
 Phys. Rep.                           Physics Reports
 Phys. Rev. A                         Physical Review A
 Phys. Rev. E                         Physical Review E
@@ -166,8 +173,8 @@ Phys. Rev. Research                  Physical Review Research
 Phys. Rev. X                         Physical Review X
 Phys. Today                          Physics Today
 Phys. World                          Physics World
-Physica A                            Physica A
 Physica A                            Physica A: Statistical Mechanics and its Applications
+Physica A                            Physica A
 Physica D                            Physica D
 Physics                              Physics
 PLOS Biol.                           PLOS Biology
@@ -178,6 +185,7 @@ PLOS ONE                             PLOS ONE
 PLOS Pathog.                         PLOS Pathogens
 Proc. Am. Philos. Soc.               Proceedings of the American Philosophical Society
 Proc. Amer. Math. Soc.               Proceedings of the American Mathematical Society
+Proc. Natl. Acad. Sci. U.S.A.        Proceedings of the National Academy of Sciences
 Proc. Natl. Acad. Sci. U.S.A.        Proceedings of the National Academy of Sciences of the United States of America
 Proc. R. Soc. A                      Proceedings of the Royal Society A
 Proc. R. Soc. B                      Proceedings of the Royal Society B
@@ -207,10 +215,11 @@ Sociometry                           Sociometry
 SoftwareX                            SoftwareX
 SSRN Electronic Journal              SSRN Electronic Journal
 Stan. L. Rev.                        Stanford Law Review
+Stat. Comput.                        Statistics and Computing
 Stat. Sci.                           Statistical Science
+Stat. Sin.                           Statistica Sinica
 Swiss Med. Wkly.                     Swiss Medical Weekly
 Systems                              Systems
-Am. Nat.                             The American Naturalist
 Trends Ecol. Evol.                   Trends in Ecology & Evolution
 Trop. Med. Int. Health               Tropical Medicine & International Health
 Tuber. Lung Dis.                     Tubercle and Lung Disease
