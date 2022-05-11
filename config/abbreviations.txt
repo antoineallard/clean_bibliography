@@ -42,8 +42,8 @@ C. R. Phys.                          Comptes Rendus Physique
 Calif. L. Rev.                       California Law Review
 Can. J. Philos.                      Canadian Journal of Philosophy
 Cell                                 Cell
-Chaos                                Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos                                Chaos
+Chaos                                Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos Solitons Fractals              Chaos, Solitons & Fractals
 Clin. Infect. Dis.                   Clinical Infectious Diseases
 CMJ                                  The College Mathematics Journal
@@ -114,8 +114,8 @@ J. Phys. Soc. Japan                  Journal of the Physical Society of Japan
 J. Public Health Pol.                Journal of Public Health Policy
 J. R. Soc. Interface                 Journal of the Royal Society Interface
 J. R. Stat. Soc. A                   Journal of the Royal Statistical Society: Series A
-J. R. Stat. Soc. B                   Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                   Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+J. R. Stat. Soc. B                   Journal of the Royal Statistical Society: Series B
 J. Soc. Ind. Appl. Math.             Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                       Journal of Social Issues
 J. Soc. Struct.                      Journal of Social Structure
@@ -195,6 +195,7 @@ R. Soc. Open Sci.                    Royal Society Open Science
 Radiology: Cardiothoracic Imaging    Radiology: Cardiothoracic Imaging
 Random Struct. Algorithms            Random Structures & Algorithms
 Rev. Mod. Phys.                      Reviews of Modern Physics
+Sankhya Ser. A                       Sankhya A
 Sci. Adv.                            Science Advances
 Sci. Am.                             Scientific American
 Sci. China Life Sci.                 Science China Life Sciences
