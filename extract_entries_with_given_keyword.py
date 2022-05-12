@@ -6,6 +6,6 @@ Author: Antoine Allard (antoineallard.info)
 
 from clean_bibliography import Bibliography
 
-bib = Bibliography(source_bib_filename='../zotero/DynamicaLab.bib')
+bib = Bibliography(source_bib_filename='../bibfiles/DynamicaLab.bib')
 
 bib.extract_entries_with_given_keyword(tags_to_keep=['bibl_drDohn'], target_bib_filename='references.bib', keep_keywords=True)
