@@ -109,6 +109,7 @@ class Bibliography:
                 author = author.replace('{','')
                 author = author.replace('}','')
                 author = author.replace('-','')
+                author = author.replace("'",'')
                 author = author.replace(' ','')
                 author = author.replace("\\'",'')
 
@@ -138,6 +139,7 @@ class Bibliography:
                     edition = edition.replace('Second', '2nd')
                     edition = edition.replace('Third', '3rd')
                     edition = edition.replace('Fourth', '4th')
+                    edition = edition.replace('Fifth', '5th')
                     edition = edition.replace(' ', '')
                     edition = edition.replace('edition', '')
 
