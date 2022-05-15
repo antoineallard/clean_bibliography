@@ -5,13 +5,19 @@ Author: Antoine Allard (antoineallard.info)
 """
 import json
 import pandas
+import pathlib
 import bibtexparser
 
 
 class Bibliography:
 
 
-    def __init__(self, source_bib_filename, abbrev_journal_names='config/abbreviations.txt', fields_to_keep='config/fields_to_keep.json', minimal_fields='config/minimal_fields.json'):
+    def __init__(self, source_bib_filename):
+
+        path = str(pathlib.Path(__file__).parent.resolve())
+        abbrev_journal_names = '{}/config/abbreviations.txt'.format(path)
+        fields_to_keep = '{}/config/fields_to_keep.json'.format(path)
+        minimal_fields = '{}/config/minimal_fields.json'.format(path)
 
         self._abbrev_journal_names = pandas.read_csv(abbrev_journal_names, comment='#', sep='[ \s]{2,}', engine='python').set_index('Complete Name')['Abbreviated Name'].to_dict()
         self._fields_to_keep = json.load(open(fields_to_keep, 'r'))
