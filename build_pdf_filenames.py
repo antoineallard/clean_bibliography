@@ -8,4 +8,4 @@ from clean_bibliography import Bibliography
 
 bib = Bibliography(source_bib_filename='references.bib')
 
-bib.build_pdf_filenames(target_filename='references.bib')
+bib.build_pdf_filenames()

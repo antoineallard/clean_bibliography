@@ -8,4 +8,4 @@ from clean_bibliography import Bibliography
 
 bib = Bibliography(source_bib_filename='references.bib')
 
-bib.clean_bibfile(target_bib_filename='references.bib', keep_keywords= False)
+bib.clean_bibfile(target_bib_filename='references.bib', keep_keywords=False)
