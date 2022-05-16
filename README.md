@@ -9,6 +9,22 @@ This modules provides a set of functions to clean and check bibfiles to their us
   - Book: {first author last name}.{year}.{title}.{edition, if specified}.pdf
 
 
+#### Command-line tool
+
+The module's functionalities can be accessed through a command-line interface provided by [bibclean.py](bibclean.py).
+```bash
+# Cleans the entries in original.bib and writes them in cleaned.bib
+python bibclean.py original.bib -o cleaned.bib
+
+# Cleans the entries in original.bib with either tag1 or tag2 as keywords and writes them in cleaned.bib
+python bibclean.py original.bib -t tag1 tag2 -o cleaned.bib
+```
+Further details can be found by executing
+```bash
+python bibclean.py --help
+```
+
+
 #### Customization
 
 The fields to keep are specified in [fields_to_keep.json]. Note that all fields are kept for entry types not specified in [fields_to_keep.json].
