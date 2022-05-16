@@ -24,14 +24,35 @@ class Bibliography:
         self._minimal_fields = json.load(open(minimal_fields, 'r'))
         self._missing_entry_types = []
         self._source_bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(open(source_bib_filename))
+        self._source_bib_filename = source_bib_filename
 
 
-    def build_pdf_filenames(self):
+    def CleanBibfile(self, target_bib_filename=None, tags_to_keep=None, keep_keywords=False, warn_if_nonempty=False, warn_if_missing_fields=True, verbose=True):
+
+        entries_to_keep = []
+        for entry in self._source_bib_database.entries:
+            if (tags_to_keep is None) or (self._has_at_least_one_keyword(entry, tags_to_keep)):
+                self._clean_entry(entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields, verbose)
+                entries_to_keep.append(entry)
+
+        if target_bib_filename is None:
+            path = pathlib.Path(self._source_bib_filename)
+            path = path.with_name(path.stem + '_cleaned' + path.suffix)
+            target_bib_filename = str(path)
+
+        if verbose:
+            self._display_missing_entry_types()
+
+        self._write_bib_to_file(entries_to_keep, target_bib_filename, verbose)
+
+
+    def PrintPDFFilenames(self, verbose):
 
         for entry in self._source_bib_database.entries:
 
-            self._clean_entry(entry, keep_keywords=False, warn_if_nonempty=False, warn_if_missing_fields=False)
-            self._abbreviate_publication_name(entry)
+            entry_type = entry['ENTRYTYPE']
+            if entry_type in ['article']:
+                self._abbreviate_publication_name(entry, verbose)
 
             journal = ''
             if 'journal' in entry:
@@ -134,53 +155,20 @@ class Bibliography:
                 print('.'.join(info) + '.pdf')
 
 
-    def clean_bibfile(self, target_bib_filename, keep_keywords=False, warn_if_nonempty=False, warn_if_missing_fields=True, verbose=True):
-
-        entries_to_keep = []
-        for entry in self._source_bib_database.entries:
-
-            self._clean_entry(entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields)
-            self._abbreviate_publication_name(entry)
-            entries_to_keep.append(entry)
-
-        self._display_missing_entry_types(verbose=verbose)
-        self._write_bib_to_file(entries_to_keep, target_bib_filename, verbose=verbose)
-
-
-    def extract_entries_with_given_keyword(self, tags_to_keep, target_bib_filename, keep_keywords=False, warn_if_nonempty=True, warn_if_missing_fields=True, verbose=True):
-
-        entries_to_keep = []
-        for entry in self._source_bib_database.entries:
-            if 'keywords' in entry:
-
-                list_of_tags = entry['keywords']
-                list_of_tags = list_of_tags.replace('{\_}', '_')
-                list_of_tags = list_of_tags.replace('\\', '')
-                list_of_tags = list_of_tags.replace(', ', ',')
-                list_of_tags = list_of_tags.split(',')
-
-                if any(tag in tags_to_keep for tag in list_of_tags):
-                    self._clean_entry(entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields)
-                    self._abbreviate_publication_name(entry)
-                    entries_to_keep.append(entry)
-
-        self._display_missing_entry_types(verbose=verbose)
-        self._write_bib_to_file(entries_to_keep, target_bib_filename, verbose=verbose)
-
-
-    def _abbreviate_publication_name(self, entry):
+    def _abbreviate_publication_name(self, entry, verbose):
 
         entry_type = entry['ENTRYTYPE']
-        if entry_type in ['article']:
-            if 'journal' not in entry:
-                if 'eprint' not in entry:
+        if 'journal' not in entry:
+            if 'eprint' not in entry:
+                if verbose:
                     print('Entry {} does not have a journal.'.format(entry['ID']))
+        else:
+            journal_name = entry['journal'].replace('\&', '&')
+            if journal_name in self._abbrev_journal_names:
+                entry['journal'] = self._abbrev_journal_names[journal_name]
             else:
-                journal_name = entry['journal'].replace('\&', '&')
-                if journal_name in self._abbrev_journal_names:
-                    entry['journal'] = self._abbrev_journal_names[journal_name]
-                else:
-                    if journal_name not in self._abbrev_journal_names.values():
+                if journal_name not in self._abbrev_journal_names.values():
+                    if verbose:
                         print('No abbreviation provided for journal: {}. Please check the name of the journal or add the abbreviation to config/abbreviations.txt'.format(journal_name))
 
 
@@ -193,8 +181,9 @@ class Bibliography:
                 if entry['journal'] == 'arXiv':
                     entry_type = 'preprint'
 
-        if entry_type not in self._fields_to_keep:
-            print('Minimal fields not specified for entry type: {}'.format(entry_type))
+        if entry_type not in self._minimal_fields:
+            if entry_type not in self._missing_entry_types:
+                self._missing_entry_types.append(entry_type)
         else:
             fields_in_entry = list(entry.keys())
             for field in self._minimal_fields[entry_type]:
@@ -205,27 +194,34 @@ class Bibliography:
                     else:
                         if (entry_type == 'preprint') and (field in ['volume', 'pages']):
                             continue
+                        if (entry_type == 'book') and ('editor' in fields_in_entry):
+                            continue
                         print('{}: field {} is empty'.format(entry['ID'], field))
 
 
-    def _clean_entry(self, entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields):
+    def _clean_entry(self, entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields, verbose):
 
         entry_type = entry['ENTRYTYPE']
+
+        if entry_type in ['article']:
+            self._abbreviate_publication_name(entry, verbose)
+
         if entry_type not in self._fields_to_keep:
             if entry_type not in self._missing_entry_types:
                 self._missing_entry_types.append(entry_type)
-            # print('Fields to keep not specified for entry type: {}'.format(entry_type))
+
         else:
             entry.pop('abstract', None)
             entry.pop('annote', None)
             if keep_keywords == False:
                 entry.pop('keywords', None)
             entry.pop('mendeley-tags', None)
+
             fields_in_entry = list(entry.keys())
             for field in fields_in_entry:
                 if field not in ['ENTRYTYPE', 'ID', 'keywords']:
                     if field not in self._fields_to_keep[entry_type]:
-                        if warn_if_nonempty:
+                        if warn_if_nonempty and verbose:
                             print('{}: field {} is not empty'.format(entry['ID'], field))
                         entry.pop(field, None)
 
@@ -236,7 +232,7 @@ class Bibliography:
         if 'doi' in entry:
             entry.pop('url', None)
 
-        if warn_if_missing_fields:
+        if warn_if_missing_fields and verbose:
             self._check_for_missing_fields(entry)
 
         if entry_type == 'article':
@@ -247,10 +243,24 @@ class Bibliography:
                         entry.pop('pages', None)
 
 
-    def _display_missing_entry_types(self, verbose):
+    def _display_missing_entry_types(self):
 
-        if verbose:
-            print('Warning, the following entry types have not been checked: {}. Update fields_to_keep.json and minimal_fields.json to have them checked.'.format(', '.join(self._missing_entry_types)))
+        if len(self._missing_entry_types) > 0:
+            print('Warning, the following entry types are missing from fields_to_keep.json and/or minimal_fields.json: {}. They have not been thoroughly checked.'.format(', '.join(self._missing_entry_types)))
+
+
+    def _has_at_least_one_keyword(self, entry, tags_to_keep):
+
+        if 'keywords' in entry:
+            list_of_tags = entry['keywords']
+            list_of_tags = list_of_tags.replace('{\_}', '_')
+            list_of_tags = list_of_tags.replace('\\', '')
+            list_of_tags = list_of_tags.replace(', ', ',')
+            list_of_tags = list_of_tags.split(',')
+            return any(tag in tags_to_keep for tag in list_of_tags)
+
+        else:
+            return False
 
 
     def _write_bib_to_file(self, entries_to_keep, target_bib_filename, verbose):
