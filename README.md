@@ -1,4 +1,11 @@
-This modules provides a set of functions to clean and check bibfiles to their use in publications. The functionalities of the module are illustrated via the following scripts:
+## Clean bibliography
+
+This modules provides a set of functions to clean and check bibfiles to their use in publications.
+
+
+### Examples
+
+The functionalities of the module are illustrated via the following scripts:
 
 - [clean_bibfile.py](examples/clean_bibfile.py): Removes superfluous fields (which are not included in [fields_to_keep.json]) from a specified bib file and abbreviates the journal names, if applicable (see [abbreviations.txt]).
 
@@ -9,7 +16,7 @@ This modules provides a set of functions to clean and check bibfiles to their us
   - Book: {first author last name}.{year}.{title}.{edition, if specified}.pdf
 
 
-#### Command-line tool
+### Command-line tool
 
 The module's functionalities can be accessed through a command-line interface provided by [bibclean.py](bibclean.py).
 ```bash
@@ -25,7 +32,7 @@ python bibclean.py --help
 ```
 
 
-#### Customization
+### Customization
 
 The fields to keep are specified in [fields_to_keep.json]. Note that all fields are kept for entry types not specified in [fields_to_keep.json].
 
