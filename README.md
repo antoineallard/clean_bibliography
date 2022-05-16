@@ -23,7 +23,7 @@ The module's functionalities can be accessed through a command-line interface pr
 # Cleans the entries in original.bib and writes them in cleaned.bib
 python bibclean.py original.bib -o cleaned.bib
 
-# Cleans the entries in original.bib with either tag1 or tag2 as keywords and writes them in cleaned.bib
+# Cleans the entries in original.bib with tag1 and/or tag2 as keywords and writes them in cleaned.bib
 python bibclean.py original.bib -t tag1 tag2 -o cleaned.bib
 ```
 Further details can be found by executing
