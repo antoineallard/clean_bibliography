@@ -3,6 +3,7 @@ Class and methods to extract the entries with a specific tag from an original bi
 
 Author: Antoine Allard (antoineallard.info)
 """
+import sys
 import json
 import pandas
 import pathlib
@@ -15,16 +16,20 @@ class Bibliography:
     def __init__(self, source_bib_filename):
 
         path = str(pathlib.Path(__file__).parent.resolve())
-        abbrev_journal_names = '{}/config/abbreviations.txt'.format(path)
-        fields_to_keep = '{}/config/fields_to_keep.json'.format(path)
-        minimal_fields = '{}/config/minimal_fields.json'.format(path)
 
+        abbrev_journal_names = '{}/config/abbreviations.txt'.format(path)
         self._abbrev_journal_names = pandas.read_csv(abbrev_journal_names, comment='#', sep='[ \s]{2,}', engine='python').set_index('Complete Name')['Abbreviated Name'].to_dict()
+
+        fields_to_keep = '{}/config/fields_to_keep.json'.format(path)
         self._fields_to_keep = json.load(open(fields_to_keep, 'r'))
+
+        minimal_fields = '{}/config/minimal_fields.json'.format(path)
         self._minimal_fields = json.load(open(minimal_fields, 'r'))
+
         self._missing_entry_types = []
-        self._source_bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(open(source_bib_filename))
+
         self._source_bib_filename = source_bib_filename
+        self._load_source_bib_database()
 
 
     def CleanBibfile(self, target_bib_filename=None, tags_to_keep=None, keep_keywords=False, warn_if_nonempty=False, warn_if_missing_fields=True, verbose=True):
@@ -261,6 +266,17 @@ class Bibliography:
 
         else:
             return False
+
+
+    def _load_source_bib_database(self):
+
+        try:
+            with open(self._source_bib_filename) as f:
+                self._source_bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(f)
+
+        except OSError:
+            print('Error, could not read file: {}'.format(self._source_bib_filename))
+            sys.exit()
 
 
     def _write_bib_to_file(self, entries_to_keep, target_bib_filename, verbose):
