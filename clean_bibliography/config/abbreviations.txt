@@ -57,6 +57,7 @@ Comput. Sci. Eng.                    Computing in Science & Engineering
 Conn. L. Rev.                        Connecticut Law Review
 Contemp. Phys.                       Contemporary Physics
 Curr. Opin. Neurobiol.               Current Opinion in Neurobiology
+Dialogues Clin. Neurosci.            Dialogues in Clinical Neuroscience
 Ecography                            Ecography
 Ecol. Complex.                       Ecological Complexity
 Ecol. Lett.                          Ecology Letters
@@ -72,6 +73,7 @@ Eur. Phys. J. B                      The European Physical Journal B
 Eurosurveillance                     Eurosurveillance
 Front. Artif. Intell.                Frontiers in Artificial Intelligence
 Front. Phys.                         Frontiers in Physics
+Front. Physiol.                      Frontiers in Physiology
 Front. Public Health                 Frontiers in Public Health
 Genome Biol.                         Genome Biology
 Glob. Health                         Globalization and Health
@@ -108,8 +110,9 @@ J. Math. Sociol.                     The Journal of Mathematical Sociology
 J. Multivar. Anal.                   Journal of Multivariate Analysis
 J. Neurosci.                         Journal of Neuroscience
 J. Neurosci. Methods                 Journal of Neuroscience Methods
-J. Phys. A                           Journal of Physics A
+J. Open Source Softw.                Journal of Open Source Software
 J. Phys. A                           Journal of Physics A: Mathematical and Theoretical
+J. Phys. A                           Journal of Physics A
 J. Phys. Complex.                    Journal of Physics: Complexity
 J. Phys. Soc. Japan                  Journal of the Physical Society of Japan
 J. Public Health Pol.                Journal of Public Health Policy
@@ -154,6 +157,7 @@ Nat. Phys.                           Nature Physics
 Nat. Rev. Microbiol.                 Nature Reviews Microbiology
 Nat. Rev. Phys.                      Nature Reviews Physics
 Nature                               Nature
+Netw. Comput. Neural Syst.           Network: Computation in Neural Systems
 Neural Comput.                       Neural Computation
 Neural Netw.                         Neural Networks
 NeuroImage                           NeuroImage
