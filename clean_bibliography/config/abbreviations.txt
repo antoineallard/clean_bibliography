@@ -43,8 +43,8 @@ C. R. Phys.                          Comptes Rendus Physique
 Calif. L. Rev.                       California Law Review
 Can. J. Philos.                      Canadian Journal of Philosophy
 Cell                                 Cell
-Chaos                                Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos                                Chaos
+Chaos                                Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos Solitons Fractals              Chaos, Solitons & Fractals
 Clin. Infect. Dis.                   Clinical Infectious Diseases
 CMJ                                  The College Mathematics Journal
@@ -217,6 +217,7 @@ Significance                         Significance
 Soc. Networks                        Social Networks
 Soc. Text                            Social Text
 Sociol. Methodol.                    Sociological Methodology
+Sociologica                          Sociologica
 Sociometry                           Sociometry
 SoftwareX                            SoftwareX
 SSRN Electronic Journal              SSRN Electronic Journal
