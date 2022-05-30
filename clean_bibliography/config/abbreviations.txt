@@ -43,8 +43,8 @@ C. R. Phys.                          Comptes Rendus Physique
 Calif. L. Rev.                       California Law Review
 Can. J. Philos.                      Canadian Journal of Philosophy
 Cell                                 Cell
-Chaos                                Chaos
 Chaos                                Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                Chaos
 Chaos Solitons Fractals              Chaos, Solitons & Fractals
 Clin. Infect. Dis.                   Clinical Infectious Diseases
 CMJ                                  The College Mathematics Journal
@@ -117,6 +117,7 @@ J. Phys. Complex.                    Journal of Physics: Complexity
 J. Phys. Soc. Japan                  Journal of the Physical Society of Japan
 J. Public Health Pol.                Journal of Public Health Policy
 J. R. Soc. Interface                 Journal of the Royal Society Interface
+J. R. Soc. Interface                 Journal of The Royal Society Interface
 J. R. Stat. Soc. A                   Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. B                   Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                   Journal of the Royal Statistical Society: Series B (Statistical Methodology)
