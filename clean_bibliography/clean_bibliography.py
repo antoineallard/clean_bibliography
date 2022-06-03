@@ -98,8 +98,10 @@ class Bibliography:
             elif 'editor' in entry:
                 author = entry['editor']
             author = author.split(',')[0]
-            author = author.replace('{\\\"a}','a')
-            author = author.replace('{\c C}','C')
+            author = author.replace("{\\'a}",'a')
+            # author = author.replace('{\\\"a}','a')
+            author = author.replace('{\\c C}','C')
+            author = author.replace('{\\v s}','s')
             author = author.replace('{','')
             author = author.replace('}','')
             author = author.replace('-','')

@@ -111,8 +111,8 @@ J. Multivar. Anal.                   Journal of Multivariate Analysis
 J. Neurosci.                         Journal of Neuroscience
 J. Neurosci. Methods                 Journal of Neuroscience Methods
 J. Open Source Softw.                Journal of Open Source Software
-J. Phys. A                           Journal of Physics A: Mathematical and Theoretical
 J. Phys. A                           Journal of Physics A
+J. Phys. A                           Journal of Physics A: Mathematical and Theoretical
 J. Phys. Complex.                    Journal of Physics: Complexity
 J. Phys. Soc. Japan                  Journal of the Physical Society of Japan
 J. Public Health Pol.                Journal of Public Health Policy
@@ -156,6 +156,7 @@ Nat. Neurosci.                       Nature Neuroscience
 Nat. Photonics                       Nature Photonics
 Nat. Phys.                           Nature Physics
 Nat. Rev. Microbiol.                 Nature Reviews Microbiology
+Nat. Rev. Neurosci.                  Nature Reviews Neuroscience
 Nat. Rev. Phys.                      Nature Reviews Physics
 Nature                               Nature
 Netw. Comput. Neural Syst.           Network: Computation in Neural Systems
