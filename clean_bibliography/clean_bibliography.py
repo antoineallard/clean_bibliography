@@ -87,7 +87,7 @@ class Bibliography:
                 page = page.split('-')[0]
                 page = page.replace('.','dot')
                 page = page.replace(':','dot')
-            elif 'eprinttype' in entry:
+            if 'eprinttype' in entry:
                 if entry['eprinttype'] == 'arxiv':
                     if 'eprint' in entry:
                         page = entry['eprint'].split('.')[1]
