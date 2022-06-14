@@ -44,6 +44,7 @@ Calif. L. Rev.                            California Law Review
 Can. J. Philos.                           Canadian Journal of Philosophy
 Cell                                      Cell
 Cell Syst.                                Cell Systems
+Cereb. Cortex                             Cerebral Cortex
 Chaos                                     Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos                                     Chaos
 Chaos Solitons Fractals                   Chaos, Solitons & Fractals
@@ -58,6 +59,7 @@ Comput. Sci. Eng.                         Computing in Science & Engineering
 Conn. L. Rev.                             Connecticut Law Review
 Contemp. Phys.                            Contemporary Physics
 Curr. Opin. Neurobiol.                    Current Opinion in Neurobiology
+Cytom. A                                  Cytometry Part A
 Dialogues Clin. Neurosci.                 Dialogues in Clinical Neuroscience
 Ecography                                 Ecography
 Ecol. Complex.                            Ecological Complexity
