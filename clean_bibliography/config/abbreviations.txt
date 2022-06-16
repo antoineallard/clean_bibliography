@@ -2,8 +2,6 @@
 # Using the ISO-4 standard of journal abbreviations
 #
 Abbreviated Name                          Complete Name
-Computing     Computing
-J. Anthropol. Res.    Journal of Anthropological Research
 Accromath                                 Accromath
 ACM Comput. Surv.                         ACM Computing Surveys
 Am. J. Epidemiol.                         American Journal of Epidemiology
@@ -58,6 +56,7 @@ Complexity                                Complexity
 Comput. Phys.                             Computers in Physics
 Comput. Phys. Commun.                     Computer Physics Communications
 Comput. Sci. Eng.                         Computing in Science & Engineering
+Computing                                 Computing
 Conn. L. Rev.                             Connecticut Law Review
 Contemp. Phys.                            Contemporary Physics
 Curr. Opin. Neurobiol.                    Current Opinion in Neurobiology
@@ -98,6 +97,7 @@ Interdiscip. Perspect. Infect. Dis.       Interdisciplinary Perspectives on Infe
 iScience                                  iScience
 J. Am. Stat. Assoc.                       Journal of the American Statistical Association
 J. Anim. Ecol.                            Journal of Animal Ecology
+J. Anthropol. Res.                        Journal of Anthropological Research
 J. Appl. Probab.                          Journal of Applied Probability
 J. Bus. Res.                              Journal of Business Research
 J. Classif.                               Journal of Classification
