@@ -2,6 +2,8 @@
 # Using the ISO-4 standard of journal abbreviations
 #
 Abbreviated Name                          Complete Name
+Computing     Computing
+J. Anthropol. Res.    Journal of Anthropological Research
 Accromath                                 Accromath
 ACM Comput. Surv.                         ACM Computing Surveys
 Am. J. Epidemiol.                         American Journal of Epidemiology
