@@ -61,6 +61,8 @@ Conn. L. Rev.                             Connecticut Law Review
 Contemp. Phys.                            Contemporary Physics
 Contr. Biol. Lab. Kyoto Univ.             Contributions from the Biological Laboratory, Kyoto University
 Curr. Opin. Neurobiol.                    Current Opinion in Neurobiology
+Curr. Opin. Struct. Biol.                 Current Opinion in Structural Biology
+Curr. Res. J. Biol. Sci.                  Current Research in Structural Biology
 Cytom. A                                  Cytometry Part A
 Dialogues Clin. Neurosci.                 Dialogues in Clinical Neuroscience
 Ecography                                 Ecography
@@ -78,6 +80,7 @@ Eur. Phys. J. B                           The European Physical Journal B
 Eurosurveillance                          Eurosurveillance
 Found. Trends Mach. Learn.                Foundations and Trends in Machine Learning
 Front. Artif. Intell.                     Frontiers in Artificial Intelligence
+Front. Mol. Biosci.                       Frontiers in Molecular Biosciences
 Front. Phys.                              Frontiers in Physics
 Front. Physiol.                           Frontiers in Physiology
 Front. Public Health                      Frontiers in Public Health
