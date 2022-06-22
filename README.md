@@ -5,7 +5,7 @@ This modules provides a set of functions to clean and check bibfiles to their us
 
 ### Examples
 
-The functionalities of the module are illustrated via the following scripts:
+How to use the module is illustrated in the following scripts:
 
 - [clean_bibfile.py](examples/clean_bibfile.py): Removes superfluous fields (which are not included in [fields_to_keep.json]) from a specified bib file and abbreviates the journal names, if applicable (see [abbreviations.txt]).
 
@@ -38,10 +38,11 @@ The fields to keep are specified in [fields_to_keep.json]. Note that all fields 
 
 The fields that should minimally be present in any entries as specified in [minimal_fields.json].
 
-The journal abbreviations are specified in [abbreviations.txt]. Note that journals for which no abbreviation is provided will trigger a warning message and the original journal name will be kept in the new bib file.
+The journal abbreviations are specified in [abbreviations.txt]. Note that journals for which no abbreviation is provided will trigger a warning message and the original journal name will be kept in the new bib file. The script [cleanup_abbreviations.py] sorts and cleans [abbreviations.txt] and should be used whenever a new abbreviation is added.
 
 
 
-[abbreviations.txt]:   clean_bibliography/config/abbreviations.txt
-[fields_to_keep.json]: clean_bibliography/config/fields_to_keep.json
-[minimal_fields.json]: clean_bibliography/config/minimal_fields.json
+[abbreviations.txt]:         clean_bibliography/config/abbreviations.txt
+[cleanup_abbreviations.py] : clean_bibliography/config/cleanup_abbreviations.py
+[fields_to_keep.json]:       clean_bibliography/config/fields_to_keep.json
+[minimal_fields.json]:       clean_bibliography/config/minimal_fields.json
