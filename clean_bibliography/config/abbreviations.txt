@@ -45,8 +45,8 @@ Can. J. Philos.                           Canadian Journal of Philosophy
 Cell                                      Cell
 Cell Syst.                                Cell Systems
 Cereb. Cortex                             Cerebral Cortex
-Chaos                                     Chaos
 Chaos                                     Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                     Chaos
 Chaos Solitons Fractals                   Chaos, Solitons & Fractals
 Clin. Infect. Dis.                        Clinical Infectious Diseases
 CMJ                                       The College Mathematics Journal
@@ -127,8 +127,8 @@ J. Multivar. Anal.                        Journal of Multivariate Analysis
 J. Neurosci.                              Journal of Neuroscience
 J. Neurosci. Methods                      Journal of Neuroscience Methods
 J. Open Source Softw.                     Journal of Open Source Software
-J. Phys. A                                Journal of Physics A: Mathematical and Theoretical
 J. Phys. A                                Journal of Physics A
+J. Phys. A                                Journal of Physics A: Mathematical and Theoretical
 J. Phys. Complex.                         Journal of Physics: Complexity
 J. Phys. Soc. Japan                       Journal of the Physical Society of Japan
 J. Public Health Pol.                     Journal of Public Health Policy
@@ -162,6 +162,7 @@ Mathematics                               Mathematics
 medRxiv                                   medRxiv
 Mol. Biosyst.                             Molecular BioSystems
 N. Engl. J. Med.                          New England Journal of Medicine
+Nat. Biomed. Eng.                         Nature Biomedical Engineering
 Nat. Commun.                              Nature Communications
 Nat. Comput. Sci.                         Nature Computational Science
 Nat. Hum. Behav.                          Nature Human Behaviour
@@ -181,6 +182,7 @@ Neural Comput.                            Neural Computation
 Neural Netw.                              Neural Networks
 Neurocomputing                            Neurocomputing
 NeuroImage                                NeuroImage
+NeuroImage Clin                           NeuroImage: Clinical
 Neurophotonics                            Neurophotonics
 New J. Phys.                              New Journal of Physics
 Nonlinearity                              Nonlinearity
@@ -199,8 +201,8 @@ Phys. Rev. Research                       Physical Review Research
 Phys. Rev. X                              Physical Review X
 Phys. Today                               Physics Today
 Phys. World                               Physics World
-Physica A                                 Physica A
 Physica A                                 Physica A: Statistical Mechanics and its Applications
+Physica A                                 Physica A
 Physica D                                 Physica D
 Physics                                   Physics
 PLOS Biol.                                PLOS Biology
@@ -227,8 +229,8 @@ Sci. Am.                                  Scientific American
 Sci. China Inf. Sci.                      Science China Information Sciences
 Sci. China Life Sci.                      Science China Life Sciences
 Sci. Rep.                                 Scientific Reports
-Science                                   Science (New York, N.Y.)
 Science                                   Science
+Science                                   Science (New York, N.Y.)
 SIAM J. Appl. Math.                       SIAM Journal on Applied Mathematics
 SIAM J. Discrete Math.                    SIAM Journal on Discrete Mathematics
 SIAM J. Financial Math.                   SIAM Journal on Financial Mathematics
