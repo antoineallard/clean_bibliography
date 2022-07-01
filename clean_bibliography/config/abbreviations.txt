@@ -50,8 +50,8 @@ Can. J. Psychiatry                             The Canadian Journal of Psychiatr
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
 Cereb. Cortex                                  Cerebral Cortex
-Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Clin. Infect. Dis.                             Clinical Infectious Diseases
@@ -98,9 +98,10 @@ Glob. Health                                   Globalization and Health
 Human Brain Mapping.                           Human Brain Mapping
 IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
-IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
+IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
+Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
 Infect. Dis. Model.                            Infectious Disease Modelling
 Int. J. Environ. Res. Public Health            International Journal of Environmental Research and Public Health
@@ -137,8 +138,8 @@ J. Multivar. Anal.                             Journal of Multivariate Analysis
 J. Neurosci.                                   Journal of Neuroscience
 J. Neurosci. Methods                           Journal of Neuroscience Methods
 J. Open Source Softw.                          Journal of Open Source Software
-J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
 J. Phys. A                                     Journal of Physics A
+J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
 J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Public Health Pol.                          Journal of Public Health Policy
