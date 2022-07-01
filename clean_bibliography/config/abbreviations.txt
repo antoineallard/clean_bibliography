@@ -16,6 +16,7 @@ Ann. Comb.                                     Annals of Combinatorics
 Ann. Math. Stat.                               The Annals of Mathematical Statistics
 Ann. N. Y. Acad. Sci.                          Annals of the New York Academy of Sciences
 Ann. Stat.                                     The Annals of Statistics
+Annu. Rev. Control Robot. Auton. Syst.         Annual Review of Control, Robotics, and Autonomous Systems
 Annu. Rev. Neurosci.                           Annual Review of Neuroscience
 Annu. Rev. Psychol.                            Annual Review of Psychology
 Annu. Rev. Stat. Appl.                         Annual Review of Statistics and Its Application
@@ -45,11 +46,12 @@ Bull. Sci. Technol. Soc.                       Bulletin of Science, Technology &
 C. R. Phys.                                    Comptes Rendus Physique
 Calif. L. Rev.                                 California Law Review
 Can. J. Philos.                                Canadian Journal of Philosophy
+Can. J. Psychiatry                             The Canadian Journal of Psychiatry
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
 Cereb. Cortex                                  Cerebral Cortex
-Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Clin. Infect. Dis.                             Clinical Infectious Diseases
 CMJ                                            The College Mathematics Journal
@@ -98,6 +100,7 @@ IEEE Trans. Inf. Theory                        IEEE Transactions on Information 
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
+Inf. Sci.                                      Information Sciences
 Infect. Dis. Model.                            Infectious Disease Modelling
 Int. J. Environ. Res. Public Health            International Journal of Environmental Research and Public Health
 Int. J. Infect. Dis.                           International Journal of Infectious Diseases
@@ -138,12 +141,12 @@ J. Phys. A                                     Journal of Physics A
 J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Public Health Pol.                          Journal of Public Health Policy
-J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Soc. Interface                           Journal of The Royal Society Interface
+J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
@@ -241,8 +244,8 @@ Sci. Am.                                       Scientific American
 Sci. China Inf. Sci.                           Science China Information Sciences
 Sci. China Life Sci.                           Science China Life Sciences
 Sci. Rep.                                      Scientific Reports
-Science                                        Science (New York, N.Y.)
 Science                                        Science
+Science                                        Science (New York, N.Y.)
 SIAM J. Appl. Math.                            SIAM Journal on Applied Mathematics
 SIAM J. Discrete Math.                         SIAM Journal on Discrete Mathematics
 SIAM J. Financial Math.                        SIAM Journal on Financial Mathematics
@@ -273,5 +276,3 @@ Virulence                                      Virulence
 Virus Evol.                                    Virus Evolution
 Wellcome Open Res.                             Wellcome Open Research
 WIREs Comput. Stat.                            Wiley Interdisciplinary Reviews: Computational Statistics
-Can. J. Psychiatry            The Canadian Journal of Psychiatry
-Inf. Sci.             Information Sciences
