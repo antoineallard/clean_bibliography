@@ -18,7 +18,7 @@ How to use the module is illustrated in the following scripts:
 
 ### Command-line tool
 
-The module's functionalities can be accessed through a command-line interface provided by [bibclean.py](bibclean.py).
+The module's functionalities can be accessed through a command-line interface provided by [cleanbib.py](cleanbib.py).
 ```bash
 # Cleans the entries in original.bib and writes them in cleaned.bib
 python bibclean.py original.bib -o cleaned.bib
@@ -43,6 +43,6 @@ The journal abbreviations are specified in [abbreviations.txt]. Note that journa
 
 
 [abbreviations.txt]:         clean_bibliography/config/abbreviations.txt
-[cleanup_abbreviations.py] : clean_bibliography/config/cleanup_abbreviations.py
+[cleanup_abbreviations.py]:  clean_bibliography/config/cleanup_abbreviations.py
 [fields_to_keep.json]:       clean_bibliography/config/fields_to_keep.json
 [minimal_fields.json]:       clean_bibliography/config/minimal_fields.json
