@@ -27,8 +27,8 @@ Appl. Netw. Sci.                               Applied Network Science
 Appl. Sci.                                     Applied Sciences
 arXiv                                          arXiv
 Astron. and Astrophys.                         Astronomy and Astrophysics
-Autism                                         Autism
 Austral Ecol.                                  Austral Ecology
+Autism                                         Autism
 Bayesian Anal.                                 Bayesian Analysis
 Behav. res. meth. instrum. comput.             Behavior Research Methods, Instruments, & Computers
 Bioinformatics                                 Bioinformatics
@@ -41,7 +41,9 @@ bioRxiv                                        bioRxiv
 BMC Infect. Dis.                               BMC Infectious Diseases
 BMC Med.                                       BMC Medicine
 BMJ                                            The BMJ
+Br. J. Pharmacol.                              British Journal of Pharmacology
 Br. J. Philos. Sci.                            The British Journal for the Philosophy of Science
+Brain Connect.                                 Brain Connectivity
 Brain Sci.                                     Brain Sciences
 Bull. Am. Math. Soc.                           Bulletin of the American Mathematical Society
 Bull. Math. Biol.                              Bulletin of Mathematical Biology
@@ -53,8 +55,8 @@ Can. J. Psychiatry                             The Canadian Journal of Psychiatr
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
 Cereb. Cortex                                  Cerebral Cortex
-Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos                                          Chaos
+Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Clin. Infect. Dis.                             Clinical Infectious Diseases
@@ -144,17 +146,17 @@ J. Multivar. Anal.                             Journal of Multivariate Analysis
 J. Neurosci.                                   Journal of Neuroscience
 J. Neurosci. Methods                           Journal of Neuroscience Methods
 J. Open Source Softw.                          Journal of Open Source Software
-J. Phys. A                                     Journal of Physics A
 J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
+J. Phys. A                                     Journal of Physics A
 J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Public Health Pol.                          Journal of Public Health Policy
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
@@ -178,6 +180,7 @@ Math. Financ.                                  Mathematical Finance
 Math. Horizons                                 Math Horizons
 Math. Intell.                                  The Mathematical Intelligencer
 Mathematics                                    Mathematics
+Matter                                         Matter
 medRxiv                                        medRxiv
 Mol. Biosyst.                                  Molecular BioSystems
 N. Engl. J. Med.                               New England Journal of Medicine
@@ -227,8 +230,8 @@ Phys. Rev. Research                            Physical Review Research
 Phys. Rev. X                                   Physical Review X
 Phys. Today                                    Physics Today
 Phys. World                                    Physics World
-Physica A                                      Physica A
 Physica A                                      Physica A: Statistical Mechanics and its Applications
+Physica A                                      Physica A
 Physica D                                      Physica D
 Physics                                        Physics
 PLOS Biol.                                     PLOS Biology
@@ -237,13 +240,13 @@ PLOS Curr.                                     PLOS Currents
 PLOS Med.                                      PLOS Medicine
 PLOS ONE                                       PLOS ONE
 PLOS Pathog.                                   PLOS Pathogens
+PROC VLDB ENDOW                                Proceedings of the VLDB Endowment
 Proc. Am. Philos. Soc.                         Proceedings of the American Philosophical Society
 Proc. Amer. Math. Soc.                         Proceedings of the American Mathematical Society
-Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences of the United States of America
+Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. R. Soc. A                                Proceedings of the Royal Society A
 Proc. R. Soc. B                                Proceedings of the Royal Society B
-PROC VLDB ENDOW                                Proceedings of the VLDB Endowment
 Publ. Math.                                    Publicationes Mathematicae
 Publ. Math. Inst. Hung. Acad. Sci.             Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 R. Soc. Open Sci.                              Royal Society Open Science
@@ -257,8 +260,9 @@ Sci. Am.                                       Scientific American
 Sci. China Inf. Sci.                           Science China Information Sciences
 Sci. China Life Sci.                           Science China Life Sciences
 Sci. Rep.                                      Scientific Reports
-Science                                        Science
 Science                                        Science (New York, N.Y.)
+Science                                        Science
+SIAM J. Appl. Dyn. Syst.                       SIAM Journal on Applied Dynamical Systems
 SIAM J. Appl. Math.                            SIAM Journal on Applied Mathematics
 SIAM J. Discrete Math.                         SIAM Journal on Discrete Mathematics
 SIAM J. Financial Math.                        SIAM Journal on Financial Mathematics
@@ -267,6 +271,7 @@ SIAM J. Math. Data Sci.                        SIAM Journal on Mathematics of Da
 SIAM News                                      SIAM News
 SIAM Rev.                                      SIAM Review
 Significance                                   Significance
+Soc. Netw. Anal. Min.                          Social Network Analysis and Mining
 Soc. Networks                                  Social Networks
 Soc. Text                                      Social Text
 Sociol. Methodol.                              Sociological Methodology
