@@ -40,5 +40,11 @@
         "pages",
         "title",
         "year"
+    ],
+    "techreport": [
+        "author",
+        "doi",
+        "title",
+        "year"
     ]
 }

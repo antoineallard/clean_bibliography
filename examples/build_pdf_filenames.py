@@ -64,6 +64,8 @@ for entry in bib._source_bib_database.entries:
         author = entry['editor']
     author = author.split(',')[0]
     author = author.replace("{\\'a}",'a')
+    author = author.replace("{\\'e}",'e')
+    author = author.replace("{\\'i}",'i')
     # author = author.replace('{\\\"a}','a')
     author = author.replace('{\\c C}','C')
     author = author.replace('{\\v s}','s')
@@ -78,6 +80,7 @@ for entry in bib._source_bib_database.entries:
     title = ''
     if 'title' in entry:
         title = entry['title']
+        title = title.replace('\\textendash ','-')
         title = title.replace('{','')
         title = title.replace('}','')
         title = title.replace(' ','_')

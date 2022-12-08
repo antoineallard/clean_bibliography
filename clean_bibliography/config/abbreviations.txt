@@ -4,7 +4,9 @@
 Abbreviated Name                               Complete Name
 Accromath                                      Accromath
 ACM Comput. Surv.                              ACM Computing Surveys
+ACM Comput. Surv.                              ACM Computing Surveys
 Algorithmica                                   Algorithmica
+Am. Anthropol.                                 American Anthropologist
 Am. J. Epidemiol.                              American Journal of Epidemiology
 Am. J. Phys.                                   American Journal of Physics
 Am. J. Public Health                           American Journal of Public Health
@@ -30,6 +32,7 @@ Astron. and Astrophys.                         Astronomy and Astrophysics
 Austral Ecol.                                  Austral Ecology
 Autism                                         Autism
 Bayesian Anal.                                 Bayesian Analysis
+Behav. Ecol.                                   Behavioral Ecology
 Behav. res. meth. instrum. comput.             Behavior Research Methods, Instruments, & Computers
 Bioinformatics                                 Bioinformatics
 Biol. Cybern.                                  Biological Cybernetics
@@ -81,6 +84,7 @@ Ecography                                      Ecography
 Ecol. Complex.                                 Ecological Complexity
 Ecol. Lett.                                    Ecology Letters
 Ecology                                        Ecology
+Electron. J. Stat.                             Electronic Journal of Statistics
 Emerging Infect. Dis.                          Emerging Infectious Diseases
 Entropy                                        Entropy
 Epidemics                                      Epidemics
@@ -103,8 +107,10 @@ Genome Biol.                                   Genome Biology
 Genome Res.                                    Genome Research
 Glob. Health                                   Globalization and Health
 Human Brain Mapping.                           Human Brain Mapping
+IEEE Signal Process. Lett.                     IEEE Signal Processing Letters
 IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
+IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
@@ -122,6 +128,7 @@ J. Am. Stat. Assoc.                            Journal of the American Statistic
 J. Anim. Ecol.                                 Journal of Animal Ecology
 J. Anthropol. Res.                             Journal of Anthropological Research
 J. Appl. Probab.                               Journal of Applied Probability
+J. Biol. Dyn.                                  Journal of Biological Dynamics
 J. Bus. Res.                                   Journal of Business Research
 J. Cell. Sci.                                  Journal of Cell Science
 J. Classif.                                    Journal of Classification
@@ -130,6 +137,7 @@ J. Comb. Theory A                              Journal of Combinatorial Theory A
 J. Commun.                                     Journal of Communication
 J. Commun. Inq.                                Journal of Communication Inquiry
 J. Complex Netw.                               Journal of Complex Networks
+J. Comput. Appl. Math.                         Journal of Computational and Applied Mathematics
 J. Comput. Appl. Math.                         Journal of Computational and Applied Mathematics
 J. Comput. Graph. Stat.                        Journal of Computational and Graphical Statistics
 J. Comput. Neurosci.                           Journal of Computational Neuroscience
@@ -146,10 +154,11 @@ J. Multivar. Anal.                             Journal of Multivariate Analysis
 J. Neurosci.                                   Journal of Neuroscience
 J. Neurosci. Methods                           Journal of Neuroscience Methods
 J. Open Source Softw.                          Journal of Open Source Software
-J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
 J. Phys. A                                     Journal of Physics A
+J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
 J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
+J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
 J. Public Health Pol.                          Journal of Public Health Policy
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Soc. Interface                           Journal of the Royal Society Interface
@@ -182,6 +191,8 @@ Math. Intell.                                  The Mathematical Intelligencer
 Mathematics                                    Mathematics
 Matter                                         Matter
 medRxiv                                        medRxiv
+Methods Appl. Anal.                            Methods and Applications of Analysis
+Methods Ecol. Evol.                            Methods in Ecology and Evolution
 Mol. Biosyst.                                  Molecular BioSystems
 N. Engl. J. Med.                               New England Journal of Medicine
 Nat. Biomed. Eng.                              Nature Biomedical Engineering
@@ -201,6 +212,7 @@ Nat. Rev. Neurosci.                            Nature Reviews Neuroscience
 Nat. Rev. Phys.                                Nature Reviews Physics
 Nature                                         Nature
 Netw. Comput. Neural Syst.                     Network: Computation in Neural Systems
+Netw. Sci.                                     Network Science
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
 Neurocomputing                                 Neurocomputing
@@ -218,6 +230,7 @@ Oikos                                          Oikos
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
@@ -240,6 +253,7 @@ PLOS Curr.                                     PLOS Currents
 PLOS Med.                                      PLOS Medicine
 PLOS ONE                                       PLOS ONE
 PLOS Pathog.                                   PLOS Pathogens
+PNAS Nexus                                     PNAS Nexus
 PROC VLDB ENDOW                                Proceedings of the VLDB Endowment
 Proc. Am. Philos. Soc.                         Proceedings of the American Philosophical Society
 Proc. Amer. Math. Soc.                         Proceedings of the American Mathematical Society
@@ -277,6 +291,7 @@ Soc. Text                                      Social Text
 Sociol. Methodol.                              Sociological Methodology
 Sociologica                                    Sociologica
 Sociometry                                     Sociometry
+Softw. Pract. Exp.                             Software: Practice and Experience
 SoftwareX                                      SoftwareX
 SSRN Electronic Journal                        SSRN Electronic Journal
 Stan. L. Rev.                                  Stanford Law Review
