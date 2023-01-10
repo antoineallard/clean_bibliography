@@ -128,6 +128,15 @@ class Bibliography:
                     # if 'eprint' in entry:
                     #     entry.pop('journal', None)
                     #     entry.pop('pages', None)
+            if 'publisher' in entry:
+                if entry['publisher'].replace('{','').replace('}','') == 'medRxiv':
+                    entry_type = 'techreport'
+                    entry['ENTRYTYPE'] = entry_type
+                    entry['type'] = 'Preprint'
+                    entry['number'] = 'medRxiv:' + entry['pages']
+                    # if 'eprint' in entry:
+                    #     entry.pop('journal', None)
+                    #     entry.pop('pages', None)
 
         if entry_type in ['article']:
             self._abbreviate_publication_name(entry, verbose)
