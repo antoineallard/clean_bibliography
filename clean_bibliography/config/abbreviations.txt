@@ -165,6 +165,7 @@ J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
 J. Public Health Pol.                          Journal of Public Health Policy
+J. Stat. Softw.                                Journal of Statistical Software
 J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
@@ -235,6 +236,7 @@ Nonlinearity                                   Nonlinearity
 Not. Am. Math. Soc.                            Notices of the American Mathematical Society
 npj Parkinsons Dis.                            npj Parkinson's Disease
 Oikos                                          Oikos
+Pattern Recognit.                              Pattern Recognition
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
