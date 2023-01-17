@@ -57,12 +57,13 @@ Can. J. Psychiatry                             The Canadian Journal of Psychiatr
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
 Cereb. Cortex                                  Cerebral Cortex
-Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Clin. Infect. Dis.                             Clinical Infectious Diseases
 CMJ                                            The College Mathematics Journal
+Cognition                                      Cognition
 Comb. Probab. Comput.                          Combinatorics, Probability and Computing
 Commun. Phys.                                  Communications Physics
 Complexity                                     Complexity
