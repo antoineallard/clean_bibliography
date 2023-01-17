@@ -4,6 +4,7 @@
 Abbreviated Name                               Complete Name
 Accromath                                      Accromath
 ACM Comput. Surv.                              ACM Computing Surveys
+ACM SIGACT News                                ACM SIGACT News
 Algorithmica                                   Algorithmica
 Am. J. Epidemiol.                              American Journal of Epidemiology
 Am. J. Phys.                                   American Journal of Physics
@@ -79,6 +80,7 @@ Ecography                                      Ecography
 Ecol. Complex.                                 Ecological Complexity
 Ecol. Lett.                                    Ecology Letters
 Ecology                                        Ecology
+Electron. J. Stat.                             Electronic Journal of Statistics
 Emerging Infect. Dis.                          Emerging Infectious Diseases
 Entropy                                        Entropy
 Epidemics                                      Epidemics
@@ -86,6 +88,7 @@ Epidemiol. Infect.                             Epidemiology and Infection
 EPJ Data Sci.                                  EPJ Data Science
 EPL                                            EPL (Europhysics Letters)
 Ethics Inf. Technol.                           Ethics and Information Technology
+EURASIP J. Adv. Signal Process.                EURASIP Journal on Advances in Signal Processing
 Eur. J. Phys.                                  European Journal of Physics
 Eur. Phys. J. B                                The European Physical Journal B
 Eurosurveillance                               Eurosurveillance
@@ -239,6 +242,7 @@ PLOS ONE                                       PLOS ONE
 PLOS Pathog.                                   PLOS Pathogens
 Proc. Am. Philos. Soc.                         Proceedings of the American Philosophical Society
 Proc. Amer. Math. Soc.                         Proceedings of the American Mathematical Society
+Proc. Innov. Appl. Artif. Intell. Conf.        Proceedings of the AAAI Conference on Artificial Intelligence
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences of the United States of America
 Proc. R. Soc. A                                Proceedings of the Royal Society A
@@ -252,6 +256,7 @@ Random Struct. Algorithms                      Random Structures & Algorithms
 Rev. Mod. Phys.                                Reviews of Modern Physics
 Rose-Hulman Undergrad. Math J.                 Rose-Hulman Undergraduate Mathematics Journal
 Sankhya Ser. A                                 Sankhya A
+Scand. J. Stat.                                Scandinavian Journal of Statistics
 Sci. Adv.                                      Science Advances
 Sci. Am.                                       Scientific American
 Sci. China Inf. Sci.                           Science China Information Sciences
