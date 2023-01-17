@@ -55,5 +55,15 @@
         "volume",
         "year",
         "url"
+    ],
+    "techreport": [
+        "author",
+        "doi",
+        "institution",
+        "title",
+        "type",
+        "number",
+        "url",
+        "year"
     ]
 }

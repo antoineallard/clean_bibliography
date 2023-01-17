@@ -82,10 +82,10 @@ class Bibliography:
 
         entry_type = entry['ENTRYTYPE']
 
-        if entry_type == 'article':
-            if 'journal' in entry:
-                if entry['journal'] == 'arXiv':
-                    entry_type = 'preprint'
+        # if entry_type == 'article':
+        #     if 'journal' in entry:
+        #         if entry['journal'] == 'arXiv':
+        #             entry_type = 'preprint'
 
         if entry_type not in self._minimal_fields:
             if entry_type not in self._missing_entry_types:
@@ -108,6 +108,35 @@ class Bibliography:
     def _clean_entry(self, entry, keep_keywords, warn_if_nonempty, warn_if_missing_fields, verbose):
 
         entry_type = entry['ENTRYTYPE']
+
+        # if entry_type == 'article':
+        #     if 'journal' in entry:
+        #         if entry['journal'] == 'arXiv':
+        #             entry_type = 'techreport'
+        #             entry['ENTRYTYPE'] = entry_type
+        #             entry['type'] = 'Preprint'
+        #             if 'eprint' in entry:
+        #                 entry.pop('journal', None)
+        #                 entry.pop('pages', None)
+
+        if entry_type == 'misc':
+            if 'archiveprefix' in entry:
+                if entry['archiveprefix'] == 'arXiv':
+                    entry_type = 'techreport'
+                    entry['ENTRYTYPE'] = entry_type
+                    entry['type'] = 'Preprint'
+                    # if 'eprint' in entry:
+                    #     entry.pop('journal', None)
+                    #     entry.pop('pages', None)
+            if 'publisher' in entry:
+                if entry['publisher'].replace('{','').replace('}','') == 'medRxiv':
+                    entry_type = 'techreport'
+                    entry['ENTRYTYPE'] = entry_type
+                    entry['type'] = 'Preprint'
+                    entry['number'] = 'medRxiv:' + entry['pages']
+                    # if 'eprint' in entry:
+                    #     entry.pop('journal', None)
+                    #     entry.pop('pages', None)
 
         if entry_type in ['article']:
             self._abbreviate_publication_name(entry, verbose)
@@ -141,12 +170,12 @@ class Bibliography:
         if warn_if_missing_fields and verbose:
             self._check_for_missing_fields(entry)
 
-        if entry_type == 'article':
-            if 'journal' in entry:
-                if entry['journal'] == 'arXiv':
-                    if 'eprint' in entry:
-                        entry.pop('journal', None)
-                        entry.pop('pages', None)
+        # if entry_type == 'article':
+        #     if 'journal' in entry:
+        #         if entry['journal'] == 'arXiv':
+        #             if 'eprint' in entry:
+        #                 entry.pop('journal', None)
+        #                 entry.pop('pages', None)
 
 
     def _display_missing_entry_types(self):

@@ -8,6 +8,6 @@ import subprocess
 
 source_bibfile = 'references.bib'
 
-cmd = ['python', '../cleanbib.py', source_bibfile, '-o', source_bibfile, '-q']
+cmd = ['python', '../cleanbib.py', source_bibfile, '-o', source_bibfile]
 
 subprocess.run(cmd)
