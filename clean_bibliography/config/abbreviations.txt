@@ -58,14 +58,15 @@ Can. J. Psychiatry                             The Canadian Journal of Psychiatr
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
 Cereb. Cortex                                  Cerebral Cortex
-Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos                                          Chaos
+Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Clin. Infect. Dis.                             Clinical Infectious Diseases
 CMJ                                            The College Mathematics Journal
 Cognition                                      Cognition
 Comb. Probab. Comput.                          Combinatorics, Probability and Computing
+Commun. ACM                                    Communications of the ACM
 Commun. Phys.                                  Communications Physics
 Complexity                                     Complexity
 Comput. Phys.                                  Computers in Physics
@@ -95,7 +96,6 @@ Epidemiol. Infect.                             Epidemiology and Infection
 EPJ Data Sci.                                  EPJ Data Science
 EPL                                            EPL (Europhysics Letters)
 Ethics Inf. Technol.                           Ethics and Information Technology
-EURASIP J. Adv. Signal Process.                EURASIP Journal on Advances in Signal Processing
 Eur. J. Phys.                                  European Journal of Physics
 Eur. Phys. J. B                                The European Physical Journal B
 EURASIP J. Adv. Signal Process.                EURASIP Journal on Advances in Signal Processing
@@ -143,7 +143,6 @@ J. Comb. Theory A                              Journal of Combinatorial Theory A
 J. Commun.                                     Journal of Communication
 J. Commun. Inq.                                Journal of Communication Inquiry
 J. Complex Netw.                               Journal of Complex Networks
-J. Comput. Appl. Math.                         Journal of Computational and Applied Mathematics
 J. Comput. Appl. Math.                         Journal of Computational and Applied Mathematics
 J. Comput. Graph. Stat.                        Journal of Computational and Graphical Statistics
 J. Comput. Neurosci.                           Journal of Computational Neuroscience
@@ -270,7 +269,6 @@ Proc. Amer. Math. Soc.                         Proceedings of the American Mathe
 Proc. Innov. Appl. Artif. Intell. Conf.        Proceedings of the AAAI Conference on Artificial Intelligence
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences of the United States of America
-Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. R. Soc. A                                Proceedings of the Royal Society A
 Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
