@@ -159,8 +159,8 @@ J. Multivar. Anal.                             Journal of Multivariate Analysis
 J. Neurosci.                                   Journal of Neuroscience
 J. Neurosci. Methods                           Journal of Neuroscience Methods
 J. Open Source Softw.                          Journal of Open Source Software
-J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
 J. Phys. A                                     Journal of Physics A
+J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
 J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
@@ -220,6 +220,7 @@ Nat. Rev. Neurosci.                            Nature Reviews Neuroscience
 Nat. Rev. Phys.                                Nature Reviews Physics
 Nature                                         Nature
 Netw. Comput. Neural Syst.                     Network: Computation in Neural Systems
+Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
@@ -252,8 +253,8 @@ Phys. Rev. Research                            Physical Review Research
 Phys. Rev. X                                   Physical Review X
 Phys. Today                                    Physics Today
 Phys. World                                    Physics World
-Physica A                                      Physica A: Statistical Mechanics and its Applications
 Physica A                                      Physica A
+Physica A                                      Physica A: Statistical Mechanics and its Applications
 Physica D                                      Physica D
 Physics                                        Physics
 PLOS Biol.                                     PLOS Biology
@@ -270,13 +271,14 @@ Proc. Innov. Appl. Artif. Intell. Conf.        Proceedings of the AAAI Conferenc
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences of the United States of America
 Proc. R. Soc. A                                Proceedings of the Royal Society A
-Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
+Proc. R. Soc. B                                Proceedings of the Royal Society B
 Publ. Math.                                    Publicationes Mathematicae
 Publ. Math. Inst. Hung. Acad. Sci.             Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 R. Soc. Open Sci.                              Royal Society Open Science
 Radiology: Cardiothoracic Imaging              Radiology: Cardiothoracic Imaging
 Random Struct. Algorithms                      Random Structures & Algorithms
+Rev. Med. Virol.                               Reviews in Medical Virology
 Rev. Mod. Phys.                                Reviews of Modern Physics
 Rose-Hulman Undergrad. Math J.                 Rose-Hulman Undergraduate Mathematics Journal
 Sankhya Ser. A                                 Sankhya A
@@ -287,8 +289,8 @@ Sci. China Inf. Sci.                           Science China Information Science
 Sci. China Life Sci.                           Science China Life Sciences
 Sci. Data                                      Scientific Data
 Sci. Rep.                                      Scientific Reports
-Science                                        Science (New York, N.Y.)
 Science                                        Science
+Science                                        Science (New York, N.Y.)
 SIAM J. Appl. Dyn. Syst.                       SIAM Journal on Applied Dynamical Systems
 SIAM J. Appl. Math.                            SIAM Journal on Applied Mathematics
 SIAM J. Discrete Math.                         SIAM Journal on Discrete Mathematics
