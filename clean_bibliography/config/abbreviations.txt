@@ -2,6 +2,7 @@
 # Using the ISO-4 standard of journal abbreviations
 #
 Abbreviated Name                               Complete Name
+J. Organ. Behav.       Journal of Organizational Behavior
 Accromath                                      Accromath
 ACM Comput. Surv.                              ACM Computing Surveys
 ACM SIGACT News                                ACM SIGACT News
