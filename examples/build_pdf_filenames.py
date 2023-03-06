@@ -30,8 +30,8 @@ for entry in bib._source_bib_database.entries:
         journal = journal.replace('.', '')
         journal = journal.replace(' ', '')
         journal = journal.replace('/', '')
-    elif 'eprinttype' in entry:
-        if entry['eprinttype'] == 'arxiv':
+    elif 'archiveprefix' in entry:
+        if entry['archiveprefix'] == 'arxiv':
             journal = 'arXiv'
 
     year = ''
@@ -41,10 +41,10 @@ for entry in bib._source_bib_database.entries:
     volume = ''
     if 'volume' in entry:
         volume = entry['volume'].split('-')[0]
-    elif 'eprinttype' in entry:
-        if entry['eprinttype'] == 'arxiv':
+    elif 'archiveprefix' in entry:
+        if entry['archiveprefix'] == 'arxiv':
             if 'eprint' in entry:
-                volume = entry['eprint'].split('.')[0]
+                volume = entry['eprint'].split(':')[1].split('.')[0]
 
     page = ''
     if 'pages' in entry:
@@ -52,8 +52,8 @@ for entry in bib._source_bib_database.entries:
         page = page.split('-')[0]
         page = page.replace('.','dot')
         page = page.replace(':','dot')
-    if 'eprinttype' in entry:
-        if entry['eprinttype'] == 'arxiv':
+    if 'archiveprefix' in entry:
+        if entry['archiveprefix'] == 'arxiv':
             if 'eprint' in entry:
                 page = entry['eprint'].split('.')[1]
 
@@ -67,6 +67,7 @@ for entry in bib._source_bib_database.entries:
     author = author.replace("{\\'e}",'e')
     author = author.replace("{\\'i}",'i')
     author = author.replace("{\\'u}",'u')
+    author = author.replace("{\\^o}",'o')
     # author = author.replace('{\\\"a}','a')
     author = author.replace('{\\c C}','C')
     author = author.replace('{\\c c}','c')
@@ -82,6 +83,7 @@ for entry in bib._source_bib_database.entries:
     title = ''
     if 'title' in entry:
         title = entry['title']
+        title = title.replace("\\'e",'e')
         title = title.replace('\\textendash ','-')
         title = title.replace('{','')
         title = title.replace('}','')
@@ -119,7 +121,15 @@ for entry in bib._source_bib_database.entries:
         edition = edition.replace(' ', '')
         edition = edition.replace('edition', '')
 
-    if entry['ENTRYTYPE'] == 'article':
+    booktitle = ''
+    if 'booktitle' in entry:
+        booktitle = entry['booktitle']
+        if booktitle in bib._abbrev_journal_names:
+            booktitle = bib._abbrev_journal_names[booktitle]
+        else:
+            print(print('No abbreviation provided for conference: {}. Please check the name of the conference or add the abbreviation to config/abbreviations.txt'.format(booktitle)))
+
+    if entry['ENTRYTYPE'] == 'article' or entry['archiveprefix'] == 'arxiv':
         info = []
         info.append(journal)
         info.append(year)
@@ -137,4 +147,15 @@ for entry in bib._source_bib_database.entries:
         info.append(title)
         if edition != '':
             info.append(edition)
+        print('.'.join(info) + '.pdf')
+
+    if entry['ENTRYTYPE'] == 'inproceedings':
+        info = []
+        info.append(booktitle)
+        info.append(year)
+        info.append(volume)
+        info.append(page)
+        if author != '':
+            info.append(author)
+        info.append(title)
         print('.'.join(info) + '.pdf')
