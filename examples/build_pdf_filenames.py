@@ -85,6 +85,7 @@ for entry in bib._source_bib_database.entries:
         title = entry['title']
         title = title.replace("\\'e",'e')
         title = title.replace('\\textendash ','-')
+        title = title.replace('\\textendash','-')
         title = title.replace('{','')
         title = title.replace('}','')
         title = title.replace('-','')
@@ -129,7 +130,7 @@ for entry in bib._source_bib_database.entries:
         else:
             print(print('No abbreviation provided for conference: {}. Please check the name of the conference or add the abbreviation to config/abbreviations.txt'.format(booktitle)))
 
-    if entry['ENTRYTYPE'] == 'article' or entry['archiveprefix'] == 'arxiv':
+    if entry['ENTRYTYPE'] == 'article' or ('archiveprefix' in entry and entry['archiveprefix'] == 'arxiv'):
         info = []
         info.append(journal)
         info.append(year)
@@ -153,7 +154,8 @@ for entry in bib._source_bib_database.entries:
         info = []
         info.append(booktitle)
         info.append(year)
-        info.append(volume)
+        if volume != '':
+            info.append(volume)
         info.append(page)
         if author != '':
             info.append(author)
