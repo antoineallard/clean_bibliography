@@ -121,7 +121,7 @@ class Bibliography:
 
         if entry_type == 'misc':
             if 'archiveprefix' in entry:
-                if entry['archiveprefix'] == 'arXiv':
+                if entry['archiveprefix'] == 'arxiv':
                     entry_type = 'techreport'
                     entry['ENTRYTYPE'] = entry_type
                     entry['type'] = 'Preprint'
