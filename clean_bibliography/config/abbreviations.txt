@@ -119,8 +119,8 @@ IEEE Signal Process. Lett.                     IEEE Signal Processing Letters
 IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
-IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
+IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
@@ -170,13 +170,13 @@ J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
 J. Public Health Pol.                          Journal of Public Health Policy
-J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Soc. Interface                           Journal of The Royal Society Interface
+J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
@@ -231,8 +231,8 @@ Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
-NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 NeurIPS                                        Advances in neural information processing systems (NeurIPS)
+NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 Neurocomputing                                 Neurocomputing
 NeuroImage                                     NeuroImage
 NeuroImage Clin                                NeuroImage: Clinical
@@ -250,8 +250,8 @@ Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
@@ -278,8 +278,8 @@ PROC VLDB ENDOW                                Proceedings of the VLDB Endowment
 Proc. Am. Philos. Soc.                         Proceedings of the American Philosophical Society
 Proc. Amer. Math. Soc.                         Proceedings of the American Mathematical Society
 Proc. Innov. Appl. Artif. Intell. Conf.        Proceedings of the AAAI Conference on Artificial Intelligence
-Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences of the United States of America
+Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. R. Soc. A                                Proceedings of the Royal Society A
 Proc. R. Soc. A                                Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences
 Proc. R. Soc. B                                Proceedings of the Royal Society B
@@ -308,6 +308,7 @@ SIAM J. Discrete Math.                         SIAM Journal on Discrete Mathemat
 SIAM J. Financial Math.                        SIAM Journal on Financial Mathematics
 SIAM J. Math. Anal.                            SIAM Journal on Mathematical Analysis
 SIAM J. Math. Data Sci.                        SIAM Journal on Mathematics of Data Science
+SIAM J. Matrix Anal. Appl.                     SIAM Journal on Matrix Analysis and Applications
 SIAM News                                      SIAM News
 SIAM Rev.                                      SIAM Review
 Significance                                   Significance
@@ -336,3 +337,5 @@ Virulence                                      Virulence
 Virus Evol.                                    Virus Evolution
 Wellcome Open Res.                             Wellcome Open Research
 WIREs Comput. Stat.                            Wiley Interdisciplinary Reviews: Computational Statistics
+WSDM17                                         Proceedings of the {{Tenth ACM International Conference}} on {{Web Search}} and {{Data Mining}}
+WWW21                                          Proceedings of the {{Web Conference}} 2021

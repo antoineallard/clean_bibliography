@@ -78,6 +78,7 @@ for entry in bib._source_bib_database.entries:
     author = author.replace("{\\'i}",'i')
     author = author.replace("{\\'u}",'u')
     author = author.replace("{\\^o}",'o')
+    author = author.replace("{\\'o}",'o')
     # author = author.replace('{\\\"a}','a')
     author = author.replace('{\\c C}','C')
     author = author.replace('{\\c c}','c')
