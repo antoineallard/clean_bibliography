@@ -170,8 +170,8 @@ J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
 J. Public Health Pol.                          Journal of Public Health Policy
-J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Soc. Interface                           Journal of the Royal Society Interface
+J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
@@ -339,3 +339,4 @@ Wellcome Open Res.                             Wellcome Open Research
 WIREs Comput. Stat.                            Wiley Interdisciplinary Reviews: Computational Statistics
 WSDM17                                         Proceedings of the {{Tenth ACM International Conference}} on {{Web Search}} and {{Data Mining}}
 WWW21                                          Proceedings of the {{Web Conference}} 2021
+WWW23                                          Proceedings of the {{ACM Web Conference}} 2023
