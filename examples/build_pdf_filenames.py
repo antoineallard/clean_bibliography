@@ -47,8 +47,8 @@ for entry in bib._source_bib_database.entries:
         volume = entry['volume'].split('-')[0]
     elif 'archiveprefix' in entry:
         if entry['archiveprefix'] == 'arxiv':
-            if 'eprint' in entry:
-                volume = entry['eprint'].split(':')[1].split('.')[0]
+            if 'number' in entry:
+                volume = entry['number'].split(':')[1].split('.')[0]
         elif entry['archiveprefix'] in ['medRxiv', 'bioRxiv']:
             if 'pages' in entry:
                 volume = ''.join(entry['pages'].split('.')[1:3])
