@@ -60,8 +60,8 @@ Can. J. Psychiatry                             The Canadian Journal of Psychiatr
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
 Cereb. Cortex                                  Cerebral Cortex
-Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Clin. Infect. Dis.                             Clinical Infectious Diseases
@@ -71,6 +71,7 @@ Comb. Probab. Comput.                          Combinatorics, Probability and Co
 Commun. ACM                                    Communications of the ACM
 Commun. Phys.                                  Communications Physics
 Complexity                                     Complexity
+Comput. Biol. Med.                             Computers in Biology and Medicine
 Comput. Phys.                                  Computers in Physics
 Comput. Phys. Commun.                          Computer Physics Communications
 Comput. Sci. Eng.                              Computing in Science & Engineering
@@ -170,8 +171,8 @@ J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
 J. Public Health Pol.                          Journal of Public Health Policy
-J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Soc. Interface                           Journal of The Royal Society Interface
+J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
