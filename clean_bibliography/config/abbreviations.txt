@@ -60,8 +60,8 @@ Can. J. Psychiatry                             The Canadian Journal of Psychiatr
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
 Cereb. Cortex                                  Cerebral Cortex
-Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Clin. Infect. Dis.                             Clinical Infectious Diseases
@@ -110,6 +110,7 @@ Found. Trends Mach. Learn.                     Foundations and Trends in Machine
 Front. Artif. Intell.                          Frontiers in Artificial Intelligence
 Front. Comput. Neurosci.                       Frontiers in Computational Neuroscience
 Front. Mol. Biosci.                            Frontiers in Molecular Biosciences
+Front. Neuroinform.                            Frontiers in Neuroinformatics
 Front. Neurosci.                               Frontiers in Neuroscience
 Front. Phys.                                   Frontiers in Physics
 Front. Physiol.                                Frontiers in Physiology
@@ -237,8 +238,8 @@ Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
-NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 NeurIPS                                        Advances in neural information processing systems (NeurIPS)
+NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 Neurocomputing                                 Neurocomputing
 NeuroImage                                     NeuroImage
 NeuroImage Clin                                NeuroImage: Clinical
@@ -269,8 +270,8 @@ Phys. Rev. Research                            Physical Review Research
 Phys. Rev. X                                   Physical Review X
 Phys. Today                                    Physics Today
 Phys. World                                    Physics World
-Physica A                                      Physica A: Statistical Mechanics and its Applications
 Physica A                                      Physica A
+Physica A                                      Physica A: Statistical Mechanics and its Applications
 Physica D                                      Physica D
 Physics                                        Physics
 PLOS Biol.                                     PLOS Biology
