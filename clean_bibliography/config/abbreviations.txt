@@ -20,6 +20,7 @@ Ann. Comb.                                     Annals of Combinatorics
 Ann. Math. Stat.                               The Annals of Mathematical Statistics
 Ann. N. Y. Acad. Sci.                          Annals of the New York Academy of Sciences
 Ann. Stat.                                     The Annals of Statistics
+Annu. Rev. Condens. Matter Phys.               Annual Review of Condensed Matter Physics
 Annu. Rev. Control Robot. Auton. Syst.         Annual Review of Control, Robotics, and Autonomous Systems
 Annu. Rev. Ecol. Evol. Syst                    Annual Review of Ecology, Evolution, and Systematics
 Annu. Rev. Neurosci.                           Annual Review of Neuroscience
@@ -238,8 +239,8 @@ Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
-NeurIPS                                        Advances in neural information processing systems (NeurIPS)
 NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
+NeurIPS                                        Advances in neural information processing systems (NeurIPS)
 Neurocomputing                                 Neurocomputing
 NeuroImage                                     NeuroImage
 NeuroImage Clin                                NeuroImage: Clinical
@@ -270,8 +271,8 @@ Phys. Rev. Research                            Physical Review Research
 Phys. Rev. X                                   Physical Review X
 Phys. Today                                    Physics Today
 Phys. World                                    Physics World
-Physica A                                      Physica A
 Physica A                                      Physica A: Statistical Mechanics and its Applications
+Physica A                                      Physica A
 Physica D                                      Physica D
 Physics                                        Physics
 PLOS Biol.                                     PLOS Biology
