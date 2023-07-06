@@ -101,6 +101,7 @@ Epidemics                                      Epidemics
 Epidemiol. Infect.                             Epidemiology and Infection
 EPJ Data Sci.                                  EPJ Data Science
 EPL                                            EPL (Europhysics Letters)
+EPL                                            Europhysics Letters
 Ethics Inf. Technol.                           Ethics and Information Technology
 Eur. J. Phys.                                  European Journal of Physics
 Eur. Phys. J. B                                The European Physical Journal B
@@ -182,9 +183,9 @@ J. R. Soc. Interface                           Journal of The Royal Society Inte
 J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
@@ -272,8 +273,8 @@ Phys. Rev. Research                            Physical Review Research
 Phys. Rev. X                                   Physical Review X
 Phys. Today                                    Physics Today
 Phys. World                                    Physics World
-Physica A                                      Physica A
 Physica A                                      Physica A: Statistical Mechanics and its Applications
+Physica A                                      Physica A
 Physica D                                      Physica D
 Physics                                        Physics
 PLOS Biol.                                     PLOS Biology
