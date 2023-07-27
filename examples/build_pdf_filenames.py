@@ -100,6 +100,7 @@ for entry in bib._source_bib_database.entries:
         title = title.replace("\\'e",'e')
         title = title.replace('\\textendash ','-')
         title = title.replace('\\textendash','-')
+        title = title.replace('\\textemdash','')
         title = title.replace('{','')
         title = title.replace('}','')
         title = title.replace('-','')
