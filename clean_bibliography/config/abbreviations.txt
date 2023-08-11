@@ -152,6 +152,7 @@ Infect. Dis. Model.                            Infectious Disease Modelling
 InfoCom                                        2011 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
 InfoCom                                        2011 {{IEEE Conference}} on {{Computer Communications Workshops}} ({{INFOCOM WKSHPS}})
 Int. J. Environ. Res. Public Health            International Journal of Environmental Research and Public Health
+Int. J. General Systems                        International Journal of General Systems
 Int. J. Infect. Dis.                           International Journal of Infectious Diseases
 Int. J. Theor. Phys.                           International Journal of Theoretical Physics
 Int. Stat. Rev.                                International Statistical Review
@@ -198,9 +199,9 @@ J. R. Soc. Interface                           Journal of the Royal Society Inte
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
@@ -279,9 +280,9 @@ Oikos                                          Oikos
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
