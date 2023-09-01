@@ -74,6 +74,7 @@ for entry in bib._source_bib_database.entries:
         author = entry['editor']
     author = author.split(',')[0]
     author = author.replace("{\\'a}",'a')
+    author = author.replace("{\\'c}",'c')
     author = author.replace("{\\'e}",'e')
     author = author.replace("{\\'i}",'i')
     author = author.replace("{\\l}",'l')
@@ -85,6 +86,7 @@ for entry in bib._source_bib_database.entries:
     author = author.replace('{\\c C}','C')
     author = author.replace('{\\c c}','c')
     author = author.replace('{\\v s}','s')
+    author = author.replace('{\\v z}','z')
     author = author.replace('{\\~n}','n')
     author = author.replace('{','')
     author = author.replace('}','')
@@ -129,7 +131,9 @@ for entry in bib._source_bib_database.entries:
         edition = entry['edition']
         edition = edition.replace('First',   '1st')
         edition = edition.replace('Second',  '2nd')
+        edition = edition.replace('2',  '2nd')
         edition = edition.replace('Third',   '3rd')
+        edition = edition.replace('3',  '3rd')
         edition = edition.replace('Fourth',  '4th')
         edition = edition.replace('Fifth',   '5th')
         edition = edition.replace('Sixth',   '6th')

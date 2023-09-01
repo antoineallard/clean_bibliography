@@ -64,10 +64,10 @@ Can. J. Philos.                                Canadian Journal of Philosophy
 Can. J. Psychiatry                             The Canadian Journal of Psychiatry
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
-Cereb. Cortex                                  Cerebral Cortex
 Cereb. Cortex                                  Cerebral cortex
-Chaos                                          Chaos
+Cereb. Cortex                                  Cerebral Cortex
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Clin. Infect. Dis.                             Clinical Infectious Diseases
@@ -121,6 +121,7 @@ Found. Trends Mach. Learn.                     Foundations and Trends in Machine
 Front. Aging Neurosci.                         Frontiers in Aging Neuroscience
 Front. Artif. Intell.                          Frontiers in Artificial Intelligence
 Front. Comput. Neurosci.                       Frontiers in Computational Neuroscience
+Front. Ecol. Evol.                             Frontiers in Ecology and Evolution
 Front. Mol. Biosci.                            Frontiers in Molecular Biosciences
 Front. Neuroinform.                            Frontiers in Neuroinformatics
 Front. Neurol.                                 Frontiers in Neurology
@@ -149,8 +150,8 @@ IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networki
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
 Infect. Dis. Model.                            Infectious Disease Modelling
-InfoCom                                        2011 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
 InfoCom                                        2011 {{IEEE Conference}} on {{Computer Communications Workshops}} ({{INFOCOM WKSHPS}})
+InfoCom                                        2011 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
 Int. J. Environ. Res. Public Health            International Journal of Environmental Research and Public Health
 Int. J. General Systems                        International Journal of General Systems
 Int. J. Infect. Dis.                           International Journal of Infectious Diseases
@@ -197,8 +198,8 @@ J. Policy Anal. Manage.                        Journal of Policy Analysis and Ma
 J. Public Health Pol.                          Journal of Public Health Policy
 J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Soc. Interface                           Journal of The Royal Society Interface
-J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
+J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
@@ -280,9 +281,9 @@ Oikos                                          Oikos
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
