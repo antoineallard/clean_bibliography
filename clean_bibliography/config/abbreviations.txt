@@ -64,10 +64,10 @@ Can. J. Philos.                                Canadian Journal of Philosophy
 Can. J. Psychiatry                             The Canadian Journal of Psychiatry
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
-Cereb. Cortex                                  Cerebral Cortex
 Cereb. Cortex                                  Cerebral cortex
-Chaos                                          Chaos
+Cereb. Cortex                                  Cerebral Cortex
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Clin. Infect. Dis.                             Clinical Infectious Diseases
@@ -135,8 +135,8 @@ Futurist                                       The Futurist
 Genome Biol.                                   Genome Biology
 Genome Res.                                    Genome Research
 Glob. Health                                   Globalization and Health
-Hum. Brain Mapp.                               Human Brain Mapping
 Hum. Brain Mapp.                               Human brain mapping
+Hum. Brain Mapp.                               Human Brain Mapping
 IEEE Internet Comput.                          IEEE Internet Computing
 IEEE J. Sel. Top. Signal Process.              IEEE Journal of Selected Topics in Signal Processing
 IEEE Signal Process. Lett.                     IEEE Signal Processing Letters
@@ -196,10 +196,10 @@ J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
 J. Public Health Pol.                          Journal of Public Health Policy
-J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Soc. Interface                           Journal of the Royal Society Interface
-J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
+J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
+J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
@@ -253,8 +253,8 @@ Nat. Phys.                                     Nature Physics
 Nat. Rev. Microbiol.                           Nature Reviews Microbiology
 Nat. Rev. Neurosci.                            Nature Reviews Neuroscience
 Nat. Rev. Phys.                                Nature Reviews Physics
-Nature                                         Nature
 Nature                                         nature
+Nature                                         Nature
 Netw. Comput. Neural Syst.                     Network: Computation in Neural Systems
 Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
@@ -265,8 +265,8 @@ NeurIPS                                        Advances in neural information pr
 Neurocomputing                                 Neurocomputing
 NeuroImage                                     NeuroImage
 NeuroImage                                     Neuroimage
-NeuroImage Clin.                               NeuroImage Clin
 NeuroImage Clin.                               NeuroImage: Clinical
+NeuroImage Clin.                               NeuroImage Clin
 Neuron                                         Neuron
 Neurophotonics                                 Neurophotonics
 Neurosci. Lett.                                Neuroscience Letters
@@ -281,9 +281,9 @@ Oikos                                          Oikos
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
@@ -313,8 +313,8 @@ Proc. Amer. Math. Soc.                         Proceedings of the American Mathe
 Proc. Innov. Appl. Artif. Intell. Conf.        Proceedings of the AAAI Conference on Artificial Intelligence
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences of the United States of America
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
-Proc. R. Soc. A                                Proceedings of the Royal Society A
 Proc. R. Soc. A                                Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences
+Proc. R. Soc. A                                Proceedings of the Royal Society A
 Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
 Psychiatr. Q.                                  Psychiatric Quarterly
@@ -359,6 +359,7 @@ Stan. L. Rev.                                  Stanford Law Review
 Stat. Comput.                                  Statistics and Computing
 Stat. Sci.                                     Statistical Science
 Stat. Sin.                                     Statistica Sinica
+Stochastic Process. Appl.                      Stochastic Processes and their Applications
 Sustain. Cities Soc.                           Sustainable Cities and Society
 Swiss Med. Wkly.                               Swiss Medical Weekly
 Systems                                        Systems
