@@ -130,6 +130,7 @@ Interdiscip. Perspect. Infect. Dis.            Interdisciplinary Perspectives on
 iScience                                       iScience
 ISME Commun.                                   ISME Communications
 J. Am. Stat. Assoc.                            Journal of the American Statistical Association
+J. Assoc. Inf. Sci. Technol.                   Journal of the American Society for Information Science and Technology
 J. Anim. Ecol.                                 Journal of Animal Ecology
 J. Anthropol. Res.                             Journal of Anthropological Research
 J. Appl. Probab.                               Journal of Applied Probability
@@ -178,6 +179,7 @@ J. Soc. Issues                                 Journal of Social Issues
 J. Soc. Struct.                                Journal of Social Structure
 J. Stat. Mech.                                 Journal of Statistical Mechanics
 J. Stat. Phys.                                 Journal of Statistical Physics
+J. Symb. Comput.                               Journal of Symbolic Computation
 J. Theor. Biol.                                Journal of Theoretical Biology
 J. Theor. Probab.                              Journal of Theoretical Probability
 JAMA                                           The Journal of the American Medical Association
@@ -273,6 +275,7 @@ Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Acade
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences of the United States of America
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. R. Soc. A                                Proceedings of the Royal Society A
+Proc. R. Soc. A                                Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences
 Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
 Publ. Math.                                    Publicationes Mathematicae
