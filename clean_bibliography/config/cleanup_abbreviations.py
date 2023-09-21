@@ -5,6 +5,8 @@ df = pandas.read_csv('abbreviations.txt', comment='#', sep='[ \s]{2,}', engine='
 
 df = df.iloc[df['Abbreviated Name'].str.lower().argsort()]
 
+df.drop_duplicates(inplace=True)
+
 with open('abbreviations.txt', 'w') as f:
 
     f.write('#\n')
