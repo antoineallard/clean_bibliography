@@ -70,6 +70,7 @@ Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
+Chem. Phys.                                    Chemical Physics
 Clin. Infect. Dis.                             Clinical Infectious Diseases
 CMJ                                            The College Mathematics Journal
 Cognition                                      Cognition
@@ -119,6 +120,7 @@ Eurosurveillance                               Eurosurveillance
 Found. Sci.                                    Foundations of Science
 Found. Trends Mach. Learn.                     Foundations and Trends in Machine Learning
 Front. Aging Neurosci.                         Frontiers in Aging Neuroscience
+Front. Appl. Math. Stat.                       Frontiers in Applied Mathematics and Statistics
 Front. Artif. Intell.                          Frontiers in Artificial Intelligence
 Front. Comput. Neurosci.                       Frontiers in Computational Neuroscience
 Front. Ecol. Evol.                             Frontiers in Ecology and Evolution
@@ -158,6 +160,7 @@ Int. J. Infect. Dis.                           International Journal of Infectio
 Int. J. Theor. Phys.                           International Journal of Theoretical Physics
 Int. Stat. Rev.                                International Statistical Review
 Interdiscip. Perspect. Infect. Dis.            Interdisciplinary Perspectives on Infectious Diseases
+Internet Math.                                 Internet Mathematics
 iScience                                       iScience
 ISME Commun.                                   ISME Communications
 J. Am. Stat. Assoc.                            Journal of the American Statistical Association
@@ -170,6 +173,7 @@ J. Bus. Res.                                   Journal of Business Research
 J. Cell. Sci.                                  Journal of Cell Science
 J. Classif.                                    Journal of Classification
 J. Clin. Microbiol.                            Journal of Clinical Microbiology
+J. Chem. Phys.                                 The Journal of Chemical Physics
 J. Comb. Theory A                              Journal of Combinatorial Theory A
 J. Commun.                                     Journal of Communication
 J. Commun. Inq.                                Journal of Communication Inquiry
@@ -323,6 +327,7 @@ Proc. R. Soc. B                                Proceedings of the Royal Society 
 Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
 Psychiatr. Q.                                  Psychiatric Quarterly
 Publ. Math.                                    Publicationes Mathematicae
+Publ. Math.                                    Publicationes Mathematicae Debrecen
 Publ. Math. Inst. Hung. Acad. Sci.             Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 R. Soc. Open Sci.                              Royal Society Open Science
 Radiology: Cardiothoracic Imaging              Radiology: Cardiothoracic Imaging
@@ -350,6 +355,7 @@ SIAM J. Matrix Anal. Appl.                     SIAM Journal on Matrix Analysis a
 SIAM News                                      SIAM News
 SIAM Rev.                                      SIAM Review
 Significance                                   Significance
+Small Group Res.                               Small Group Research
 Soc. Netw. Anal. Min.                          Social Network Analysis and Mining
 Soc. Networks                                  Social Networks
 Soc. Text                                      Social Text
@@ -363,9 +369,11 @@ Stan. L. Rev.                                  Stanford Law Review
 Stat. Comput.                                  Statistics and Computing
 Stat. Sci.                                     Statistical Science
 Stat. Sin.                                     Statistica Sinica
+Stoch. Process. their Appl.                    Stochastic Processes and their Applications
 Sustain. Cities Soc.                           Sustainable Cities and Society
 Swiss Med. Wkly.                               Swiss Medical Weekly
 Systems                                        Systems
+Theor. Comput. Sci.                            Theoretical Computer Science
 Transl. Psychiatry                             Translational psychiatry
 Transl. Psychiatry                             Translational Psychiatry
 Trends Cogn. Sci.                              Trends in Cognitive Sciences
