@@ -18,6 +18,7 @@ Am. Sci.                                       American Scientist
 Am. Stat.                                      The American Statistician
 Ann. Appl. Probab.                             The Annals of Applied Probability
 Ann. Comb.                                     Annals of Combinatorics
+Ann. Epidemiol.                                Annals of Epidemiology
 Ann. Math. Stat.                               The Annals of Mathematical Statistics
 Ann. N. Y. Acad. Sci.                          Annals of the New York Academy of Sciences
 Ann. Stat.                                     The Annals of Statistics
@@ -110,8 +111,8 @@ Entropy                                        Entropy
 Epidemics                                      Epidemics
 Epidemiol. Infect.                             Epidemiology and Infection
 EPJ Data Sci.                                  EPJ Data Science
-EPL                                            Europhysics Letters
 EPL                                            EPL (Europhysics Letters)
+EPL                                            Europhysics Letters
 Ethics Inf. Technol.                           Ethics and Information Technology
 Eur Neuropsychopharmacol                       European Neuropsychopharmacology
 Eur. J. Phys.                                  European Journal of Physics
@@ -207,9 +208,9 @@ J. R. Soc. Interface                           Journal of The Royal Society Inte
 J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
@@ -293,9 +294,9 @@ Pattern Recognit.                              Pattern Recognition
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
@@ -330,8 +331,8 @@ Proc. R. Soc. A                                Proceedings of the Royal Society 
 Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
 Psychiatr. Q.                                  Psychiatric Quarterly
-Publ. Math.                                    Publicationes Mathematicae
 Publ. Math.                                    Publicationes Mathematicae Debrecen
+Publ. Math.                                    Publicationes Mathematicae
 Publ. Math. Inst. Hung. Acad. Sci.             Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 R. Soc. Open Sci.                              Royal Society Open Science
 Radiology: Cardiothoracic Imaging              Radiology: Cardiothoracic Imaging
