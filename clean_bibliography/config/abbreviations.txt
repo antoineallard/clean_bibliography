@@ -145,6 +145,7 @@ Hum. Brain Mapp.                               Human brain mapping
 IEEE Internet Comput.                          IEEE Internet Computing
 IEEE J. Sel. Top. Signal Process.              IEEE Journal of Selected Topics in Signal Processing
 IEEE Signal Process. Lett.                     IEEE Signal Processing Letters
+IEEE Signal Process Mag.                       IEEE Signal Processing Magazine
 IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
@@ -183,6 +184,7 @@ J. Commun. Inq.                                Journal of Communication Inquiry
 J. Complex Netw.                               Journal of Complex Networks
 J. Comput. Appl. Math.                         Journal of Computational and Applied Mathematics
 J. Comput. Graph. Stat.                        Journal of Computational and Graphical Statistics
+J. Comput. Phys.                               Journal of Computational Physics
 J. Comput. Neurosci.                           Journal of Computational Neuroscience
 J. Comput.-Mediat. Commun.                     Journal of Computer-Mediated Communication
 J. Exp. Algorithmics                           ACM Journal of Experimental Algorithmics
@@ -192,6 +194,7 @@ J. Mach. Learn. Res.                           Journal of Machine Learning Resea
 J. Math. Biol.                                 Journal of Mathematical Biology
 J. Math. Ind.                                  Journal of Mathematics in Industry
 J. Math. Phys.                                 Journal of Mathematical Physics
+J. Math. Psychol.                              Journal of Mathematical Psychology
 J. Math. Sociol.                               The Journal of Mathematical Sociology
 J. Multivar. Anal.                             Journal of Multivariate Analysis
 J. Neurosci.                                   Journal of Neuroscience
