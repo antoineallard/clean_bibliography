@@ -101,6 +101,8 @@ for entry in bib._source_bib_database.entries:
     if 'title' in entry:
         title = entry['title']
         title = title.replace("\\'e",'e')
+        title = title.replace("\\l ",'l')
+        title = title.replace("\\.z",'z')
         title = title.replace('\\textendash ','-')
         title = title.replace('\\textendash','-')
         title = title.replace('\\textemdash','')
