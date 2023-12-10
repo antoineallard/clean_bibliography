@@ -111,8 +111,8 @@ Entropy                                        Entropy
 Epidemics                                      Epidemics
 Epidemiol. Infect.                             Epidemiology and Infection
 EPJ Data Sci.                                  EPJ Data Science
-EPL                                            EPL (Europhysics Letters)
 EPL                                            Europhysics Letters
+EPL                                            EPL (Europhysics Letters)
 Ethics Inf. Technol.                           Ethics and Information Technology
 Eur Neuropsychopharmacol                       European Neuropsychopharmacology
 Eur. J. Phys.                                  European Journal of Physics
@@ -150,8 +150,8 @@ IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
-IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
+IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
@@ -211,8 +211,8 @@ J. Policy Anal. Manage.                        Journal of Policy Analysis and Ma
 J. Public Health Pol.                          Journal of Public Health Policy
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Soc. Interface                           Journal of the Royal Society Interface
-J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
+J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
@@ -299,9 +299,9 @@ Pattern Recognit.                              Pattern Recognition
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
@@ -323,6 +323,7 @@ PLOS Curr.                                     PLOS Currents
 PLOS Med.                                      PLOS Medicine
 PLOS ONE                                       PLOS ONE
 PLOS Pathog.                                   PLOS Pathogens
+PMLR                                           Proceedings of the 35th {{International Conference}} on {{Machine Learning}}
 PNAS Nexus                                     PNAS Nexus
 Popul. Ecol.                                   Population Ecology
 PROC VLDB ENDOW                                Proceedings of the VLDB Endowment
@@ -336,8 +337,8 @@ Proc. R. Soc. A                                Proceedings of the Royal Society 
 Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
 Psychiatr. Q.                                  Psychiatric Quarterly
-Publ. Math.                                    Publicationes Mathematicae Debrecen
 Publ. Math.                                    Publicationes Mathematicae
+Publ. Math.                                    Publicationes Mathematicae Debrecen
 Publ. Math. Inst. Hung. Acad. Sci.             Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 R. Soc. Open Sci.                              Royal Society Open Science
 Radiology: Cardiothoracic Imaging              Radiology: Cardiothoracic Imaging
