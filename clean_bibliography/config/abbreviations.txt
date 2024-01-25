@@ -67,8 +67,8 @@ Cell                                           Cell
 Cell Syst.                                     Cell Systems
 Cereb. Cortex                                  Cerebral cortex
 Cereb. Cortex                                  Cerebral Cortex
-Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
+Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
 Chem. Eng. Sci.                                Chemical Engineering Science
 Chem. Phys.                                    Chemical Physics
@@ -78,6 +78,7 @@ Cognition                                      Cognition
 Comb. Probab. Comput.                          Combinatorics, Probability and Computing
 Comm. Statist. Simulation Comput.              Communications in Statistics - Simulation and Computation
 Commun. ACM                                    Communications of the ACM
+Commun. Biol.                                  Communications Biology
 Commun. Phys.                                  Communications Physics
 Complexity                                     Complexity
 Comput. Appl. Math.                            Computational and Applied Mathematics
@@ -134,15 +135,15 @@ Front. Neurol.                                 Frontiers in Neurology
 Front. Neurosci.                               Frontiers in Neuroscience
 Front. Phys.                                   Frontiers in Physics
 Front. Physiol.                                Frontiers in Physiology
-Front. Psychiatry                              Frontiers in Psychiatry
 Front. Psychiatry                              Frontiers in psychiatry
+Front. Psychiatry                              Frontiers in Psychiatry
 Front. Public Health                           Frontiers in Public Health
 Futurist                                       The Futurist
 Genome Biol.                                   Genome Biology
 Genome Res.                                    Genome Research
 Glob. Health                                   Globalization and Health
-Hum. Brain Mapp.                               Human brain mapping
 Hum. Brain Mapp.                               Human Brain Mapping
+Hum. Brain Mapp.                               Human brain mapping
 IEEE Internet Comput.                          IEEE Internet Computing
 IEEE J. Sel. Top. Signal Process.              IEEE Journal of Selected Topics in Signal Processing
 IEEE Signal Process Mag.                       IEEE Signal Processing Magazine
@@ -151,14 +152,14 @@ IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
-IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
+IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
 Infect. Dis. Model.                            Infectious Disease Modelling
-InfoCom                                        2011 {{IEEE Conference}} on {{Computer Communications Workshops}} ({{INFOCOM WKSHPS}})
 InfoCom                                        2011 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
+InfoCom                                        2011 {{IEEE Conference}} on {{Computer Communications Workshops}} ({{INFOCOM WKSHPS}})
 Int. J. Environ. Res. Public Health            International Journal of Environmental Research and Public Health
 Int. J. General Systems                        International Journal of General Systems
 Int. J. Infect. Dis.                           International Journal of Infectious Diseases
@@ -204,19 +205,19 @@ J. Neurosci.                                   Journal of Neuroscience
 J. Neurosci. Methods                           Journal of Neuroscience Methods
 J. Open Source Softw.                          Journal of Open Source Software
 J. Organ. Behav.                               Journal of Organizational Behavior
-J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
 J. Phys. A                                     Journal of Physics A
+J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
 J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
 J. Public Health Pol.                          Journal of Public Health Policy
 J. R. Soc. Interface                           Journal of the Royal Society Interface
 J. R. Soc. Interface                           Journal of The Royal Society Interface
-J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
@@ -272,18 +273,18 @@ Nat. Phys.                                     Nature Physics
 Nat. Rev. Microbiol.                           Nature Reviews Microbiology
 Nat. Rev. Neurosci.                            Nature Reviews Neuroscience
 Nat. Rev. Phys.                                Nature Reviews Physics
-Nature                                         nature
 Nature                                         Nature
+Nature                                         nature
 Netw. Comput. Neural Syst.                     Network: Computation in Neural Systems
 Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
-NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 NeurIPS                                        Advances in neural information processing systems (NeurIPS)
+NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 Neurocomputing                                 Neurocomputing
-NeuroImage                                     NeuroImage
 NeuroImage                                     Neuroimage
+NeuroImage                                     NeuroImage
 NeuroImage Clin.                               NeuroImage: Clinical
 NeuroImage Clin.                               NeuroImage Clin
 Neuron                                         Neuron
@@ -297,13 +298,14 @@ Nonlinearity                                   Nonlinearity
 Not. Am. Math. Soc.                            Notices of the American Mathematical Society
 npj Parkinsons Dis.                            npj Parkinson's Disease
 Oikos                                          Oikos
+Opt. Express                                   Optics Express
 Pattern Recognit.                              Pattern Recognition
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
@@ -336,8 +338,9 @@ Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Acade
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. R. Soc. A                                Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences
 Proc. R. Soc. A                                Proceedings of the Royal Society A
-Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
+Proc. R. Soc. B                                Proceedings of the Royal Society B
+Proc. Winter Simul. Conf.                      Proceedings {{Winter Simulation Conference}}
 Psychiatr. Q.                                  Psychiatric Quarterly
 Publ. Math.                                    Publicationes Mathematicae
 Publ. Math.                                    Publicationes Mathematicae Debrecen

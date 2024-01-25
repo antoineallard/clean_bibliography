@@ -4,18 +4,20 @@ Script builds the filenames for pdf based on a bib file.
 Author: Antoine Allard (antoineallard.info)
 """
 
+import os
 import sys
 import pathlib
 
 path_root = pathlib.Path(__file__).parents[1]
 sys.path.append(str(path_root))
+os.chdir(pathlib.Path(__file__).parents[0])
 
 from clean_bibliography import Bibliography
 
 
 verbose = True
 
-bib = Bibliography(source_bib_filename='references.bib')
+bib = Bibliography(source_bib_filename='./references.bib')
 
 
 for entry in bib._source_bib_database.entries:
@@ -116,6 +118,8 @@ for entry in bib._source_bib_database.entries:
         title = title.replace(')','')
         title = title.replace('+','')
         title = title.replace('\\"','')
+        title = title.replace('\$','')
+        title = title.replace('\\$','')
         title = title.replace('`','')
         title = title.replace("'","")
         title = title.replace('/','_')
