@@ -113,8 +113,8 @@ Entropy                                        Entropy
 Epidemics                                      Epidemics
 Epidemiol. Infect.                             Epidemiology and Infection
 EPJ Data Sci.                                  EPJ Data Science
-EPL                                            EPL (Europhysics Letters)
 EPL                                            Europhysics Letters
+EPL                                            EPL (Europhysics Letters)
 Ethics Inf. Technol.                           Ethics and Information Technology
 Eur Neuropsychopharmacol                       European Neuropsychopharmacology
 Eur. J. Phys.                                  European Journal of Physics
@@ -152,8 +152,8 @@ IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
-IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
+IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
@@ -165,6 +165,7 @@ Int. J. General Systems                        International Journal of General 
 Int. J. Infect. Dis.                           International Journal of Infectious Diseases
 Int. J. Theor. Phys.                           International Journal of Theoretical Physics
 Int. Stat. Rev.                                International Statistical Review
+Int. Stud. Rev.                                International Studies Review
 Integr. Comp. Biol.                            Integrative and Comparative Biology
 Interdiscip. Perspect. Infect. Dis.            Interdisciplinary Perspectives on Infectious Diseases
 Internet Math.                                 Internet Mathematics
@@ -215,14 +216,15 @@ J. R. Soc. Interface                           Journal of the Royal Society Inte
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
 J. Soc. Struct.                                Journal of Social Structure
 J. Stat. Mech.                                 Journal of Statistical Mechanics
+J. Stat. Mech.                                 Journal of Statistical Mechanics: Theory and Experiment
 J. Stat. Phys.                                 Journal of Statistical Physics
 J. Stat. Softw.                                Journal of Statistical Software
 J. Symb. Comput.                               Journal of Symbolic Computation
@@ -303,9 +305,9 @@ Pattern Recognit.                              Pattern Recognition
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
@@ -342,8 +344,8 @@ Proc. R. Soc. B                                Proceedings of the Royal Society 
 Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. Winter Simul. Conf.                      Proceedings {{Winter Simulation Conference}}
 Psychiatr. Q.                                  Psychiatric Quarterly
-Publ. Math.                                    Publicationes Mathematicae
 Publ. Math.                                    Publicationes Mathematicae Debrecen
+Publ. Math.                                    Publicationes Mathematicae
 Publ. Math. Inst. Hung. Acad. Sci.             Publications of the Mathematical Institute of the Hungarian Academy of Sciences
 R. Soc. Open Sci.                              Royal Society Open Science
 Radiology: Cardiothoracic Imaging              Radiology: Cardiothoracic Imaging

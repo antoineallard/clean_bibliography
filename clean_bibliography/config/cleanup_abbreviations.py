@@ -1,5 +1,13 @@
-import pandas
+import os
+import sys
+import pathlib
 import tabulate
+
+import pandas
+
+path_root = pathlib.Path(__file__).parents[1]
+sys.path.append(str(path_root))
+os.chdir(pathlib.Path(__file__).parents[0])
 
 df = pandas.read_csv('abbreviations.txt', comment='#', sep='[ \s]{2,}', engine='python')
 

@@ -118,7 +118,7 @@ for entry in bib._source_bib_database.entries:
         title = title.replace(')','')
         title = title.replace('+','')
         title = title.replace('\\"','')
-        title = title.replace('\$','')
+        # title = title.replace('\$','')
         title = title.replace('\\$','')
         title = title.replace('`','')
         title = title.replace("'","")
