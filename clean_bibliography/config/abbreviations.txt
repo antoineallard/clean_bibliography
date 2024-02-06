@@ -76,6 +76,7 @@ Clin. Infect. Dis.                             Clinical Infectious Diseases
 CMJ                                            The College Mathematics Journal
 Cognition                                      Cognition
 Comb. Probab. Comput.                          Combinatorics, Probability and Computing
+Combinatorica                                  Combinatorica
 Comm. Statist. Simulation Comput.              Communications in Statistics - Simulation and Computation
 Commun. ACM                                    Communications of the ACM
 Commun. Biol.                                  Communications Biology
@@ -83,6 +84,7 @@ Commun. Phys.                                  Communications Physics
 Complexity                                     Complexity
 Comput. Appl. Math.                            Computational and Applied Mathematics
 Comput. Biol. Med.                             Computers in Biology and Medicine
+Comput. Geom.                                  Computational Geometry
 Comput. Graph.                                 Computers & Graphics
 Comput. Phys.                                  Computers in Physics
 Comput. Phys. Commun.                          Computer Physics Communications
@@ -97,6 +99,7 @@ Curr. Opin. Neurobiol.                         Current Opinion in Neurobiology
 Curr. Opin. Struct. Biol.                      Current Opinion in Structural Biology
 Curr. Res. J. Biol. Sci.                       Current Research in Structural Biology
 Cytom. A                                       Cytometry Part A
+Data Min. Knowl. Discov.                       Data Mining and Knowledge Discovery
 Dev. Psychopathol.                             Development and Psychopathology
 Diagnostics                                    Diagnostics
 Dialogues Clin. Neurosci.                      Dialogues in Clinical Neuroscience
@@ -145,19 +148,23 @@ Genome Res.                                    Genome Research
 Glob. Health                                   Globalization and Health
 Hum. Brain Mapp.                               Human Brain Mapping
 Hum. Brain Mapp.                               Human brain mapping
+IEEE Comput. Graph. Appl.                      IEEE Computer Graphics and Applications
 IEEE Internet Comput.                          IEEE Internet Computing
 IEEE J. Sel. Top. Signal Process.              IEEE Journal of Selected Topics in Signal Processing
 IEEE Signal Process Mag.                       IEEE Signal Processing Magazine
 IEEE Signal Process. Lett.                     IEEE Signal Processing Letters
+IEEE Trans. Automat. Contr.                    IEEE Transactions on Automatic Control
 IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
+IEEE Trans. Pattern Anal. Mach. Intell.        IEEE Transactions on Pattern Analysis and Machine Intelligence
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
+Inf. Syst.                                     Information Systems
 Infect. Dis. Model.                            Infectious Disease Modelling
 InfoCom                                        2011 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
 InfoCom                                        2011 {{IEEE Conference}} on {{Computer Communications Workshops}} ({{INFOCOM WKSHPS}})
@@ -221,6 +228,7 @@ J. R. Stat. Soc. B                             Journal of the Royal Statistical 
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
+J. R. Stat. Soc. D                             Journal of the Royal Statistical Society. Series D (The Statistician)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
 J. Soc. Issues                                 Journal of Social Issues
 J. Soc. Struct.                                Journal of Social Structure
@@ -235,7 +243,8 @@ JAMA                                           The Journal of the American Medic
 JAMA Psychiatry                                JAMA Psychiatry
 JASSS                                          Journal of Artificial Societies and Social Simulation
 JMIR Public Health Surveill.                   JMIR Public Health and Surveillance
-Knowl Inf Syst                                 Knowledge and Information Systems
+Knowl. Inf. Syst.                              Knowledge and Information Systems
+Knowl.-Based Syst.                             Knowledge-Based Systems
 Lancet                                         The Lancet
 Lancet Child Adolesc. Health                   The Lancet Child & Adolescent Health
 Lancet Glob. Health                            The Lancet Global Health
@@ -365,6 +374,7 @@ Sci. Data                                      Scientific Data
 Sci. Rep.                                      Scientific Reports
 Science                                        Science (New York, N.Y.)
 Science                                        Science
+Sensors                                        Sensors
 SIAM J. Appl. Dyn. Syst.                       SIAM Journal on Applied Dynamical Systems
 SIAM J. Appl. Math.                            SIAM Journal on Applied Mathematics
 SIAM J. Discrete Math.                         SIAM Journal on Discrete Mathematics
