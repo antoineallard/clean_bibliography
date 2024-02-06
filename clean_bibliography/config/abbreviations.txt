@@ -83,6 +83,7 @@ Commun. Phys.                                  Communications Physics
 Complexity                                     Complexity
 Comput. Appl. Math.                            Computational and Applied Mathematics
 Comput. Biol. Med.                             Computers in Biology and Medicine
+Comput. Graph.                                 Computers & Graphics
 Comput. Phys.                                  Computers in Physics
 Comput. Phys. Commun.                          Computer Physics Communications
 Comput. Sci. Eng.                              Computing in Science & Engineering
@@ -301,6 +302,7 @@ Not. Am. Math. Soc.                            Notices of the American Mathemati
 npj Parkinsons Dis.                            npj Parkinson's Disease
 Oikos                                          Oikos
 Opt. Express                                   Optics Express
+Opt. Lett.                                     Optics Letters
 Pattern Recognit.                              Pattern Recognition
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
@@ -385,6 +387,7 @@ SoftwareX                                      SoftwareX
 SPAA19                                         The 31st {{ACM Symposium}} on {{Parallelism}} in {{Algorithms}} and {{Architectures}}
 SSRN Electronic Journal                        SSRN Electronic Journal
 Stan. L. Rev.                                  Stanford Law Review
+Stat. Anal. Data Min.                          Statistical Analysis and Data Mining: The ASA Data Science Journal
 Stat. Comput.                                  Statistics and Computing
 Stat. Sci.                                     Statistical Science
 Stat. Sin.                                     Statistica Sinica
