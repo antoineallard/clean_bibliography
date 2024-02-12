@@ -292,6 +292,7 @@ Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
+NeurIPS                                        Advances in neural information processing systems
 NeurIPS                                        Advances in neural information processing systems (NeurIPS)
 NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 Neurocomputing                                 Neurocomputing
