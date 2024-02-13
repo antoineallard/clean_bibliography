@@ -65,8 +65,8 @@ Can. J. Philos.                                Canadian Journal of Philosophy
 Can. J. Psychiatry                             The Canadian Journal of Psychiatry
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
-Cereb. Cortex                                  Cerebral cortex
 Cereb. Cortex                                  Cerebral Cortex
+Cereb. Cortex                                  Cerebral cortex
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos                                          Chaos
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
@@ -146,8 +146,8 @@ Futurist                                       The Futurist
 Genome Biol.                                   Genome Biology
 Genome Res.                                    Genome Research
 Glob. Health                                   Globalization and Health
-Hum. Brain Mapp.                               Human Brain Mapping
 Hum. Brain Mapp.                               Human brain mapping
+Hum. Brain Mapp.                               Human Brain Mapping
 IEEE Comput. Graph. Appl.                      IEEE Computer Graphics and Applications
 IEEE Internet Comput.                          IEEE Internet Computing
 IEEE J. Sel. Top. Signal Process.              IEEE Journal of Selected Topics in Signal Processing
@@ -159,8 +159,8 @@ IEEE Trans. Inf. Theory                        IEEE Transactions on Information 
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
 IEEE Trans. Pattern Anal. Mach. Intell.        IEEE Transactions on Pattern Analysis and Machine Intelligence
-IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
+IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
@@ -204,6 +204,7 @@ J. Exp. Algorithmics                           ACM Journal of Experimental Algor
 J. Infect.                                     Journal of Infection
 J. Infect. Dis.                                The Journal of Infectious Diseases
 J. Mach. Learn. Res.                           Journal of Machine Learning Research
+J. Mach. Learn. Res.                           The Journal of Machine Learning Research
 J. Math. Biol.                                 Journal of Mathematical Biology
 J. Math. Ind.                                  Journal of Mathematics in Industry
 J. Math. Phys.                                 Journal of Mathematical Physics
@@ -224,9 +225,9 @@ J. R. Soc. Interface                           Journal of the Royal Society Inte
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. R. Stat. Soc. D                             Journal of the Royal Statistical Society. Series D (The Statistician)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
@@ -407,8 +408,8 @@ Sustain. Cities Soc.                           Sustainable Cities and Society
 Swiss Med. Wkly.                               Swiss Medical Weekly
 Systems                                        Systems
 Theor. Comput. Sci.                            Theoretical Computer Science
-Transl. Psychiatry                             Translational Psychiatry
 Transl. Psychiatry                             Translational psychiatry
+Transl. Psychiatry                             Translational Psychiatry
 Trends Cogn. Sci.                              Trends in Cognitive Sciences
 Trends Ecol. Evol.                             Trends in Ecology & Evolution
 Trends Neurosci.                               Trends in Neurosciences
