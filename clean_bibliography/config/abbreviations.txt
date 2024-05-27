@@ -16,6 +16,7 @@ Am. J. Sociol.                                 American Journal of Sociology
 Am. Nat.                                       The American Naturalist
 Am. Sci.                                       American Scientist
 Am. Stat.                                      The American Statistician
+Anim. Behav.                                   Animal Behaviour
 Ann. Appl. Probab.                             The Annals of Applied Probability
 Ann. Comb.                                     Annals of Combinatorics
 Ann. Epidemiol.                                Annals of Epidemiology
@@ -159,6 +160,7 @@ IEEE Trans. Inf. Theory                        IEEE Transactions on Information 
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
 IEEE Trans. Pattern Anal. Mach. Intell.        IEEE Transactions on Pattern Analysis and Machine Intelligence
+IEEE Trans. Vis. Comput. Graph.                IEEE Transactions on Visualization and Computer Graphics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
@@ -168,6 +170,7 @@ Inf. Syst.                                     Information Systems
 Infect. Dis. Model.                            Infectious Disease Modelling
 InfoCom                                        2011 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
 InfoCom                                        2011 {{IEEE Conference}} on {{Computer Communications Workshops}} ({{INFOCOM WKSHPS}})
+Int. Crim. Justice Rev.                        International Criminal Justice Review
 Int. J. Environ. Res. Public Health            International Journal of Environmental Research and Public Health
 Int. J. General Systems                        International Journal of General Systems
 Int. J. Infect. Dis.                           International Journal of Infectious Diseases
@@ -214,6 +217,7 @@ J. Multivar. Anal.                             Journal of Multivariate Analysis
 J. Neurosci.                                   Journal of Neuroscience
 J. Neurosci. Methods                           Journal of Neuroscience Methods
 J. Open Source Softw.                          Journal of Open Source Software
+J. Oper. Res. Soc.                             Journal of the Operational Research Society
 J. Organ. Behav.                               Journal of Organizational Behavior
 J. Phys. A                                     Journal of Physics A
 J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
@@ -311,6 +315,7 @@ Nonlinear Dyn.                                 Nonlinear Dynamics
 Nonlinearity                                   Nonlinearity
 Not. Am. Math. Soc.                            Notices of the American Mathematical Society
 npj Parkinsons Dis.                            npj Parkinson's Disease
+Oecologia                                      Oecologia
 Oikos                                          Oikos
 Opt. Express                                   Optics Express
 Opt. Lett.                                     Optics Letters
@@ -345,6 +350,7 @@ PLOS ONE                                       PLOS ONE
 PLOS Pathog.                                   PLOS Pathogens
 PMLR                                           Proceedings of the 35th {{International Conference}} on {{Machine Learning}}
 PNAS Nexus                                     PNAS Nexus
+Poetics                                        Poetics
 Popul. Ecol.                                   Population Ecology
 PROC VLDB ENDOW                                Proceedings of the VLDB Endowment
 Proc. Am. Philos. Soc.                         Proceedings of the American Philosophical Society
@@ -399,6 +405,7 @@ Sociologica                                    Sociologica
 Sociometry                                     Sociometry
 Softw. Pract. Exp.                             Software: Practice and Experience
 SoftwareX                                      SoftwareX
+Southwest. J. Anthropol.                       Southwestern Journal of Anthropology
 SPAA19                                         The 31st {{ACM Symposium}} on {{Parallelism}} in {{Algorithms}} and {{Architectures}}
 SSRN Electronic Journal                        SSRN Electronic Journal
 Stan. L. Rev.                                  Stanford Law Review
@@ -411,6 +418,7 @@ Stoch. Syst.                                   Stochastic Systems
 Sustain. Cities Soc.                           Sustainable Cities and Society
 Swiss Med. Wkly.                               Swiss Medical Weekly
 Systems                                        Systems
+TEST                                           TEST
 Theor. Comput. Sci.                            Theoretical Computer Science
 Transl. Psychiatry                             Translational psychiatry
 Transl. Psychiatry                             Translational Psychiatry
