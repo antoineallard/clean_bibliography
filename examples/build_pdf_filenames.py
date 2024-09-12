@@ -33,7 +33,7 @@ for entry in bib._source_bib_database.entries:
         journal = journal.replace(' ', '')
         journal = journal.replace('/', '')
     elif 'archiveprefix' in entry:
-        if entry['archiveprefix'] == 'arxiv':
+        if entry['archiveprefix'] == 'arXiv':
             journal = 'arXiv'
         elif entry['archiveprefix'] == 'medRxiv':
             journal = 'medRxiv'
@@ -48,7 +48,7 @@ for entry in bib._source_bib_database.entries:
     if 'volume' in entry:
         volume = entry['volume'].split('-')[0]
     elif 'archiveprefix' in entry:
-        if entry['archiveprefix'] == 'arxiv':
+        if entry['archiveprefix'] == 'arXiv':
             if 'number' in entry:
                 volume = entry['number'].split(':')[1].split('.')[0]
         elif entry['archiveprefix'] in ['medRxiv', 'bioRxiv']:
@@ -62,7 +62,7 @@ for entry in bib._source_bib_database.entries:
         page = page.replace('.','dot')
         page = page.replace(':','dot')
     if 'archiveprefix' in entry:
-        if entry['archiveprefix'] == 'arxiv':
+        if entry['archiveprefix'] == 'arXiv':
             if 'eprint' in entry:
                 page = entry['eprint'].split('.')[1]
         elif entry['archiveprefix'] in ['medRxiv', 'bioRxiv']:
@@ -105,6 +105,8 @@ for entry in bib._source_bib_database.entries:
     if 'title' in entry:
         title = entry['title']
         title = title.replace("\\'e",'e')
+        title = title.replace("\\^e",'e')
+        title = title.replace("\\`a",'a')
         title = title.replace("\\l ",'l')
         title = title.replace("\\.z",'z')
         title = title.replace('\\textendash ','-')
@@ -167,11 +169,11 @@ for entry in bib._source_bib_database.entries:
         if author != '':
             info.append(author)
         info.append(title)
-        print('.'.join(info) + '.pdf')
+        print('.'.join(info))
 
     if entry_type == 'misc':
         if 'archiveprefix' in entry:
-            if entry['archiveprefix'] in ['arxiv', 'medRxiv', 'bioRxiv']:
+            if entry['archiveprefix'] in ['arXiv', 'medRxiv', 'bioRxiv']:
                 info = []
                 info.append(journal)
                 info.append(year)
@@ -180,7 +182,7 @@ for entry in bib._source_bib_database.entries:
                 if author != '':
                     info.append(author)
                 info.append(title)
-                print('.'.join(info) + '.pdf')
+                print('.'.join(info))
 
     if entry_type == 'book':
         info = []
@@ -189,7 +191,7 @@ for entry in bib._source_bib_database.entries:
         info.append(title)
         if edition != '':
             info.append(edition)
-        print('.'.join(info) + '.pdf')
+        print('.'.join(info))
 
     if entry_type == 'inproceedings':
         info = []
@@ -201,4 +203,6 @@ for entry in bib._source_bib_database.entries:
         if author != '':
             info.append(author)
         info.append(title)
-        print('.'.join(info) + '.pdf')
+        print('.'.join(info))
+
+print("\n\n")

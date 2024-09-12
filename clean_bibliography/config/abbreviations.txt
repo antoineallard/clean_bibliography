@@ -40,6 +40,7 @@ Autism                                         Autism
 Bayesian Anal.                                 Bayesian Analysis
 Behav. Ecol.                                   Behavioral Ecology
 Behav. res. meth. instrum. comput.             Behavior Research Methods, Instruments, & Computers
+Behav. Res. Methods                            Behavior Research Methods
 Bioinformatics                                 Bioinformatics
 Biol. Cybern.                                  Biological Cybernetics
 Biol. Psychiatry                               Biological psychiatry
@@ -66,8 +67,8 @@ Can. J. Philos.                                Canadian Journal of Philosophy
 Can. J. Psychiatry                             The Canadian Journal of Psychiatry
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
-Cereb. Cortex                                  Cerebral cortex
 Cereb. Cortex                                  Cerebral Cortex
+Cereb. Cortex                                  Cerebral cortex
 Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
@@ -147,8 +148,8 @@ Futurist                                       The Futurist
 Genome Biol.                                   Genome Biology
 Genome Res.                                    Genome Research
 Glob. Health                                   Globalization and Health
-Hum. Brain Mapp.                               Human brain mapping
 Hum. Brain Mapp.                               Human Brain Mapping
+Hum. Brain Mapp.                               Human brain mapping
 IEEE Comput. Graph. Appl.                      IEEE Computer Graphics and Applications
 IEEE Internet Comput.                          IEEE Internet Computing
 IEEE J. Sel. Top. Signal Process.              IEEE Journal of Selected Topics in Signal Processing
@@ -161,8 +162,8 @@ IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge an
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
 IEEE Trans. Pattern Anal. Mach. Intell.        IEEE Transactions on Pattern Analysis and Machine Intelligence
 IEEE Trans. Vis. Comput. Graph.                IEEE Transactions on Visualization and Computer Graphics
-IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
+IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
 Inf. Sci.                                      Information Sciences
@@ -229,9 +230,9 @@ J. R. Soc. Interface                           Journal of the Royal Society Inte
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. R. Stat. Soc. D                             Journal of the Royal Statistical Society. Series D (The Statistician)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
@@ -297,9 +298,9 @@ Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
-NeurIPS                                        Advances in neural information processing systems (NeurIPS)
-NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 NeurIPS                                        Advances in neural information processing systems
+NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
+NeurIPS                                        Advances in neural information processing systems (NeurIPS)
 Neurocomputing                                 Neurocomputing
 NeuroImage                                     Neuroimage
 NeuroImage                                     NeuroImage
@@ -324,8 +325,8 @@ Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
@@ -364,6 +365,7 @@ Proc. R. Soc. B                                Proceedings of the Royal Society 
 Proc. R. Soc. B                                Proceedings of the Royal Society B
 Proc. Winter Simul. Conf.                      Proceedings {{Winter Simulation Conference}}
 Psychiatr. Q.                                  Psychiatric Quarterly
+Psychometrika                                  Psychometrika
 Publ. Math.                                    Publicationes Mathematicae
 Publ. Math.                                    Publicationes Mathematicae Debrecen
 Publ. Math. Inst. Hung. Acad. Sci.             Publications of the Mathematical Institute of the Hungarian Academy of Sciences
