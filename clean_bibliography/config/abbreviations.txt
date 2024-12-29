@@ -4,7 +4,11 @@
 Abbreviated Name                               Complete Name
 Accromath                                      Accromath
 ACM Comput. Surv.                              ACM Computing Surveys
+ACM J. Exp. Algorithmics                       ACM Journal of Experimental Algorithmics
+ACM J. Exp. Algorithmics                       ACM J. Exp. Algorithmics
 ACM SIGACT News                                ACM SIGACT News
+Adv. Complex Syst.                             Advances in Complex Systems
+Adv. Data Anal. Classif.                       Advances in Data Analysis and Classification
 Adv. Phys.                                     Advances in Physics
 Algorithmica                                   Algorithmica
 Am. Anthropol.                                 American Anthropologist
@@ -22,6 +26,7 @@ Ann. Comb.                                     Annals of Combinatorics
 Ann. Epidemiol.                                Annals of Epidemiology
 Ann. Math. Stat.                               The Annals of Mathematical Statistics
 Ann. N. Y. Acad. Sci.                          Annals of the New York Academy of Sciences
+Ann. Phys.                                     Annalen der Physik
 Ann. Stat.                                     The Annals of Statistics
 Annu. Rev. Condens. Matter Phys.               Annual Review of Condensed Matter Physics
 Annu. Rev. Control Robot. Auton. Syst.         Annual Review of Control, Robotics, and Autonomous Systems
@@ -31,10 +36,12 @@ Annu. Rev. Psychol.                            Annual Review of Psychology
 Annu. Rev. Stat. Appl.                         Annual Review of Statistics and Its Application
 Appl. Math. Comput.                            Applied Mathematics and Computation
 Appl. Netw. Sci.                               Applied Network Science
+Appl. Netw. Sci.                               Appl Netw Sci
 Appl. Sci.                                     Applied Sciences
 Arch. Gen. Psychiatry                          Archives of general psychiatry
 arXiv                                          arXiv
-Astron. and Astrophys.                         Astronomy and Astrophysics
+Astron. Astrophys.                             Astronomy & Astrophysics
+Astron. Astrophys.                             Astronomy and Astrophysics
 Austral Ecol.                                  Austral Ecology
 Autism                                         Autism
 Bayesian Anal.                                 Bayesian Analysis
@@ -43,12 +50,13 @@ Behav. res. meth. instrum. comput.             Behavior Research Methods, Instru
 Behav. Res. Methods                            Behavior Research Methods
 Bioinformatics                                 Bioinformatics
 Biol. Cybern.                                  Biological Cybernetics
-Biol. Psychiatry                               Biological psychiatry
 Biol. Psychiatry                               Biological Psychiatry
+Biol. Psychiatry                               Biological psychiatry
 Biol. Psychiatry Cogn. Neurosci. Neuroimaging  Biological Psychiatry: Cognitive Neuroscience and Neuroimaging
 Biology                                        Biology
 Biometrika                                     Biometrika
 bioRxiv                                        bioRxiv
+BMC Bioinform.                                 BMC Bioinformatics
 BMC Infect. Dis.                               BMC Infectious Diseases
 BMC Med.                                       BMC Medicine
 BMC Syst. Biol.                                BMC Systems Biology
@@ -67,8 +75,8 @@ Can. J. Philos.                                Canadian Journal of Philosophy
 Can. J. Psychiatry                             The Canadian Journal of Psychiatry
 Cell                                           Cell
 Cell Syst.                                     Cell Systems
-Cereb. Cortex                                  Cerebral Cortex
 Cereb. Cortex                                  Cerebral cortex
+Cereb. Cortex                                  Cerebral Cortex
 Chaos                                          Chaos
 Chaos                                          Chaos: An Interdisciplinary Journal of Nonlinear Science
 Chaos Solitons Fractals                        Chaos, Solitons & Fractals
@@ -78,6 +86,7 @@ Clin. Infect. Dis.                             Clinical Infectious Diseases
 CMJ                                            The College Mathematics Journal
 Cognition                                      Cognition
 Comb. Probab. Comput.                          Combinatorics, Probability and Computing
+Comb. Probab. Comput.                          Combinator. Probab. Comp.
 Combinatorica                                  Combinatorica
 Comm. Statist. Simulation Comput.              Communications in Statistics - Simulation and Computation
 Commun. ACM                                    Communications of the ACM
@@ -105,6 +114,7 @@ Data Min. Knowl. Discov.                       Data Mining and Knowledge Discove
 Dev. Psychopathol.                             Development and Psychopathology
 Diagnostics                                    Diagnostics
 Dialogues Clin. Neurosci.                      Dialogues in Clinical Neuroscience
+Discret. Appl. Math.                           Discrete Applied Mathematics
 Discrete Math.                                 Discrete Mathematics
 Ear Hear.                                      Ear and Hearing
 Ecography                                      Ecography
@@ -114,19 +124,25 @@ Ecol. Monogr.                                  Ecological Monographs
 Ecology                                        Ecology
 Electron. J. Stat.                             Electronic Journal of Statistics
 eLife                                          eLife
+EMBO Rep.                                      EMBO Reports
+EMBO Rep.                                      EMBO reports
 Emerging Infect. Dis.                          Emerging Infectious Diseases
 Entropy                                        Entropy
 Epidemics                                      Epidemics
 Epidemiol. Infect.                             Epidemiology and Infection
 EPJ Data Sci.                                  EPJ Data Science
-EPL                                            Europhysics Letters
 EPL                                            EPL (Europhysics Letters)
+EPL                                            Europhysics Letters
 Ethics Inf. Technol.                           Ethics and Information Technology
-Eur Neuropsychopharmacol                       European Neuropsychopharmacology
+Eur. J. Anal. Philos.                          European Journal of Analytic Philosophy
+Eur. J. Comb.                                  European Journal of Combinatorics
 Eur. J. Phys.                                  European Journal of Physics
+Eur. Neuropsychopharmacol.                     European Neuropsychopharmacology
 Eur. Phys. J. B                                The European Physical Journal B
 EURASIP J. Adv. Signal Process.                EURASIP Journal on Advances in Signal Processing
+Euro. Jnl. Phil. Sci.                          European Journal for Philosophy of Science
 Eurosurveillance                               Eurosurveillance
+Found. Phys.                                   Foundations of Physics
 Found. Sci.                                    Foundations of Science
 Found. Trends Mach. Learn.                     Foundations and Trends in Machine Learning
 Front. Aging Neurosci.                         Frontiers in Aging Neuroscience
@@ -150,6 +166,8 @@ Genome Res.                                    Genome Research
 Glob. Health                                   Globalization and Health
 Hum. Brain Mapp.                               Human Brain Mapping
 Hum. Brain Mapp.                               Human brain mapping
+ICCS2024                                       Computational {{Science}} -- {{ICCS}} 2024
+IEEE Access                                    IEEE Access
 IEEE Comput. Graph. Appl.                      IEEE Computer Graphics and Applications
 IEEE Internet Comput.                          IEEE Internet Computing
 IEEE J. Sel. Top. Signal Process.              IEEE Journal of Selected Topics in Signal Processing
@@ -160,6 +178,7 @@ IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
+IEEE Trans. Parallel Distrib. Syst.            IEEE Transactions on Parallel and Distributed Systems
 IEEE Trans. Pattern Anal. Mach. Intell.        IEEE Transactions on Pattern Analysis and Machine Intelligence
 IEEE Trans. Vis. Comput. Graph.                IEEE Transactions on Visualization and Computer Graphics
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computational Biology and Bioinformatics
@@ -183,6 +202,7 @@ Interdiscip. Perspect. Infect. Dis.            Interdisciplinary Perspectives on
 Internet Math.                                 Internet Mathematics
 iScience                                       iScience
 ISME Commun.                                   ISME Communications
+J. ACM                                         Journal of the ACM
 J. Am. Stat. Assoc.                            Journal of the American Statistical Association
 J. Anim. Ecol.                                 Journal of Animal Ecology
 J. Anthropol. Res.                             Journal of Anthropological Research
@@ -204,6 +224,7 @@ J. Comput. Neurosci.                           Journal of Computational Neurosci
 J. Comput. Phys.                               Journal of Computational Physics
 J. Comput. Sci.                                Journal of Computational Science
 J. Comput.-Mediat. Commun.                     Journal of Computer-Mediated Communication
+J. Cult. Anal.                                 Journal of Cultural Analytics
 J. Exp. Algorithmics                           ACM Journal of Experimental Algorithmics
 J. Infect.                                     Journal of Infection
 J. Infect. Dis.                                The Journal of Infectious Diseases
@@ -222,6 +243,7 @@ J. Oper. Res. Soc.                             Journal of the Operational Resear
 J. Organ. Behav.                               Journal of Organizational Behavior
 J. Phys. A                                     Journal of Physics A
 J. Phys. A                                     Journal of Physics A: Mathematical and Theoretical
+J. Phys. A                                     J. Phys. A: Math. Theor.
 J. Phys. Complex.                              Journal of Physics: Complexity
 J. Phys. Soc. Japan                            Journal of the Physical Society of Japan
 J. Policy Anal. Manage.                        Journal of Policy Analysis and Management
@@ -230,9 +252,9 @@ J. R. Soc. Interface                           Journal of the Royal Society Inte
 J. R. Soc. Interface                           Journal of The Royal Society Interface
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society Series A: Statistics in Society
 J. R. Stat. Soc. A                             Journal of the Royal Statistical Society: Series A
+J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B
 J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Methodological)
-J. R. Stat. Soc. B                             Journal of the Royal Statistical Society: Series B (Statistical Methodology)
 J. R. Stat. Soc. C                             Journal of the Royal Statistical Society: Series C (Applied Statistics)
 J. R. Stat. Soc. D                             Journal of the Royal Statistical Society. Series D (The Statistician)
 J. Soc. Ind. Appl. Math.                       Journal of the Society for Industrial and Applied Mathematics
@@ -257,10 +279,11 @@ Lancet Glob. Health                            The Lancet Global Health
 Lancet Infect. Dis.                            The Lancet Infectious Diseases
 Lancet Public Health                           The Lancet Public Health
 Linear Algebra Appl                            Linear Algebra and its Applications
+Math Horiz.                                    Math Horizons
 Math. Biosci.                                  Mathematical Biosciences
 Math. Control. Signals Syst.                   Mathematics of Control, Signals, and Systems
 Math. Financ.                                  Mathematical Finance
-Math. Horizons                                 Math Horizons
+Math. Horiz.                                   Math Horizons
 Math. Intell.                                  The Mathematical Intelligencer
 Math. Mag.                                     Mathematics Magazine
 Math. Model. Nat. Phenom.                      Mathematical Modelling of Natural Phenomena
@@ -277,6 +300,7 @@ Nat. Biomed. Eng.                              Nature Biomedical Engineering
 Nat. Biotechnol.                               Nature Biotechnology
 Nat. Clim. Chang.                              Nature Climate Change
 Nat. Commun.                                   Nature Communications
+Nat. Commun.                                   Nat Commun
 Nat. Comput. Sci.                              Nature Computational Science
 Nat. Ecol. Evol.                               Nature Ecology & Evolution
 Nat. Genet.                                    Nature Genetics
@@ -291,19 +315,22 @@ Nat. Phys.                                     Nature Physics
 Nat. Rev. Microbiol.                           Nature Reviews Microbiology
 Nat. Rev. Neurosci.                            Nature Reviews Neuroscience
 Nat. Rev. Phys.                                Nature Reviews Physics
+Nat. Rev. Phys.                                Nat Rev Phys
 Nature                                         Nature
 Nature                                         nature
 Netw. Comput. Neural Syst.                     Network: Computation in Neural Systems
 Netw. Neurosci.                                Network Neuroscience
 Netw. Sci.                                     Network Science
+Netw. Spat. Econ.                              Networks and Spatial Economics
 Neural Comput.                                 Neural Computation
 Neural Netw.                                   Neural Networks
-NeurIPS                                        Advances in neural information processing systems
-NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
 NeurIPS                                        Advances in neural information processing systems (NeurIPS)
+NeurIPS                                        Advances in neural information processing systems ({{NeurIPS}})
+NeurIPS                                        Advances in neural information processing systems
+NeurIPS                                        Proceedings of the 34th {{International Conference}} on {{Neural Information Processing Systems}}
 Neurocomputing                                 Neurocomputing
-NeuroImage                                     Neuroimage
 NeuroImage                                     NeuroImage
+NeuroImage                                     Neuroimage
 NeuroImage Clin.                               NeuroImage: Clinical
 NeuroImage Clin.                               NeuroImage Clin
 Neuron                                         Neuron
@@ -315,19 +342,21 @@ New J. Phys.                                   New Journal of Physics
 Nonlinear Dyn.                                 Nonlinear Dynamics
 Nonlinearity                                   Nonlinearity
 Not. Am. Math. Soc.                            Notices of the American Mathematical Society
+npj Complex.                                   npj Complexity
 npj Parkinsons Dis.                            npj Parkinson's Disease
 Oecologia                                      Oecologia
 Oikos                                          Oikos
+Oper. Res. Lett.                               Operations Research Letters
 Opt. Express                                   Optics Express
 Opt. Lett.                                     Optics Letters
 Pattern Recognit.                              Pattern Recognition
 Pattern Recognit. Lett.                        Pattern Recognition Letters
 Patterns                                       Patterns
-Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
 Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences
+Philos. Trans. Royal Soc. A                    Philosophical Transactions of the Royal Society A
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
-Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
+Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
@@ -339,13 +368,14 @@ Phys. Rev. Research                            Physical Review Research
 Phys. Rev. X                                   Physical Review X
 Phys. Today                                    Physics Today
 Phys. World                                    Physics World
-Physica A                                      Physica A: Statistical Mechanics and its Applications
 Physica A                                      Physica A
+Physica A                                      Physica A: Statistical Mechanics and its Applications
 Physica D                                      Physica D
 Physics                                        Physics
 PLOS Biol.                                     PLOS Biology
 PLOS Comput. Biol.                             PLOS Computational Biology
 PLOS Curr.                                     PLOS Currents
+PLOS Glob. Public Health                       PLOS Global Public Health
 PLOS Med.                                      PLOS Medicine
 PLOS ONE                                       PLOS ONE
 PLOS Pathog.                                   PLOS Pathogens
@@ -361,9 +391,11 @@ Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Acade
 Proc. Natl. Acad. Sci. U.S.A.                  Proceedings of the National Academy of Sciences
 Proc. R. Soc. A                                Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences
 Proc. R. Soc. A                                Proceedings of the Royal Society A
-Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
 Proc. R. Soc. B                                Proceedings of the Royal Society B
+Proc. R. Soc. B                                Proceedings of the Royal Society B: Biological Sciences
+Proc. VLDB Endow.                              Proceedings of the VLDB Endowment
 Proc. Winter Simul. Conf.                      Proceedings {{Winter Simulation Conference}}
+PRX Quantum                                    PRX Quantum
 Psychiatr. Q.                                  Psychiatric Quarterly
 Psychometrika                                  Psychometrika
 Publ. Math.                                    Publicationes Mathematicae
@@ -376,6 +408,7 @@ Rev. Med. Virol.                               Reviews in Medical Virology
 Rev. Mod. Phys.                                Reviews of Modern Physics
 Rose-Hulman Undergrad. Math J.                 Rose-Hulman Undergraduate Mathematics Journal
 Sankhya Ser. A                                 Sankhya A
+Sankhya: Indian J. Stat. A                     Sankhyā: The Indian Journal of Statistics, Series A (1961-2002)
 Scand. J. Stat.                                Scandinavian Journal of Statistics
 Sci. Adv.                                      Science Advances
 Sci. Am.                                       Scientific American
@@ -383,8 +416,9 @@ Sci. China Inf. Sci.                           Science China Information Science
 Sci. China Life Sci.                           Science China Life Sciences
 Sci. Data                                      Scientific Data
 Sci. Rep.                                      Scientific Reports
-Science                                        Science (New York, N.Y.)
+Sci. Rep.                                      Sci Rep
 Science                                        Science
+Science                                        Science (New York, N.Y.)
 Scientometrics                                 Scientometrics
 Sensors                                        Sensors
 SIAM J. Appl. Dyn. Syst.                       SIAM Journal on Applied Dynamical Systems
@@ -411,10 +445,11 @@ Southwest. J. Anthropol.                       Southwestern Journal of Anthropol
 SPAA19                                         The 31st {{ACM Symposium}} on {{Parallelism}} in {{Algorithms}} and {{Architectures}}
 SSRN Electronic Journal                        SSRN Electronic Journal
 Stan. L. Rev.                                  Stanford Law Review
+Stat                                           Stat
 Stat. Anal. Data Min.                          Statistical Analysis and Data Mining: The ASA Data Science Journal
 Stat. Comput.                                  Statistics and Computing
-Stat. Sci.                                     Statistical Science
 Stat. Sin.                                     Statistica Sinica
+Statist. Sci.                                  Statistical Science
 Stoch. Process. their Appl.                    Stochastic Processes and their Applications
 Stoch. Syst.                                   Stochastic Systems
 Sustain. Cities Soc.                           Sustainable Cities and Society
@@ -422,8 +457,8 @@ Swiss Med. Wkly.                               Swiss Medical Weekly
 Systems                                        Systems
 TEST                                           TEST
 Theor. Comput. Sci.                            Theoretical Computer Science
-Transl. Psychiatry                             Translational psychiatry
 Transl. Psychiatry                             Translational Psychiatry
+Transl. Psychiatry                             Translational psychiatry
 Trends Cogn. Sci.                              Trends in Cognitive Sciences
 Trends Ecol. Evol.                             Trends in Ecology & Evolution
 Trends Neurosci.                               Trends in Neurosciences
@@ -431,6 +466,8 @@ Trop. Med. Int. Health                         Tropical Medicine & International
 Tuber. Lung Dis.                               Tubercle and Lung Disease
 Virulence                                      Virulence
 Virus Evol.                                    Virus Evolution
+VLDB J.                                        The VLDB Journal
+Water Resour. Res.                             Water Resources Research
 Wellcome Open Res.                             Wellcome Open Research
 Wellcome Open Res.                             Wellcome open research
 WIREs Comput. Stat.                            Wiley Interdisciplinary Reviews: Computational Statistics

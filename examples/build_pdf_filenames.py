@@ -4,15 +4,51 @@ Script builds the filenames for pdf based on a bib file.
 Author: Antoine Allard (antoineallard.info)
 """
 
-import os
+
 import sys
+import os
 import pathlib
+# import bibtexparser
+# print(sys.version_info)
 
 path_root = pathlib.Path(__file__).parents[1]
 sys.path.append(str(path_root))
 os.chdir(pathlib.Path(__file__).parents[0])
 
 from clean_bibliography import Bibliography
+
+
+
+def create_obsidian_note(title, doi, journal, year, filename):
+
+    notes_path = '/Users/antoine/Library/Mobile Documents/iCloud~md~obsidian/Documents/science-notes/literature/literature-review'
+    if not os.path.isfile(f"{notes_path}/{filename}.md"):
+
+        title = title.replace("{", "").replace("}", "")
+
+        with open(f"{notes_path}/{filename}.md", "w") as file:
+
+            file_content = ('---\n'
+                            'aliases:\n'
+                           f'  - "{title}"\n'
+                            'tags:\n'
+                           f'title: "{title}"\n'
+                            'authors:\n'
+                           f'doi: https://doi.org/{doi}\n'
+                           f'journal: "{journal}"\n'
+                           f'year: "{year}"\n'
+                           # f'bibentry: "{bibtexentry}"\n'
+                            '---\n'
+                            '##### Notes\n'
+                            '\n'
+                            '\n'
+                           f'![[{filename}.pdf]]\n')
+
+            file.write(file_content)
+            print("Obsidian note created.")
+
+    else:
+        print("Obsidian note already exists.")
 
 
 verbose = True
@@ -77,6 +113,7 @@ for entry in bib._source_bib_database.entries:
     author = author.split(',')[0]
     author = author.replace("{\\'a}",'a')
     author = author.replace("{\\`a}",'a')
+    author = author.replace("{\\`e}",'e')
     author = author.replace("{\\'c}",'c')
     author = author.replace("{\\'e}",'e')
     author = author.replace("{\\'i}",'i')
@@ -93,6 +130,7 @@ for entry in bib._source_bib_database.entries:
     author = author.replace('{\\v s}','s')
     author = author.replace('{\\v z}','z')
     author = author.replace('{\\~n}','n')
+    author = author.replace("{\\'n}",'n')
     author = author.replace('{','')
     author = author.replace('}','')
     author = author.replace('-','')
@@ -128,6 +166,7 @@ for entry in bib._source_bib_database.entries:
         title = title.replace('/','_')
         title = title.replace('?','')
         title = title.replace('!','')
+        title = title.replace('~',' ')
         title = title.replace('.','')
         title = title.replace('\\textsubscript','')
         title = title.replace('$\\neq$','')
@@ -140,11 +179,12 @@ for entry in bib._source_bib_database.entries:
     edition = ''
     if 'edition' in entry:
         edition = entry['edition']
+        edition = edition.replace('1',       '1st')
         edition = edition.replace('First',   '1st')
         edition = edition.replace('Second',  '2nd')
-        edition = edition.replace('2',  '2nd')
+        edition = edition.replace('2',       '2nd')
         edition = edition.replace('Third',   '3rd')
-        edition = edition.replace('3',  '3rd')
+        edition = edition.replace('3',       '3rd')
         edition = edition.replace('Fourth',  '4th')
         edition = edition.replace('Fifth',   '5th')
         edition = edition.replace('Sixth',   '6th')
@@ -158,7 +198,7 @@ for entry in bib._source_bib_database.entries:
         if booktitle in bib._abbrev_journal_names:
             booktitle = bib._abbrev_journal_names[booktitle]
         else:
-            print(print('No abbreviation provided for conference: {}. Please check the name of the conference or add the abbreviation to config/abbreviations.txt'.format(booktitle)))
+            print('No abbreviation provided for conference: {}. Please check the name of the conference or add the abbreviation to config/abbreviations.txt'.format(booktitle))
 
     if entry_type == 'article':
         info = []
@@ -169,7 +209,11 @@ for entry in bib._source_bib_database.entries:
         if author != '':
             info.append(author)
         info.append(title)
-        print('.'.join(info))
+        filename = '.'.join(info)
+        print(filename)
+        # bib._clean_entry(entry, keep_keywords=False, warn_if_nonempty=True, warn_if_missing_fields=True, verbose=False)
+        # bibtex_entry = bibtexparser.dumps({"comments": None, ""})
+        create_obsidian_note(entry['title'], entry['doi'], entry['journal'], year, filename)
 
     if entry_type == 'misc':
         if 'archiveprefix' in entry:
@@ -206,3 +250,12 @@ for entry in bib._source_bib_database.entries:
         print('.'.join(info))
 
 print("\n\n")
+
+
+import subprocess
+
+source_bibfile = 'references.bib'
+
+cmd = ['python', '../cleanbib.py', source_bibfile, '-o', source_bibfile]
+
+subprocess.run(cmd)

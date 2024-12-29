@@ -121,10 +121,11 @@ class Bibliography:
 
         if entry_type == 'misc':
             if 'archiveprefix' in entry:
-                if entry['archiveprefix'] == 'arxiv':
+                if entry['archiveprefix'] in ['arxiv', 'arXiv']:
                     entry_type = 'techreport'
                     entry['ENTRYTYPE'] = entry_type
                     entry['type'] = 'Preprint'
+                    entry['institution'] = ''
                     # if 'eprint' in entry:
                     #     entry.pop('journal', None)
                     #     entry.pop('pages', None)
