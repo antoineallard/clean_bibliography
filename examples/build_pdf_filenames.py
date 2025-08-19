@@ -5,9 +5,11 @@ Author: Antoine Allard (antoineallard.info)
 """
 
 
-import sys
+# import copy
 import os
 import pathlib
+import sys
+
 # import bibtexparser
 # print(sys.version_info)
 
@@ -18,10 +20,9 @@ os.chdir(pathlib.Path(__file__).parents[0])
 from clean_bibliography import Bibliography
 
 
+def create_obsidian_note(title, doi, journal, year, filename):#, bibtexentry):
 
-def create_obsidian_note(title, doi, journal, year, filename):
-
-    notes_path = '/Users/antoine/Library/Mobile Documents/iCloud~md~obsidian/Documents/science-notes/literature/literature-review'
+    notes_path = '/Users/allard/Library/Mobile Documents/iCloud~md~obsidian/Documents/science-notes/literature/literature-review'
     if not os.path.isfile(f"{notes_path}/{filename}.md"):
 
         title = title.replace("{", "").replace("}", "")
@@ -42,7 +43,9 @@ def create_obsidian_note(title, doi, journal, year, filename):
                             '##### Notes\n'
                             '\n'
                             '\n'
-                           f'![[{filename}.pdf]]\n')
+                           f'![[{filename}.pdf]]\n'
+                            '\n'
+                           f'![[{filename}.SM.pdf]]\n')
 
             file.write(file_content)
             print("Obsidian note created.")
@@ -100,7 +103,11 @@ for entry in bib._source_bib_database.entries:
     if 'archiveprefix' in entry:
         if entry['archiveprefix'] == 'arXiv':
             if 'eprint' in entry:
-                page = entry['eprint'].split('.')[1]
+                page = entry['eprint'].split('.')
+                if len(page) > 1:
+                    page = entry['eprint'].split('.')[1]
+                else:
+                    page = entry['eprint'].split('.')[0]
         elif entry['archiveprefix'] in ['medRxiv', 'bioRxiv']:
             if 'pages' in entry:
                 page = entry['pages'].split('.')[-1]
@@ -113,6 +120,7 @@ for entry in bib._source_bib_database.entries:
     author = author.split(',')[0]
     author = author.replace("{\\'a}",'a')
     author = author.replace("{\\`a}",'a')
+    author = author.replace('{\\"a}','a')
     author = author.replace("{\\`e}",'e')
     author = author.replace("{\\'c}",'c')
     author = author.replace("{\\'e}",'e')
@@ -123,6 +131,8 @@ for entry in bib._source_bib_database.entries:
     author = author.replace("{\\`o}",'o')
     author = author.replace("{\\'o}",'o')
     author = author.replace('{\\"o}','o')
+    author = author.replace("{\\'s}",'s')
+    author = author.replace('{\\"e}','e')
     author = author.replace('{\\"u}','u')
     # author = author.replace('{\\\"a}','a')
     author = author.replace('{\\c C}','C')
@@ -211,9 +221,11 @@ for entry in bib._source_bib_database.entries:
         info.append(title)
         filename = '.'.join(info)
         print(filename)
-        # bib._clean_entry(entry, keep_keywords=False, warn_if_nonempty=True, warn_if_missing_fields=True, verbose=False)
-        # bibtex_entry = bibtexparser.dumps({"comments": None, ""})
-        create_obsidian_note(entry['title'], entry['doi'], entry['journal'], year, filename)
+        
+        # bib_tmp = bibtexparser.bibdatabase.BibDatabase()
+        # bib_tmp.entries.append(entry)
+        # bibtex_entry = bibtexparser.dumps(bib_tmp)
+        create_obsidian_note(entry['title'], entry['doi'], entry['journal'], year, filename) #, bibtex_entry.replace("\\", "\\\\"))
 
     if entry_type == 'misc':
         if 'archiveprefix' in entry:
@@ -249,7 +261,7 @@ for entry in bib._source_bib_database.entries:
         info.append(title)
         print('.'.join(info))
 
-print("\n\n")
+print("")
 
 
 import subprocess
