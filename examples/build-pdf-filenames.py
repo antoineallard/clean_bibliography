@@ -130,6 +130,7 @@ for entry in bib._source_bib_database.entries:
     author = author.replace("{\\^o}",'o')
     author = author.replace("{\\`o}",'o')
     author = author.replace("{\\'o}",'o')
+    author = author.replace("{\\'O}",'O')
     author = author.replace('{\\"o}','o')
     author = author.replace("{\\'s}",'s')
     author = author.replace('{\\"e}','e')
