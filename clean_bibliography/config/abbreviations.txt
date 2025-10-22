@@ -195,6 +195,7 @@ IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM Transactions on Computat
 IEEE/ACM Trans. Comput. Biol. Bioinform.       IEEE/ACM transactions on computational biology and bioinformatics
 IEEE/ACM Trans. Netw.                          IEEE/ACM Transactions on Networking
 Ind. Eng. Chem. Fundam.                        Industrial & Engineering Chemistry Fundamentals
+Inf. Geom.                                     Information Geometry
 Inf. Sci.                                      Information Sciences
 Inf. Syst.                                     Information Systems
 Infect. Dis. Model.                            Infectious Disease Modelling
@@ -217,6 +218,7 @@ J. Am. Stat. Assoc.                            Journal of the American Statistic
 J. Anim. Ecol.                                 Journal of Animal Ecology
 J. Anthropol. Res.                             Journal of Anthropological Research
 J. Appl. Probab.                               Journal of Applied Probability
+J. Appl. Comput. Topol.                        Journal of Applied and Computational Topology
 J. Assoc. Inf. Sci. Technol.                   Journal of the American Society for Information Science and Technology
 J. Biol. Dyn.                                  Journal of Biological Dynamics
 J. Bus. Res.                                   Journal of Business Research

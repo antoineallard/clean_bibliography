@@ -20,7 +20,7 @@ os.chdir(pathlib.Path(__file__).parents[0])
 from clean_bibliography import Bibliography
 
 
-def create_obsidian_note(title, doi, journal, year, filename):#, bibtexentry):
+def create_obsidian_note(title, url, journal, year, filename):#, bibtexentry):
 
     notes_path = '/Users/allard/Library/Mobile Documents/iCloud~md~obsidian/Documents/science-notes/literature/literature-review'
     if not os.path.isfile(f"{notes_path}/{filename}.md"):
@@ -35,7 +35,7 @@ def create_obsidian_note(title, doi, journal, year, filename):#, bibtexentry):
                             'tags:\n'
                            f'title: "{title}"\n'
                             'authors:\n'
-                           f'doi: https://doi.org/{doi}\n'
+                           f'url: {url}\n'
                            f'journal: "{journal}"\n'
                            f'year: "{year}"\n'
                            # f'bibentry: "{bibtexentry}"\n'
@@ -226,7 +226,13 @@ for entry in bib._source_bib_database.entries:
         # bib_tmp = bibtexparser.bibdatabase.BibDatabase()
         # bib_tmp.entries.append(entry)
         # bibtex_entry = bibtexparser.dumps(bib_tmp)
-        create_obsidian_note(entry['title'], entry['doi'], entry['journal'], year, filename) #, bibtex_entry.replace("\\", "\\\\"))
+        # print(journal)
+        if 'doi' in entry:
+            create_obsidian_note(entry['title'], f'https://doi.org/{entry['doi']}', entry['journal'], year, filename) #, bibtex_entry.replace("\\", "\\\\"))
+        else:
+        # if journal == "JMachLearnRes":
+            create_obsidian_note(entry['title'], entry['url'], entry['journal'], year, filename) #, bibtex_entry.replace("\\", "\\\\"))
+        # else:
 
     if entry_type == 'misc':
         if 'archiveprefix' in entry:
