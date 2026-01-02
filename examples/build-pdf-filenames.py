@@ -161,6 +161,8 @@ for entry in bib._source_bib_database.entries:
         title = title.replace('\\textendash ','-')
         title = title.replace('\\textendash','-')
         title = title.replace('\\textemdash','')
+        title = title.replace('\\textsc','')
+        title = title.replace('\\textohm','Omega')
         title = title.replace('{','')
         title = title.replace('}','')
         title = title.replace('-','')
@@ -181,6 +183,7 @@ for entry in bib._source_bib_database.entries:
         title = title.replace('.','')
         title = title.replace('\\textsubscript','')
         title = title.replace('$\\neq$','')
+        title = title.replace('$\\Lambda$','Lambda')
         title = title.replace('    ',' ')
         title = title.replace('   ',' ')
         title = title.replace('  ',' ')
@@ -222,7 +225,7 @@ for entry in bib._source_bib_database.entries:
         info.append(title)
         filename = '.'.join(info)
         print(filename)
-        
+
         # bib_tmp = bibtexparser.bibdatabase.BibDatabase()
         # bib_tmp.entries.append(entry)
         # bibtex_entry = bibtexparser.dumps(bib_tmp)

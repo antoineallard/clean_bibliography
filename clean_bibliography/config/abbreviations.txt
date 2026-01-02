@@ -31,6 +31,8 @@ Ann. Math. Stat.                               The Annals of Mathematical Statis
 Ann. N. Y. Acad. Sci.                          Annals of the New York Academy of Sciences
 Ann. Phys.                                     Annalen der Physik
 Ann. Stat.                                     The Annals of Statistics
+Annu. Rev. Anthropol.                          Annual Review of Anthropology
+Annu. Rev. Astron. Astrophys.                  Annual Review of Astronomy and Astrophysics
 Annu. Rev. Condens. Matter Phys.               Annual Review of Condensed Matter Physics
 Annu. Rev. Control Robot. Auton. Syst.         Annual Review of Control, Robotics, and Autonomous Systems
 Annu. Rev. Ecol. Evol. Syst                    Annual Review of Ecology, Evolution, and Systematics
@@ -47,8 +49,11 @@ Arch. Gen. Psychiatry                          Archives of general psychiatry
 arXiv                                          arXiv
 Astron. Astrophys.                             Astronomy & Astrophysics
 Astron. Astrophys.                             Astronomy and Astrophysics
+Astron. J.                                     The Astronomical Journal
+Astrophys. J.                                  The Astrophysical Journal
 Austral Ecol.                                  Austral Ecology
 Autism                                         Autism
+Basic Appl. Ecol.                              Basic and Applied Ecology
 Bayesian Anal.                                 Bayesian Analysis
 Behav. Ecol.                                   Behavioral Ecology
 Behav. Ecol. Sociobiol.                        Behavioral Ecology and Sociobiology
@@ -98,6 +103,7 @@ Comm. Statist. Simulation Comput.              Communications in Statistics - Si
 Commun. ACM                                    Communications of the ACM
 Commun. Biol.                                  Communications Biology
 Commun. Phys.                                  Communications Physics
+Commun. Nonlinear Sci. Numer. Simul.           Communications in Nonlinear Science and Numerical Simulation
 Complexity                                     Complexity
 Comput. Appl. Math.                            Computational and Applied Mathematics
 Comput. Biol. Med.                             Computers in Biology and Medicine
@@ -128,6 +134,7 @@ Ear Hear.                                      Ear and Hearing
 Ecography                                      Ecography
 Ecol. Appl.                                    Ecological Applications
 Ecol. Complex.                                 Ecological Complexity
+Ecol. Evol.                                    Ecology and Evolution
 Ecol. Lett.                                    Ecology Letters
 Ecol. Monogr.                                  Ecological Monographs
 Ecology                                        Ecology
@@ -186,6 +193,7 @@ IEEE Trans. Automat. Contr.                    IEEE Transactions on Automatic Co
 IEEE Trans. Comput.                            IEEE Transactions on Computers
 IEEE Trans. Inf. Theory                        IEEE Transactions on Information Theory
 IEEE Trans. Knowl. Data Eng.                   IEEE Transactions on Knowledge and Data Engineering
+IEEE Trans. Control. Netw. Syst.               IEEE Transactions on Control of Network Systems
 IEEE Trans. Netw. Sci. Eng.                    IEEE Transactions on Network Science and Engineering
 IEEE Trans. Parallel Distrib. Syst.            IEEE Transactions on Parallel and Distributed Systems
 IEEE Trans. Pattern Anal. Mach. Intell.        IEEE Transactions on Pattern Analysis and Machine Intelligence
@@ -317,6 +325,7 @@ Nat. Biomed. Eng.                              Nature Biomedical Engineering
 Nat. Biotechnol.                               Nature Biotechnology
 Nat. Clim. Chang.                              Nature Climate Change
 Nat. Commun.                                   Nature Communications
+Nat. Commun.                                   Nature communications
 Nat. Commun.                                   Nat Commun
 Nat. Comput. Sci.                              Nature Computational Science
 Nat. Ecol. Evol.                               Nature Ecology & Evolution
@@ -384,6 +393,7 @@ Phys. Rev. D                                   Physical Review D
 Phys. Rev. E                                   Physical Review E
 Phys. Rev. Lett.                               Physical Review Letters
 Phys. Rev. Research                            Physical Review Research
+Phys. Rev. Research                            Phys. Rev. Res.
 Phys. Rev. X                                   Physical Review X
 Phys. Today                                    Physics Today
 Phys. World                                    Physics World
@@ -393,6 +403,7 @@ Physica D                                      Physica D
 Physics                                        Physics
 PLOS Biol.                                     PLOS Biology
 PLOS Comput. Biol.                             PLOS Computational Biology
+PLOS Complex Syst.                             PLOS Complex Systems
 PLOS Curr.                                     PLOS Currents
 PLOS Glob. Public Health                       PLOS Global Public Health
 PLOS Med.                                      PLOS Medicine
