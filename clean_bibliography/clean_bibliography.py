@@ -18,7 +18,7 @@ class Bibliography:
         path = str(pathlib.Path(__file__).parent.resolve())
 
         abbrev_journal_names = '{}/config/abbreviations.txt'.format(path)
-        self._abbrev_journal_names = pandas.read_csv(abbrev_journal_names, comment='#', sep='[ \s]{2,}', engine='python').set_index('Complete Name')['Abbreviated Name'].to_dict()
+        self._abbrev_journal_names = pandas.read_csv(abbrev_journal_names, comment='#', sep='[ \\s]{2,}', engine='python').set_index('Complete Name')['Abbreviated Name'].to_dict()
 
         fields_to_keep = '{}/config/fields_to_keep.json'.format(path)
         self._fields_to_keep = json.load(open(fields_to_keep, 'r'))
@@ -69,7 +69,7 @@ class Bibliography:
                 if verbose:
                     print('Entry {} does not have a journal.'.format(entry['ID']))
         else:
-            journal_name = entry['journal'].replace('\&', '&')
+            journal_name = entry['journal'].replace('\\&', '&')
             if journal_name in self._abbrev_journal_names:
                 entry['journal'] = self._abbrev_journal_names[journal_name]
             else:
@@ -162,8 +162,8 @@ class Bibliography:
                         entry.pop(field, None)
 
         if 'title' in entry:
-            entry['title'] = entry['title'].replace('{\{}', '{')
-            entry['title'] = entry['title'].replace('{\}}', '}')
+            entry['title'] = entry['title'].replace('{\\{}', '{')
+            entry['title'] = entry['title'].replace('{\\}}', '}')
 
         if 'doi' in entry:
             entry.pop('url', None)
@@ -189,7 +189,7 @@ class Bibliography:
 
         if 'keywords' in entry:
             list_of_tags = entry['keywords']
-            list_of_tags = list_of_tags.replace('{\_}', '_')
+            list_of_tags = list_of_tags.replace('{\\_}', '_')
             list_of_tags = list_of_tags.replace('\\', '')
             list_of_tags = list_of_tags.replace(', ', ',')
             list_of_tags = list_of_tags.split(',')
