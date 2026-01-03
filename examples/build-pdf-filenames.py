@@ -157,6 +157,7 @@ for entry in bib._source_bib_database.entries:
         title = title.replace("\\^e",'e')
         title = title.replace("\\`a",'a')
         title = title.replace("\\l ",'l')
+        title = title.replace("\\'o",'o')
         title = title.replace("\\.z",'z')
         title = title.replace('\\textendash ','-')
         title = title.replace('\\textendash','-')
