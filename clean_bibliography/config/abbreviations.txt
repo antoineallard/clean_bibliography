@@ -257,6 +257,7 @@ J. Math. Psychol.                              Journal of Mathematical Psycholog
 J. Math. Sociol.                               The Journal of Mathematical Sociology
 J. Multivar. Anal.                             Journal of Multivariate Analysis
 J. Neurosci.                                   Journal of Neuroscience
+J. Neurosci.                                   The Journal of Neuroscience
 J. Neurosci. Methods                           Journal of Neuroscience Methods
 J. Open Source Softw.                          Journal of Open Source Software
 J. Oper. Res. Soc.                             Journal of the Operational Research Society
