@@ -6,7 +6,7 @@ Author: Antoine Allard (antoineallard.info)
 
 import subprocess
 
-source_bibfile = '../../references.bib'
+source_bibfile = 'references.bib'
 
 cmd = ['python', '../cleanbib.py', source_bibfile, '-o', source_bibfile]
 

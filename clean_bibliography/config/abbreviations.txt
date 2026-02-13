@@ -143,6 +143,7 @@ eLife                                          eLife
 EMBO Rep.                                      EMBO Reports
 EMBO Rep.                                      EMBO reports
 Emerging Infect. Dis.                          Emerging Infectious Diseases
+Environ. Res. Lett.                            Environmental Research Letters
 Entropy                                        Entropy
 Epidemics                                      Epidemics
 Epidemiol. Infect.                             Epidemiology and Infection
@@ -213,6 +214,7 @@ Int. Crim. Justice Rev.                        International Criminal Justice Re
 Int. J. Environ. Res. Public Health            International Journal of Environmental Research and Public Health
 Int. J. General Systems                        International Journal of General Systems
 Int. J. Infect. Dis.                           International Journal of Infectious Diseases
+Int. J. Math. Ind.                             International Journal of Mathematics for Industry
 Int. J. Theor. Phys.                           International Journal of Theoretical Physics
 Int. Stat. Rev.                                International Statistical Review
 Int. Stud. Rev.                                International Studies Review
@@ -489,6 +491,7 @@ Swiss Med. Wkly.                               Swiss Medical Weekly
 Systems                                        Systems
 TEST                                           TEST
 Theor. Comput. Sci.                            Theoretical Computer Science
+Theor. Ecol.                                   Theoretical Ecology
 Transl. Psychiatry                             Translational Psychiatry
 Transl. Psychiatry                             Translational psychiatry
 Trends Cogn. Sci.                              Trends in Cognitive Sciences
