@@ -68,6 +68,7 @@ Biology                                        Biology
 Biometrika                                     Biometrika
 bioRxiv                                        bioRxiv
 BMC Bioinform.                                 BMC Bioinformatics
+BMC Global Public Health.                      BMC Global and Public Health
 BMC Infect. Dis.                               BMC Infectious Diseases
 BMC Med.                                       BMC Medicine
 BMC Syst. Biol.                                BMC Systems Biology
@@ -130,6 +131,7 @@ Diagnostics                                    Diagnostics
 Dialogues Clin. Neurosci.                      Dialogues in Clinical Neuroscience
 Discret. Appl. Math.                           Discrete Applied Mathematics
 Discrete Math.                                 Discrete Mathematics
+Divers. Distrib.                               Diversity and Distributions
 Ear Hear.                                      Ear and Hearing
 Ecography                                      Ecography
 Ecol. Appl.                                    Ecological Applications
@@ -140,6 +142,7 @@ Ecol. Monogr.                                  Ecological Monographs
 Ecology                                        Ecology
 Electron. J. Stat.                             Electronic Journal of Statistics
 eLife                                          eLife
+EMBO Mol. Med.                                 EMBO Molecular Medicine
 EMBO Rep.                                      EMBO Reports
 EMBO Rep.                                      EMBO reports
 Emerging Infect. Dis.                          Emerging Infectious Diseases
@@ -223,6 +226,7 @@ Interdiscip. Perspect. Infect. Dis.            Interdisciplinary Perspectives on
 Internet Math.                                 Internet Mathematics
 iScience                                       iScience
 ISME Commun.                                   ISME Communications
+ISME J.                                        The ISME Journal
 J. ACM                                         Journal of the ACM
 J. Am. Stat. Assoc.                            Journal of the American Statistical Association
 J. Anim. Ecol.                                 Journal of Animal Ecology
@@ -405,6 +409,7 @@ Physica A                                      Physica A: Statistical Mechanics 
 Physica D                                      Physica D
 Physics                                        Physics
 PLOS Biol.                                     PLOS Biology
+PLOS Clim.                                     PLOS Climate
 PLOS Comput. Biol.                             PLOS Computational Biology
 PLOS Complex Syst.                             PLOS Complex Systems
 PLOS Curr.                                     PLOS Currents
@@ -450,6 +455,7 @@ Sci. China Life Sci.                           Science China Life Sciences
 Sci. Data                                      Scientific Data
 Sci. Rep.                                      Scientific Reports
 Sci. Rep.                                      Sci Rep
+Sci. Total Environ.                            Science of The Total Environment
 Science                                        Science
 Science                                        Science (New York, N.Y.)
 Scientometrics                                 Scientometrics
@@ -484,6 +490,7 @@ Stat. Anal. Data Min.                          Statistical Analysis and Data Min
 Stat. Comput.                                  Statistics and Computing
 Stat. Sin.                                     Statistica Sinica
 Statist. Sci.                                  Statistical Science
+Stem Cell Rep.                                 Stem Cell Reports
 Stoch. Process. their Appl.                    Stochastic Processes and their Applications
 Stoch. Syst.                                   Stochastic Systems
 Sustain. Cities Soc.                           Sustainable Cities and Society
