@@ -10,7 +10,8 @@
         "year",
         "eprinttype",
         "eprint",
-        "archiveprefix"
+        "archiveprefix",
+        "pdflink"
     ],
     "book": [
         "author",
@@ -23,7 +24,8 @@
         "year",
         "eprinttype",
         "eprint",
-        "archiveprefix"
+        "archiveprefix",
+        "pdflink"
     ],
     "incollection": [
         "title",
@@ -34,7 +36,8 @@
         "pages",
         "publisher",
         "doi",
-        "url"
+        "url",
+        "pdflink"
     ],
     "phdthesis": [
         "author",
@@ -42,7 +45,8 @@
         "title",
         "type",
         "url",
-        "year"
+        "year",
+        "pdflink"
     ],
     "inproceedings": [
         "author",
@@ -52,7 +56,8 @@
         "title",
         "volume",
         "year",
-        "url"
+        "url",
+        "pdflink"
     ],
     "techreport": [
         "author",
@@ -62,6 +67,7 @@
         "type",
         "number",
         "url",
-        "year"
+        "year",
+        "pdflink"
     ]
 }

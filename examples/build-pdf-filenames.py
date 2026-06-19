@@ -54,6 +54,50 @@ def create_obsidian_note(title, url, journal, year, filename):#, bibtexentry):
         print("Obsidian note already exists.")
 
 
+def create_obsidian_note_arXiv(title, url, journal, year, filename):#, bibtexentry):
+
+    notes_path = '/Users/allard/Library/Mobile Documents/iCloud~md~obsidian/Documents/science-notes/literature/literature-review'
+    if not os.path.isfile(f"{notes_path}/{filename}.md"):
+
+        title = title.replace("{", "").replace("}", "")
+
+        with open(f"{notes_path}/{filename}.md", "w") as file:
+
+            file_content = ('---\n'
+                            'aliases:\n'
+                           f'  - "{title}"\n'
+                            'tags:\n'
+                            '  - kw/preprint\n'
+                           f'title: "{title}"\n'
+                            'authors:\n'
+                           f'url: {url}\n'
+                           f'journal: "{journal}"\n'
+                           f'year: "{year}"\n'
+                           # f'bibentry: "{bibtexentry}"\n'
+                            '---\n'
+                            '##### Notes\n'
+                            '\n'
+                            '\n'
+                           f'![[{filename}.v1.pdf]]\n'
+                            '\n'
+                           f'![[{filename}.v1.SM.pdf]]\n'
+                            '\n'
+                           f'![[{filename}.v2.pdf]]\n'
+                            '\n'
+                           f'![[{filename}.v2.SM.pdf]]\n'
+                            '\n'
+                           f'![[{filename}.v3.pdf]]\n'
+                            '\n'
+                           f'![[{filename}.v3.SM.pdf]]\n')
+
+            file.write(file_content)
+            print("Obsidian note created.")
+
+    else:
+        print("Obsidian note already exists.")
+
+
+
 verbose = True
 
 bib = Bibliography(source_bib_filename='./references.bib')
@@ -183,6 +227,7 @@ for entry in bib._source_bib_database.entries:
         title = title.replace('~',' ')
         title = title.replace('.','')
         title = title.replace('\\textsubscript','')
+        title = title.replace('\\emph','')
         title = title.replace('$\\neq$','')
         title = title.replace('$\\Lambda$','Lambda')
         title = title.replace('    ',' ')
@@ -249,7 +294,16 @@ for entry in bib._source_bib_database.entries:
                 if author != '':
                     info.append(author)
                 info.append(title)
-                print('.'.join(info))
+                filename = '.'.join(info)
+                print(filename)
+
+                if entry['archiveprefix'] == 'arXiv':
+                    if 'doi' in entry:
+                        create_obsidian_note_arXiv(entry['title'], f'https://doi.org/{entry['doi']}', 'arXiv', year, filename) #, bibtex_entry.replace("\\", "\\\\"))
+                    # else:
+                    # # if journal == "JMachLearnRes":
+                    #     create_obsidian_note(entry['title'], entry['url'], entry['journal'], year, filename) #, bibtex_entry.replace("\\", "\\\\"))
+                    # # else:
 
     if entry_type == 'book':
         info = []
@@ -261,6 +315,18 @@ for entry in bib._source_bib_database.entries:
         print('.'.join(info))
 
     if entry_type == 'inproceedings':
+        info = []
+        info.append(booktitle)
+        info.append(year)
+        if volume != '':
+            info.append(volume)
+        info.append(page)
+        if author != '':
+            info.append(author)
+        info.append(title)
+        print('.'.join(info))
+
+    if entry_type == 'incollection':
         info = []
         info.append(booktitle)
         info.append(year)
