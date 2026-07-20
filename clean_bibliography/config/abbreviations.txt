@@ -262,6 +262,7 @@ J. Comput. Phys.                               Journal of Computational Physics
 J. Comput. Sci.                                Journal of Computational Science
 J. Comput.-Mediat. Commun.                     Journal of Computer-Mediated Communication
 J. Cult. Anal.                                 Journal of Cultural Analytics
+J. Epidemiol. Community Health.                Journal of Epidemiology and Community Health
 J. Empir. Res. Hum. Res. Ethics                Journal of Empirical Research on Human Research Ethics
 J. Exp. Algorithmics                           ACM Journal of Experimental Algorithmics
 J. Infect.                                     Journal of Infection
@@ -318,6 +319,7 @@ Knowl.-Based Syst.                             Knowledge-Based Systems
 Lancet                                         The Lancet
 Lancet Child Adolesc. Health                   The Lancet Child & Adolescent Health
 Lancet Glob. Health                            The Lancet Global Health
+Lancet HIV                                     The Lancet HIV
 Lancet Infect. Dis.                            The Lancet Infectious Diseases
 Lancet Planet. Health                          The Lancet Planetary Health
 Lancet Public Health                           The Lancet Public Health
