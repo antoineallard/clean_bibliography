@@ -113,9 +113,9 @@ Combinatorica                                  Combinatorica
 Comm. Statist. Simulation Comput.              Communications in Statistics - Simulation and Computation
 Commun. ACM                                    Communications of the ACM
 Commun. Biol.                                  Communications Biology
+Commun. Nonlinear Sci. Numer. Simul.           Communications in Nonlinear Science and Numerical Simulation
 Commun. Phys.                                  Communications Physics
 Commun. Stat. - Theory Methods                 Communications in Statistics - Theory and Methods
-Commun. Nonlinear Sci. Numer. Simul.           Communications in Nonlinear Science and Numerical Simulation
 Complexity                                     Complexity
 Comput. Appl. Math.                            Computational and Applied Mathematics
 Comput. Biol. Med.                             Computers in Biology and Medicine
