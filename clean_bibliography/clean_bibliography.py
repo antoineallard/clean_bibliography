@@ -133,8 +133,9 @@ class Bibliography:
                 if entry['publisher'].replace('{','').replace('}','') == 'medRxiv':
                     entry_type = 'techreport'
                     entry['ENTRYTYPE'] = entry_type
-                    entry['type'] = 'Preprint'
-                    entry['number'] = 'medRxiv:' + entry['pages']
+                    entry['type'] = 'medRxiv'
+                    entry['institution'] = ''
+                    # entry['number'] = 'medRxiv:' + entry['pages']
                     # if 'eprint' in entry:
                     #     entry.pop('journal', None)
                     #     entry.pop('pages', None)

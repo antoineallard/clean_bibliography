@@ -45,6 +45,7 @@
         "title",
         "type",
         "url",
+        "doi",
         "year",
         "pdflink"
     ],

@@ -265,6 +265,8 @@ J. Cult. Anal.                                 Journal of Cultural Analytics
 J. Epidemiol. Community Health.                Journal of Epidemiology and Community Health
 J. Empir. Res. Hum. Res. Ethics                Journal of Empirical Research on Human Research Ethics
 J. Exp. Algorithmics                           ACM Journal of Experimental Algorithmics
+J. Finance                                     The Journal of Finance
+J. Financ. Econ.                               Journal of Financial Economics
 J. Infect.                                     Journal of Infection
 J. Infect. Dis.                                The Journal of Infectious Diseases
 J. Mach. Learn. Res.                           The Journal of Machine Learning Research
@@ -412,6 +414,7 @@ Philos. Trans. Royal Soc. A                    Philosophical Transactions of the
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society of London. B, Biological Sciences
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B
 Philos. Trans. Royal Soc. B                    Philosophical Transactions of the Royal Society B: Biological Sciences
+Phys. Letts. A                                 Physics Letters A
 Phys. Life Rev.                                Physics of Life Reviews
 Phys. Med. Biol.                               Physics in Medicine and Biology
 Phys. Rep.                                     Physics Reports
@@ -445,6 +448,7 @@ PMLR                                           Proceedings of the 35th {{Interna
 PNAS Nexus                                     PNAS Nexus
 Poetics                                        Poetics
 Popul. Ecol.                                   Population Ecology
+Probab. Theory Related Fields                  Probability Theory and Related Fields
 PROC VLDB ENDOW                                Proceedings of the VLDB Endowment
 Proc. Am. Philos. Soc.                         Proceedings of the American Philosophical Society
 Proc. Amer. Math. Soc.                         Proceedings of the American Mathematical Society
@@ -524,6 +528,7 @@ Systems                                        Systems
 TEST                                           TEST
 Theor. Comput. Sci.                            Theoretical Computer Science
 Theor. Ecol.                                   Theoretical Ecology
+Theor. Popul. Biol.                            Theoretical Population Biology
 Transl. Psychiatry                             Translational Psychiatry
 Transl. Psychiatry                             Translational psychiatry
 Trends Cogn. Sci.                              Trends in Cognitive Sciences
